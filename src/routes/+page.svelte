@@ -11,11 +11,13 @@
 	import zotero from '$lib/images/zotero.svg';
 	import github from '$lib/images/github.svg';
 
-	const LAYER_NAMES = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train']
+	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train']
+	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#c49b87', '#9cbeaf', '#79a657', '#fbcb7d']
 	
-	let layer = Layer.Home; let showMenu = true;
+	let layer = Layer.Home; let showMenu = true; let rightColor = LAYER_COLORS[Layer.Home];
 	currentLayer.subscribe((value) => layer = value);
 	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
+	currentLayer.subscribe((value) => rightColor = LAYER_COLORS[value])
 </script>
 
 <svelte:head>
@@ -54,7 +56,7 @@
 		<LayerCard layer={Layer.Extract}/>
 	</div>
 	
-	<div class="h-lvh w-[33dvw] bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll">
+	<div class="h-lvh min-w-[33dvw] max-w-[33dvw] bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll">
 		<div class="flex flex-col text-black">
 			{#if layer == Layer.Home}
 			<div transition:slide>
@@ -99,6 +101,38 @@
 			{:else if layer == Layer.Extract}
 			<div transition:slide class="pb-[4dvh]">
 				<h2 class="xl:text-3xl font-bold">Layer 1: Extraction</h2>
+			</div>
+			{/if}
+		</div>
+	</div>
+	<div class="h-lvh w-full px-[6dvh] pt-[4dvh] overflow-y-scroll">
+		<div class="flex flex-col text-black">
+			{#if layer == Layer.Home}
+			<div transition:slide>
+
+			</div>
+			{:else if layer == Layer.Train}
+			<div transition:slide class="pb-[4dvh]">
+			</div>
+			{:else if layer == Layer.Compute}
+			<div transition:slide class="pb-[4dvh]">
+		
+			</div>
+			{:else if layer == Layer.Connect}
+			<div transition:slide class="pb-[4dvh]">
+	
+			</div>	
+			{:else if layer == Layer.Transport}
+			<div transition:slide class="pb-[4dvh]">
+				
+			</div>
+			{:else if layer == Layer.Produce}
+			<div transition:slide class="pb-[4dvh]">
+	
+			</div>
+			{:else if layer == Layer.Extract}
+			<div transition:slide class="pb-[4dvh]">
+	
 			</div>
 			{/if}
 		</div>
