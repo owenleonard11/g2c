@@ -7,7 +7,7 @@
     import Train from "$lib/components/layers/Train.svelte";
 
     import { currentLayer } from "$lib/../stores";
-    import { Layer } from "$lib/types";
+    import { Layer } from "$lib/utils";
 
     export let layer: Layer = Layer.Home;
     let animate = "";
@@ -23,7 +23,7 @@
     class="{ !isCurrentLayer ? "hover:brightness-110" : "z-10" }" 
     on:mouseenter={() => animate = "forwards"} 
     on:mouseleave={() => animate = isCurrentLayer ? "forwards" : "backwards"} 
-    on:click={() => { currentLayer.update(() => layer); console.log("HELLO") }}
+    on:click={() => { currentLayer.update(() => layer)} }
 >
     <svg 
         width="256mm" height="96mm" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg" 

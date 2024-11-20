@@ -4,8 +4,9 @@
 	import '@fortawesome/fontawesome-free/css/all.min.css'
 
 	import { currentLayer } from "$lib/../stores";
-	import { Layer } from '$lib/types';
+	import { Layer } from '$lib/utils';
 	import LayerCard from "$lib/components/LayerCard.svelte";
+	import { fetchBib } from '$lib/utils';
 
 	import favicon from '$lib/images/favicon.svg';
 	import zotero from '$lib/images/zotero.svg';
@@ -13,6 +14,8 @@
 
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train']
 	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#c49b87', '#9cbeaf', '#79a657', '#fbcb7d']
+
+	fetchBib();
 	
 	let layer = Layer.Home; let showMenu = true; let rightColor = LAYER_COLORS[Layer.Home];
 	currentLayer.subscribe((value) => layer = value);
@@ -59,7 +62,7 @@
 	<div class="h-lvh min-w-[33dvw] max-w-[33dvw] bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll">
 		<div class="flex flex-col text-black">
 			{#if layer == Layer.Home}
-			<div transition:slide>
+			<div transition:slide class="pb-[4dvh]">
 				<h2 class="xl:text-3xl font-bold">Welcome to G2C, a starter kit for the infrastructure of artificial intelligence.</h2>
 				<p class="xl:text-xl mt-4 text-justify">
 					Ground to Cloud (G2C) is a non-exhaustive repository of scholarly research and investigative journalism on the 
