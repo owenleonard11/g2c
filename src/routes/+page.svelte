@@ -37,7 +37,7 @@
 						   class="h-[8dvh] w-[8dvh] hover:brightness-110" transition:slide>
 							<img src={zotero} alt="G2C Icon" class="h-1/2 block m-auto my-[2dvh]"/>
 						</a>
-						<a href="https:/github.com/owenleonard11" target="_blank" title="G2C on Github" 
+						<a href="https:/github.com/owenleonard11/g2c" target="_blank" title="G2C on Github" 
 						   class="h-[8dvh] w-[8dvh] hover:brightness-110 " transition:slide>
 							<img src={github} alt="G2C Icon" class="h-[60%] block m-auto my-[1.5dvh]"/>
 						</a>
@@ -73,7 +73,7 @@
 					and hosted on Github Pages. A full bibliography for the site is available on 
 					<a class="anchor" href="https://www.zotero.org/groups/5766383/g2c" target="_blank" title="G2C on Zotero">Zotero</a>. 
 					The code is open-source and can be viewed on 
-					<a class="anchor" href="https://github.com/owenleonard11" target="_blank" title="G2C on Github">Github</a>. 
+					<a class="anchor" href="https://github.com/owenleonard11/g2c" target="_blank" title="G2C on Github">Github</a>. 
 				</p>
 			</div>
 			{:else if layer == Layer.Train}
