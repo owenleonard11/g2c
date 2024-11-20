@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.animate-text-forwards  { animation: textForwards  0.25s linear forwards }
+.animate-text-backwards { animation: textBackwards 0.25s linear forwards }
+@keyframes textForwards { 
+    from { transform: scale(1);    transform-origin: center center }
+    to {   transform: scale(1.05); transform-origin: center center }
+}
+@keyframes textBackwards {
+    from { transform: scale(1.05); transform-origin: center center }
+    to   { transform: scale(1);    transform-origin: center center }
+}
+
+.animate-drill-forwards       { transform: translateY(20px); transition: all 0.5s  linear }
+.animate-drill-backwards      { transform: translateX(0px);  transition: all 0.25s linear }
+.animate-small-rock-forwards  { animation: textForwards  0.5s  linear forwards}
+.animate-small-rock-backwards { animation: textBackwards 0.25s linear forwards}
+.animate-big-rock-forwards    { animation: rockForwards  0.5s  linear forwards }
+.animate-big-rock-backwards   { animation: rockBackwards 0.25s linear forwards}
+@keyframes rockForwards { 
+    from { transform: scale(1);    transform-origin: center center }
+    to {   transform: scale(1.1); transform-origin: center center }
+}
+@keyframes rockBackwards {
+    from { transform: scale(1.1); transform-origin: center center }
+    to   { transform: scale(1);    transform-origin: center center }
+}
+
+.animate-small-cloud-forwards  { transform: translateX(-5px); transition: all 0.5s  linear }
+.animate-small-cloud-backwards { transform: translateX(0px);  transition: all 0.25s linear }
+.animate-big-cloud-forwards    { transform: translateX(3px);  transition: all 0.5s  linear }
+.animate-big-cloud-backwards   { transform: translateX(0px);  transition: all 0.25s linear }
+.animate-container-forwards    { transform: translateY(-8px); transition: all 0.5s  linear }
+.animate-container-backwards   { transform: translateY(0px);  transition: all 0.25s linear }
+
+.animate-r-gear-forwards   { transform: rotate(30deg);  transition: all 0.5s  linear }
+.animate-r-gear-backwards  { transform: rotate(0deg);   transition: all 0.25s linear }
+.animate-l-gear-forwards   { transform: rotate(-30deg); transition: all 0.5s  linear }
+.animate-l-gear-backwards  { transform: rotate(0deg);   transition: all 0.25s linear }
+
+.signal                      { opacity: 0 }
+.animate-1-signal-forwards   { opacity: 1; transition: all 0.166s linear }
+.animate-2-signal-forwards   { opacity: 1; transition: all 0.166s linear 0.166s }
+.animate-3-signal-forwards   { opacity: 1; transition: all 0.166s linear 0.333s }
+.animate-1-signal-backwards  { opacity: 0; transition: all 0.166s linear 0.166s }
+.animate-2-signal-backwards  { opacity: 0; transition: all 0.166s linear 0.083s }
+.animate-3-signal-backwards  { opacity: 0; transition: all 0.166s linear }
+.animate-satellite-forwards  { transform: rotate(10deg); transition: all 0.5s linear }
+.animate-satellite-backwards { transform: rotate(0deg);  transition: all 0.25s linear}
+
+.animate-left-path-forwards   { stroke-dashoffset: 0;     transition: all 0.75s linear }
+.animate-left-path-backwards  { stroke-dashoffset: 94.38; transition: all 0.38s linear }
+.animate-right-path-forwards  { stroke-dashoffset: 0;     transition: all 0.75s linear }
+.animate-right-path-backwards { stroke-dashoffset: 81.74; transition: all 0.38s linear }
+
+.animate-favicon-forwards  { transform: rotate(-90deg); transition: all 0.5s ease-in-out }
+.animate-favicon-backwards { transform: rotate(0);      transition: all 0.5s linear }
+
+.animate-chip-forwards   { stroke-dashoffset: 0;         transition: all 0.75s linear }
+.animate-chip-backwards  { stroke-dashoffset: 28.03;     transition: all 0.38s linear }
+.animate-trace-forwards  { stroke-dashoffset: 0;         transition: all 0.75s linear }
+.animate-trace-backwards { stroke-dashoffset: 60;        transition: all 0.38s linear }
+.via                     { transform: translateX(-55px) }
+.animate-via-forwards    { transform: translateX(0px);   transition: all 0.7s linear }
+.animate-via-backwards   { transform: translateX(-55px); transition: all 0.38s linear }
