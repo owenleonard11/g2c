@@ -4,9 +4,8 @@
 	import '@fortawesome/fontawesome-free/css/all.min.css'
 
 	import { currentLayer } from "$lib/../stores";
-	import { Layer } from '$lib/utils';
+	import { fetchBib, Layer } from '$lib/utils';
 	import LayerCard from "$lib/components/LayerCard.svelte";
-	import { fetchBib } from '$lib/utils';
 
 	import favicon from '$lib/images/favicon.svg';
 	import zotero from '$lib/images/zotero.svg';
@@ -15,7 +14,7 @@
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train']
 	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#c49b87', '#9cbeaf', '#79a657', '#fbcb7d']
 
-	fetchBib();
+	const zoteroIds = fetchBib();
 	
 	let layer = Layer.Home; let showMenu = true; let rightColor = LAYER_COLORS[Layer.Home];
 	currentLayer.subscribe((value) => layer = value);

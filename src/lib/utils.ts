@@ -32,4 +32,16 @@ export const fetchBib = () => {
                 citekeyToZid.set(citekeyFirst + citekeySecond + (citekeyNo ? citekeyNo : ""), data.key)
             }
         });
+    
+    return citekeyToZid;
+}
+
+export const fetchCite = (id: string) => {
+    fetch(`https://api.zotero.org/groups/5766383/items/${id}/?format=json&include=bib&style=apa`)
+        .then(response => {
+            return response.json()
+        })
+        .then(bib => {
+            console.log(bib)
+        })
 }
