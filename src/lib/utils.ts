@@ -47,10 +47,10 @@ export class ZoteroBib {
     }
 
     getCitationById(id: string): Promise<string> {
-        let requestUrl = `${this.url}/items/${id}/?format=json&include=bib&style=apa`
+        let requestUrl = `${this.url}/items/${id}/?format=json&include=citation&style=${this.citeFormat}`
         return fetch(requestUrl)
             .then(response => { return response.json() })
-            .then(item => { return item['bib'] || '' })
+            .then(item => { return item['citation'] || '' })
     }
 
     getCitationByCitekey(citekey: string): Promise<string> {
