@@ -4,17 +4,25 @@
 	import '@fortawesome/fontawesome-free/css/all.min.css'
 
 	import { currentLayer } from "$lib/../stores";
-	import { fetchBib, Layer } from '$lib/utils';
+	import { ZoteroBib, Layer } from '$lib/utils';
 	import LayerCard from "$lib/components/LayerCard.svelte";
 
 	import favicon from '$lib/images/favicon.svg';
 	import zotero from '$lib/images/zotero.svg';
 	import github from '$lib/images/github.svg';
 
-	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train']
-	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#c49b87', '#9cbeaf', '#79a657', '#fbcb7d']
+	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train'];
+	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#c49b87', '#9cbeaf', '#79a657', '#fbcb7d'];
 
-	const zoteroIds = fetchBib();
+	let bib = new ZoteroBib('https://api.zotero.org/groups/5766383/', 'apa');
+	let citation = '';
+	const show = (citekey: string) => {
+		console.log("Called show")
+		bib.getCitationByCitekey(citekey).then(citekey => {
+			console.log("got bib: " + citekey)
+			citation = citekey;
+		})
+	}
 	
 	let layer = Layer.Home; let showMenu = true; let rightColor = LAYER_COLORS[Layer.Home];
 	currentLayer.subscribe((value) => layer = value);
@@ -66,7 +74,11 @@
 				<p class="xl:text-xl mt-4 text-justify">
 					Ground to Cloud (G2C) is a non-exhaustive repository of scholarly research and investigative journalism on the 
 					numerous infrastructures that support contemporary artificial intelligence. Inspired by Benjamin Bratton's "stack"
-					and Kate Crawford's "atlas," G2C has organized a selection of this work into the layers you see on the left. Select one to
+					and 
+					<button class="inline border-2 border-[#a56b47] px-1 rounded-md" on:click={() => show("Crawford2021")}>
+						Kate Crawford's "atlas"
+					</button>,
+					G2C has organized a selection of this work into the layers you see on the left. Select one to
 					browse sites of interest and accompanying resources. You can return to this page at any time by clicking the 
 					<img src={favicon} alt="Ground to Cloud Favicon" class="inline h-[1.875rem] p-0.5" />
 					icon at the top left.
@@ -109,6 +121,7 @@
 	</div>
 	<div class="h-lvh w-full px-[6dvh] pt-[4dvh] overflow-y-scroll">
 		<div class="flex flex-col text-black">
+			{@html citation}
 			{#if layer == Layer.Home}
 			<div transition:slide>
 
