@@ -119,36 +119,26 @@
 			{/if}
 		</div>
 	</div>
-	<div class="h-lvh w-full px-[6dvh] pt-[4dvh] overflow-y-scroll">
-		<div class="flex flex-col text-black">
-			{#if layer == Layer.Home}
-			<div transition:slide class="bg">
 
-			</div>
+	<div class="h-lvh w-full px-[6dvh] pt-[4dvh] overflow-y-scroll animate-exhibit-bg-{LAYER_NAMES[layer]}">
+		<div class="flex flex-row text-black">
+			{#if layer == Layer.Home}
+				placeholder
 			{:else if layer == Layer.Train}
-			<div transition:slide class="bg">
-			</div>
+				placeholder
 			{:else if layer == Layer.Compute}
-			<div transition:slide class="pb-[4dvh]">
-		
-			</div>
+				placeholder
 			{:else if layer == Layer.Connect}
-			<div transition:slide class="pb-[4dvh]">
-	
-			</div>	
+				placeholder
 			{:else if layer == Layer.Transport}
-			<div transition:slide class="pb-[4dvh]">
-				
-			</div>
+				placeholder
 			{:else if layer == Layer.Produce}
-			<div transition:slide class="pb-[4dvh]">
-	
-			</div>
+				placeholder
 			{:else if layer == Layer.Extract}
-			<div transition:slide class="pb-[4dvh]">
-	
-			</div>
+				placeholder
 			{/if}
 		</div>
 	</div>
+
+
 </div>
