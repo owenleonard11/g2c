@@ -11,39 +11,12 @@ export enum Layer {
 export class ZoteroBib {
     readonly url: string;
     citeFormat: string;
-    citeMap: Promise<Map<string, string>> | null;
+    citeMap: Map<string, string>;
 
-    constructor(url: string, citeFormat: string, buildCiteMap=true) {
+    constructor(url: string, citeFormat: string, citeMap: Map<string, string>) {
         this.url = url;
         this.citeFormat = citeFormat;
-        
-        if (buildCiteMap) {
-            this.citeMap = fetch(this.url + 'items').then(
-                response => { return response.json() }
-            ).then(
-                items => {
-                    let citeMap: Map<string, string> = new Map();
-    
-                    for (const item in items) {
-                        const meta = items[item]['meta'];
-                        const data = items[item]['data'];
-        
-                        const citekeyFirst  = Object.hasOwn(meta, 'creatorSummary') ? meta['creatorSummary'] : data['title'].split(' ').slice(0, 2).join('');
-                        const citekeySecond = meta['parsedDate'].slice(0, 4)
-                        let citekeyNo = 0
-                        let citekey   = citekeyFirst + citekeySecond + (citekeyNo ? citekeyNo : "")
-                        while(citeMap.has(citekey)) {
-                            citekey = citekeyFirst + citekeySecond + (citekeyNo++ ? citekeyNo : "")
-                        }
-                        citeMap.set(citekey, data.key)
-                }
-    
-                return citeMap;
-            })
-        } else {
-            this.citeMap = null;
-        }
-        
+        this.citeMap = citeMap;
     }
 
     getCitationById(id: string): Promise<string> {
@@ -54,11 +27,31 @@ export class ZoteroBib {
     }
 
     getCitationByCitekey(citekey: string): Promise<string> {
-        if (!this.citeMap) {
-            throw new Error('No citeMap built')
+        return this.getCitationById(this.citeMap.get(citekey) || '');
+    }
+}
+
+export function buildZoteroBib(url: string, citeFormat: string): Promise<ZoteroBib> {
+    return fetch(url + 'items').then(
+        response => { return response.json() }
+    ).then(
+        items => {
+            let citeMap: Map<string, string> = new Map();
+
+            for (const item in items) {
+                const meta = items[item]['meta'];
+                const data = items[item]['data'];
+
+                const citekeyFirst  = Object.hasOwn(meta, 'creatorSummary') ? meta['creatorSummary'] : data['title'].split(' ').slice(0, 2).join('');
+                const citekeySecond = meta['parsedDate'].slice(0, 4)
+                let citekeyNo = 0
+                let citekey   = citekeyFirst + citekeySecond + (citekeyNo ? citekeyNo : "")
+                while(citeMap.has(citekey)) {
+                    citekey = citekeyFirst + citekeySecond + (citekeyNo++ ? citekeyNo : "")
+                }
+                citeMap.set(citekey, data.key)
         }
 
-        let id: Promise<string> = this.citeMap.then(citeMap => { return citeMap.get(citekey) ||  '' })
-        return id.then(id => { return this.getCitationById(id) })
-    }
+        return new ZoteroBib(url, citeFormat, citeMap);
+    })
 }

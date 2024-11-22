@@ -1,29 +1,22 @@
 <script lang="ts">
-	import '../app.postcss';
 	import { slide } from 'svelte/transition';
-	import '@fortawesome/fontawesome-free/css/all.min.css'
-
-	import { currentLayer } from "$lib/../stores";
-	import { ZoteroBib, Layer } from '$lib/utils';
-	import LayerCard from "$lib/components/LayerCard.svelte";
-
+	
+	import '../app.postcss';
 	import favicon from '$lib/images/favicon.svg';
 	import zotero from '$lib/images/zotero.svg';
 	import github from '$lib/images/github.svg';
+	import '@fortawesome/fontawesome-free/css/all.min.css'
+
+	import { currentLayer } from "$lib/../stores";
+	import { buildZoteroBib, Layer } from '$lib/utils';
+	import LayerCard from "$lib/components/LayerCard.svelte";
+    import Citation from '$lib/components/Citation.svelte';
 
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train'];
-	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#c49b87', '#9cbeaf', '#79a657', '#fbcb7d'];
+	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#9cbeaf', '#c49b87', '#79a657', '#fbcb7d']
 
-	let bib = new ZoteroBib('https://api.zotero.org/groups/5766383/', 'apa');
-	let citation = '';
-	const show = (citekey: string) => {
-		console.log("Called show")
-		bib.getCitationByCitekey(citekey).then(citekey => {
-			console.log("got bib: " + citekey)
-			citation = citekey;
-		})
-	}
-	
+	let bib = buildZoteroBib('https://api.zotero.org/groups/5766383/', 'chicago-fullnote-bibliography')
+
 	let layer = Layer.Home; let showMenu = true; let rightColor = LAYER_COLORS[Layer.Home];
 	currentLayer.subscribe((value) => layer = value);
 	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
@@ -73,13 +66,20 @@
 				<h2 class="xl:text-3xl font-bold">Welcome to G2C, a starter kit for the infrastructure of artificial intelligence.</h2>
 				<p class="xl:text-xl mt-4 text-justify">
 					Ground to Cloud (G2C) is a non-exhaustive repository of scholarly research and investigative journalism on the 
-					numerous infrastructures that support contemporary artificial intelligence. Inspired by Benjamin Bratton's "stack"
+					numerous infrastructures that support contemporary artificial intelligence. Inspired by 
+					<Citation {bib} citekey="Bratton2015">
+						Benjamin Bratton's  "stack"
+					</Citation>
 					and 
-					<button class="inline border-2 border-[#a56b47] px-1 rounded-md" on:click={() => show("Crawford2021")}>
-						Kate Crawford's "atlas"
-					</button>,
+					<Citation {bib} citekey="Crawford2021">
+						Kate Crawford's "atlas,"
+					</Citation>
 					G2C has organized a selection of this work into the layers you see on the left. Select one to
-					browse sites of interest and accompanying resources. You can return to this page at any time by clicking the 
+					browse sites of interest and accompanying resources. Text
+					<span class="px-1 rounded-md bg-[#9cbeaf]">highlighted in teal</span>
+					indicates a citation; hover to view and click to see more details on Zotero. 
+					
+					You can return to this page at any time by selecting the 
 					<img src={favicon} alt="Ground to Cloud Favicon" class="inline h-[1.875rem] p-0.5" />
 					icon at the top left.
 				</p>
@@ -121,13 +121,12 @@
 	</div>
 	<div class="h-lvh w-full px-[6dvh] pt-[4dvh] overflow-y-scroll">
 		<div class="flex flex-col text-black">
-			{@html citation}
 			{#if layer == Layer.Home}
-			<div transition:slide>
+			<div transition:slide class="bg">
 
 			</div>
 			{:else if layer == Layer.Train}
-			<div transition:slide class="pb-[4dvh]">
+			<div transition:slide class="bg">
 			</div>
 			{:else if layer == Layer.Compute}
 			<div transition:slide class="pb-[4dvh]">
