@@ -20,7 +20,7 @@ export class ZoteroBib {
     }
 
     getCitationById(id: string): Promise<string> {
-        let requestUrl = `${this.url}/items/${id}/?format=json&include=citation&style=${this.citeFormat}`
+        let requestUrl = `${this.url}/${id}/?format=json&include=citation&style=${this.citeFormat}`
         return fetch(requestUrl)
             .then(response => { return response.json() })
             .then(item => { return item['citation'] || '' })
@@ -32,7 +32,9 @@ export class ZoteroBib {
 }
 
 export function buildZoteroBib(url: string, citeFormat: string): Promise<ZoteroBib> {
-    return fetch(url + 'items').then(
+    const apiUrl = 'https://api.zotero.org/' + url + '/items'
+    console.log(apiUrl)
+    return fetch(apiUrl).then(
         response => { return response.json() }
     ).then(
         items => {
@@ -52,6 +54,6 @@ export function buildZoteroBib(url: string, citeFormat: string): Promise<ZoteroB
                 citeMap.set(citekey, data.key)
         }
 
-        return new ZoteroBib(url, citeFormat, citeMap);
+        return new ZoteroBib(apiUrl, citeFormat, citeMap);
     })
 }

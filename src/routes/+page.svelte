@@ -15,7 +15,7 @@
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train'];
 	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#9cbeaf', '#c49b87', '#79a657', '#fbcb7d']
 
-	let bib = buildZoteroBib('https://api.zotero.org/groups/5766383/', 'chicago-fullnote-bibliography')
+	let bib = buildZoteroBib('groups/5766383', 'chicago-fullnote-bibliography')
 
 	let layer = Layer.Home; let showMenu = true; let rightColor = LAYER_COLORS[Layer.Home];
 	currentLayer.subscribe((value) => layer = value);
