@@ -8,19 +8,18 @@
 	import '@fortawesome/fontawesome-free/css/all.min.css'
 
 	import { currentLayer } from "$lib/../stores";
-	import { buildZoteroBib, Layer } from '$lib/utils';
+	import { buildZoteroBib, Layer, ZoteroBib } from '$lib/utils';
 	import LayerCard from "$lib/components/LayerCard.svelte";
     import Citation from '$lib/components/Citation.svelte';
 
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train'];
 	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#9cbeaf', '#c49b87', '#79a657', '#fbcb7d']
 
-	let bib = buildZoteroBib('groups/5766383', 'chicago-fullnote-bibliography')
-
-	let layer = Layer.Home; let showMenu = true; let rightColor = LAYER_COLORS[Layer.Home];
+	let bib = buildZoteroBib('5766383', 'g2c', 'chicago-fullnote-bibliography')
+	
+	let layer = Layer.Home; let showMenu = true;
 	currentLayer.subscribe((value) => layer = value);
 	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
-	currentLayer.subscribe((value) => rightColor = LAYER_COLORS[value])
 </script>
 
 <svelte:head>

@@ -10,32 +10,29 @@
 
     let showCitation = false;
     let citation = '';
-    let url = '';
+    let citationUrl = '';
     let citationId = '';
     onMount( () =>
         bib.then(bib => { 
             citationId = bib.citeMap.get(citekey) || ''
-            url = bib.url;
+            citationUrl = `https://www.zotero.org/groups/${bib.groupId}/${bib.groupName}/items/${citationId}/library`
             bib.getCitationByCitekey(citekey).then(citekey => { citation = citekey; }) 
         })
     )
 
     let x: number = 0;
     let y: number = 0;
-    let mouseInTooltip = false;
 </script>
 
 <a  href="https://www.zotero.org/groups/5"
     class="{showCitation ? "" : "hidden"} bg-[#9cbeaf] absolute top-0 p-2 text-sm max-w-[20dvw] text-left"
     style="left:{x}px;top:{y}px"
-    on:mouseenter={() => { mouseInTooltip = true; }}
-    on:mouseleave={() => { showCitation = false; }}
 >     
     {@html citation}
 </a>
 
 <a 
-    class="bg-[#9cbeaf] rounded-md px-1 [&>*]:pointer-events-none" href="https://www.zotero.org/groups/5766383/g2c/items" target="_blank"
+    class="bg-[#9cbeaf] rounded-md px-1 [&>*]:pointer-events-none" href={citationUrl} target="_blank"
     on:mouseenter={(e) => { showCitation = true; x = e.clientX; y=e.clientY}}
     on:mouseleave={() => { showCitation = false }}
 >

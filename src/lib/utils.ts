@@ -9,18 +9,22 @@ export enum Layer {
 }
 
 export class ZoteroBib {
-    readonly url: string;
+    readonly groupId: string;
+    readonly groupName: string;
+    apiUrl: string;
     citeFormat: string;
     citeMap: Map<string, string>;
 
-    constructor(url: string, citeFormat: string, citeMap: Map<string, string>) {
-        this.url = url;
+    constructor(groupId: string, groupName: string, citeFormat: string, citeMap: Map<string, string>) {
+        this.groupId = groupId;
+        this.groupName = groupName;
         this.citeFormat = citeFormat;
         this.citeMap = citeMap;
+        this.apiUrl = 'https://api.zotero.org/groups/' + groupId + '/items'
     }
 
     getCitationById(id: string): Promise<string> {
-        let requestUrl = `${this.url}/${id}/?format=json&include=citation&style=${this.citeFormat}`
+        let requestUrl = `${this.apiUrl}/${id}/?format=json&include=citation&style=${this.citeFormat}`
         return fetch(requestUrl)
             .then(response => { return response.json() })
             .then(item => { return item['citation'] || '' })
@@ -31,8 +35,8 @@ export class ZoteroBib {
     }
 }
 
-export function buildZoteroBib(url: string, citeFormat: string): Promise<ZoteroBib> {
-    const apiUrl = 'https://api.zotero.org/' + url + '/items'
+export function buildZoteroBib(groupId: string, groupName: string, citeFormat: string): Promise<ZoteroBib> {
+    const apiUrl = 'https://api.zotero.org/groups/' + groupId + '/items'
     console.log(apiUrl)
     return fetch(apiUrl).then(
         response => { return response.json() }
@@ -54,6 +58,6 @@ export function buildZoteroBib(url: string, citeFormat: string): Promise<ZoteroB
                 citeMap.set(citekey, data.key)
         }
 
-        return new ZoteroBib(apiUrl, citeFormat, citeMap);
+        return new ZoteroBib(groupId, groupName, citeFormat, citeMap);
     })
 }
