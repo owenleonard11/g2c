@@ -8,8 +8,10 @@
 	import '@fortawesome/fontawesome-free/css/all.min.css'
 
 	import { currentLayer } from "$lib/../stores";
-	import { buildZoteroBib, Layer, ZoteroBib } from '$lib/utils';
+	import { buildZoteroBib, Layer } from '$lib/utils';
 	import LayerCard from "$lib/components/LayerCard.svelte";
+    import LayerSummary from '$lib/components/LayerSummary.svelte';
+	import SummaryParagraph from '$lib/components/SummaryParagraph.svelte';
     import Citation from '$lib/components/Citation.svelte';
 
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train'];
@@ -61,9 +63,8 @@
 	<div class="h-lvh min-w-[33dvw] max-w-[33dvw] bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll">
 		<div class="flex flex-col text-black">
 			{#if layer == Layer.Home}
-			<div transition:slide class="pb-[4dvh]">
-				<h2 class="xl:text-3xl font-bold">Welcome to G2C, a starter kit for the infrastructure of artificial intelligence.</h2>
-				<p class="xl:text-xl mt-4 text-justify">
+			<LayerSummary heading="Welcome to G2C, a starter kit for the infrastructure of artificial intelligence.">
+				<SummaryParagraph>
 					Ground to Cloud (G2C) is a non-exhaustive repository of scholarly research and investigative journalism on the 
 					numerous infrastructures that support contemporary artificial intelligence. Inspired by 
 					<Citation {bib} citekey="Bratton2015">
@@ -81,40 +82,40 @@
 					You can return to this page at any time by selecting the 
 					<img src={favicon} alt="Ground to Cloud Favicon" class="inline h-[1.875rem] p-0.5" />
 					icon at the top left.
-				</p>
-				<p class="xl:text-xl mt-4 text-justify">
+				</SummaryParagraph>
+				<SummaryParagraph>
 					G2C is built and maintained by 
 					<a class="anchor" href="https://owenleonard.dev" target="_blank" title="Owen Leonard on owenleonard.dev">Owen Leonard</a>
 					and hosted on Github Pages. A full bibliography for the site is available on 
 					<a class="anchor" href="https://www.zotero.org/groups/5766383/g2c" target="_blank" title="G2C on Zotero">Zotero</a>. 
 					The code is open-source and can be viewed on 
 					<a class="anchor" href="https://github.com/owenleonard11/g2c" target="_blank" title="G2C on Github">Github</a>. 
-				</p>
-			</div>
+				</SummaryParagraph>
+			</LayerSummary>
 			{:else if layer == Layer.Train}
-			<div transition:slide class="pb-[4dvh]">
-				<h2 class="xl:text-3xl font-bold">Layer 6: Training</h2>
-			</div>
+			<LayerSummary heading="Layer 6: Training">
+
+			</LayerSummary>
 			{:else if layer == Layer.Compute}
-			<div transition:slide class="pb-[4dvh]">
-				<h2 class="xl:text-3xl font-bold">Layer 5: Computation</h2>
-			</div>
+			<LayerSummary heading="Layer 5: Computation">
+
+			</LayerSummary>
 			{:else if layer == Layer.Connect}
-			<div transition:slide class="pb-[4dvh]">
-				<h2 class="xl:text-3xl font-bold">Layer 4: Connection</h2>
-			</div>	
+			<LayerSummary heading="Layer 4: Connection">
+
+			</LayerSummary>
 			{:else if layer == Layer.Transport}
-			<div transition:slide class="pb-[4dvh]">
-				<h2 class="xl:text-3xl font-bold">Layer 3: Transportation</h2>
-			</div>
+			<LayerSummary heading="Layer 3: Transportation">
+
+			</LayerSummary>
 			{:else if layer == Layer.Produce}
-			<div transition:slide class="pb-[4dvh]">
-				<h2 class="xl:text-3xl font-bold">Layer 2: Production</h2>
-			</div>
+			<LayerSummary heading="Layer 2: Production">
+
+			</LayerSummary>
 			{:else if layer == Layer.Extract}
-			<div transition:slide class="pb-[4dvh]">
-				<h2 class="xl:text-3xl font-bold">Layer 1: Extraction</h2>
-			</div>
+			<LayerSummary heading="Layer 1: Extraction">
+
+			</LayerSummary>
 			{/if}
 		</div>
 	</div>
