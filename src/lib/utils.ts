@@ -49,11 +49,11 @@ export function buildZoteroBib(groupId: string, groupName: string, citeFormat: s
                 const data = items[item]['data'];
 
                 const citekeyFirst  = Object.hasOwn(meta, 'creatorSummary') ? meta['creatorSummary'] : data['title'].split(' ').slice(0, 2).join('');
-                const citekeySecond = meta['parsedDate'].slice(0, 4)
+                const citekeySecond = meta['parsedDate'] ? meta['parsedDate'].slice(0, 4) : ''
                 let citekeyNo = 0
-                let citekey   = citekeyFirst + citekeySecond + (citekeyNo ? citekeyNo : "")
+                let citekey   = citekeyFirst + citekeySecond + (citekeyNo ? citekeyNo : '')
                 while(citeMap.has(citekey)) {
-                    citekey = citekeyFirst + citekeySecond + (citekeyNo++ ? citekeyNo : "")
+                    citekey = citekeyFirst + citekeySecond + (citekeyNo++ ? citekeyNo : '')
                 }
                 citeMap.set(citekey, data.key)
         }
