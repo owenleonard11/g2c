@@ -8,6 +8,14 @@ export enum Layer {
     Train
 }
 
+export interface exhibit {
+    id: string;
+    title: string;
+    loc: string;
+    alt: string;
+    desc: string;
+}
+
 export class ZoteroBib {
     readonly groupId: string;
     readonly groupName: string;

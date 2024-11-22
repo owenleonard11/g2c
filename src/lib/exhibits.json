@@ -1,0 +1,18 @@
+{
+    "extract": [
+        {
+            "id"   : "bayan-obo",
+            "title": "Baogang Steel and Rare Earth Complex",
+            "loc"  : "Inner Mongolia, China",
+            "alt"  : "Satellite view of a mining and processing complex",
+            "desc" : "Baogang Steel and Rare Earth complex, screenshot from Google Earth"
+        },
+        {
+            "id"   : "bayan-obo",
+            "title": "Baogang Steel and Rare Earth Complex",
+            "loc"  : "Inner Mongolia, China",
+            "alt"  : "Satellite view of a mining and processing complex",
+            "desc" : "Baogang Steel and Rare Earth complex, screenshot from Google Earth"
+        }
+    ]
+}

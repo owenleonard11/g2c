@@ -1,5 +1,9 @@
 <script lang="ts">
     import '@fortawesome/fontawesome-free/css/all.min.css'
+    import Exhibit from './Exhibit.svelte';
+    import type { exhibit } from '$lib/utils.ts'
+
+    export let exhibits: exhibit[];
 
     let carouselDiv: HTMLDivElement
     let carouselLeft = () => {
