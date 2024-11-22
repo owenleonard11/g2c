@@ -8,7 +8,6 @@
 <div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
     {#await import(`$lib/images/exhibits/banners/${id}.png`) then { default: src }}
         <img {src} {alt} title={desc} class="h-auto w-full rounded-t-md"/>
-        
     {/await} 
     <div class="p-4 bg-[#dcd6cc] rounded-b-md">
         <p>

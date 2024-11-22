@@ -1,11 +1,11 @@
 <script lang="ts">
     import '@fortawesome/fontawesome-free/css/all.min.css'
-    import Exhibit from './Exhibit.svelte';
     import type { exhibit } from '$lib/utils.ts'
 
     export let exhibits: exhibit[];
 
     let carouselDiv: HTMLDivElement
+    let selected: number = 0;
     let carouselLeft = () => {
         const x = carouselDiv.scrollLeft == 0 ? carouselDiv.clientWidth * carouselDiv.childElementCount : carouselDiv.scrollLeft - carouselDiv.clientWidth;
         carouselDiv.scroll(x, 0);
@@ -13,6 +13,10 @@
     let carouselRight = () => {
         const x = carouselDiv.scrollLeft == carouselDiv.scrollWidth - carouselDiv.clientWidth ? 0 : carouselDiv.scrollLeft + carouselDiv.clientWidth;
         carouselDiv.scroll(x, 0);
+    }
+    let carouselToIndex = (i: number) => {
+        carouselDiv.scroll(carouselDiv.clientWidth * i, 0);
+        selected = i;
     }
 </script>
 
@@ -31,12 +35,13 @@
         </button>
     </div>
     
-    <div class="flex flex-row justify-center gap-4 mt-4 min-h-[10%] max-h-[10%]">
-        <button type="button">
-            THUMB
-        </button>
-        <button type="button">
-            HELLO
-        </button>
+    <div class="flex flex-row justify-center mt-4 min-h-[9.2dvh] max-h-[9.2dvh]">
+        {#each exhibits as exhibit, i}
+            <button on:click={() => carouselToIndex(i)} class="max-w-[9.2dvh] hover:brightness-125 border-[#dcd6cc]">
+                {#await import(`$lib/images/exhibits/thumbnails/${exhibit.id}.png`) then { default: src }}
+                    <img {src} alt={exhibit.alt} title={exhibit.title} class="h-auto w-full {selected == i ? 'border-2 rounded-md' : ''}"/>
+                {/await} 
+            </button>
+        {/each}
     </div>
 </div>

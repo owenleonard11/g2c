@@ -196,6 +196,27 @@
 				found that high concentrations of heavy metals at and around Bayan Obo pose substantial ecological
 				and public health risks.
 			</Exhibit>
+			<Exhibit exhibit={exhibits['extract'][1]}>
+				The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
+				rare earth elements (REEs)—key materials in the production of the semi&shy;conductor devices that 
+				power AI training. According to
+				<Citation {bib} citekey="BayanObo">
+					mindat.org,
+				</Citation>
+				Bayan Obo accounts for 70% of known REE reserves. Once extracted from the ground, 
+				ore from the mining complex undergoes hydro&shy;metal&shy;lurgical leaching in the nearby city of Baotou. 
+				Liquid waste from this process is deposited into a nearly four-square-mile artificial lake 
+				"filled with a black, barely-liquid, toxic sludge"
+				<Citation {bib} citekey="Maughan2015">
+					(Maughan, 2015).
+				</Citation>
+				In 2016,
+				<Citation {bib} citekey="Pan and Li2016">
+					an investigation into soil pollution
+				</Citation>
+				found that high concentrations of heavy metals at and around Bayan Obo pose substantial ecological
+				and public health risks.
+			</Exhibit>
 		</ExhibitCarousel>
 		{/if}
 	</div>
