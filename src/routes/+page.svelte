@@ -15,7 +15,6 @@
     import Citation from '$lib/components/Citation.svelte';
 
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train'];
-	const LAYER_COLORS = ['#111928', '#a56b47', '#c9bf96', '#9cbeaf', '#c49b87', '#79a657', '#fbcb7d']
 
 	let bib = buildZoteroBib('5766383', 'g2c', 'chicago-fullnote-bibliography')
 	
@@ -63,10 +62,10 @@
 	<div class="h-lvh min-w-[33dvw] max-w-[33dvw] bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll">
 		<div class="flex flex-col text-black">
 			{#if layer == Layer.Home}
-			<LayerSummary heading="Welcome to G2C, a starter kit for the infrastructure of artificial intelligence.">
+			<LayerSummary heading="Welcome to G2C, a starter kit for the infra&shy;structure of artificial intelligence.">
 				<SummaryParagraph>
 					Ground to Cloud (G2C) is a non-exhaustive repository of scholarly research and investigative journalism on the 
-					numerous infrastructures that support contemporary artificial intelligence. Inspired by 
+					numerous infra&shy;structures that support contemporary artificial intelligence. Inspired by 
 					<Citation {bib} citekey="Bratton2015">
 						Benjamin Bratton's  "stack"
 					</Citation>
@@ -114,7 +113,45 @@
 			</LayerSummary>
 			{:else if layer == Layer.Extract}
 			<LayerSummary heading="Layer 1: Extraction">
+				<SummaryParagraph>
+					Artificial intelligence begins with what 
+					<Citation {bib} citekey="Labban2014">
+						Marzen Labban (2014)
+					</Citation>
+					calls the "planetary extractive machine": the globe-spanning collection of 
+					mining, smelting, and refining operations that provide the raw materials for
+					the manufacture of chips, boards, batteries, and other components. Despite
+					abstract, ethereal imagery of "cloud architectures" and "wireless comm&shy;unications," 
+					<Citation {bib} citekey="Hogan and Lepage-Richter">
+						Hogan and Lepage-Richer
+					</Citation>
+					remind us that AI "is ultimately a resource-heavy technology reliant on
+					large-scale computing infra&shy;structures."
 
+					Increasing demand for the latest products and ever-shorter obsolescence cycles 
+					have driven the extractive machine into overdrive—"From the perspective of deep time,"
+					<Citation {bib} citekey="Crawford2021">
+						Kate Crawford (2021)
+					</Citation> 
+					writes, "we are extracting Earth's geological history to serve a split-second of 
+					contemporary technological time."
+				</SummaryParagraph>
+				<SummaryParagraph>
+					The AI industry drives mineral extraction primarily through its reliance on 
+					specialized computer chips like Graphics Processing Units (GPUs),
+					Field-Programmable Gate Arrays (FGPAs), and Application-Specific Integrated
+					Circuits (ASICs), which rely in turn on semiconductor chips made from
+					a wide array of metals and other elements. A
+					<Citation {bib} citekey="Khan et al.2021">
+						2021 report on the semiconductor supply chain
+					</Citation>
+					shows that while the United States and Western Europe dominate
+					semiconductor device design, the actual extraction of the necessary
+					raw materials (and therefore the environmental and health impacts of mining)
+					are heavily concentrated in China and the Global South. From coltan in the 
+					Congo to rare earth elements in Inner Mongolia, the exhibits on the right
+					represent only a few of the many sites at which this disparity is realized.
+				</SummaryParagraph>
 			</LayerSummary>
 			{/if}
 		</div>
@@ -139,6 +176,4 @@
 			{/if}
 		</div>
 	</div>
-
-
 </div>
