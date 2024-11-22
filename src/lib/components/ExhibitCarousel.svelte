@@ -14,22 +14,22 @@
 
 <div class="h-[92dvh] my-[4dvh] mx-4">
     <div class="grid grid-cols-[auto_1fr_auto] gap-4 items-center">
-        <button type="button" class="btn-icon variant-filled" on:click={carouselLeft}>
-            <i class="fa-solid fa-arrow-left" />
+        <button type="button" class="btn-icon bg-[#dcd6cc]" on:click={carouselLeft}>
+            <i class="fa-solid fa-arrow-left text-black" />
         </button>
     
         <div bind:this={carouselDiv} class="snap-x snap-mandatory scroll-smooth flex overflow-x-auto max-h-[82.8dvh] hide-scrollbar">
             <slot />
         </div>
     
-        <button type="button" class="btn-icon variant-filled" on:click={carouselRight}>
-            <i class="fa-solid fa-arrow-right" />
+        <button type="button" class="btn-icon bg-[#dcd6cc]" on:click={carouselRight}>
+            <i class="fa-solid fa-arrow-right text-black" />
         </button>
     </div>
     
     <div class="flex flex-row justify-center gap-4 mt-4 min-h-[10%] max-h-[10%]">
         <button type="button">
-            HELLO
+            THUMB
         </button>
         <button type="button">
             HELLO

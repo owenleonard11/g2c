@@ -159,7 +159,7 @@
 		</div>
 	</div>
 
-	<div class="w-full animate-exhibit-bg-{LAYER_NAMES[layer]}">
+	<div class="h-lvh w-full animate-exhibit-bg-{LAYER_NAMES[layer]}">
 		{#if layer == Layer.Home}
 			placeholder
 		{:else if layer == Layer.Train}
