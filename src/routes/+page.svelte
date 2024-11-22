@@ -9,10 +9,12 @@
 
 	import { currentLayer } from "$lib/../stores";
 	import { buildZoteroBib, Layer } from '$lib/utils';
+
 	import LayerCard from "$lib/components/LayerCard.svelte";
     import LayerSummary from '$lib/components/LayerSummary.svelte';
 	import SummaryParagraph from '$lib/components/SummaryParagraph.svelte';
     import Citation from '$lib/components/Citation.svelte';
+	import Exhibit from '$lib/components/Exhibit.svelte';
 
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train'];
 
@@ -158,7 +160,7 @@
 	</div>
 
 	<div class="h-lvh w-full px-[6dvh] pt-[4dvh] overflow-y-scroll animate-exhibit-bg-{LAYER_NAMES[layer]}">
-		<div class="flex flex-row text-black">
+		<div class="flex flex-col xl:gap-y-8 text-black">
 			{#if layer == Layer.Home}
 				placeholder
 			{:else if layer == Layer.Train}
@@ -172,7 +174,32 @@
 			{:else if layer == Layer.Produce}
 				placeholder
 			{:else if layer == Layer.Extract}
-				placeholder
+				<Exhibit 
+					image="BayanObo" 
+					image_alt="Satellite view of a mining and processing complex" 
+					image_title="Baogang Steel and Rare Earth complex, screenshot from Google Earth"
+					title="Baogang Steel and Rare Earth Complex"
+				>
+					The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
+					rare earth elements (REEs)—key materials in the production of the semi&shy;conductor devices that 
+					power AI training. According to
+					<Citation {bib} citekey="BayanObo">
+						mindat.org,
+					</Citation>
+					Bayan Obo accounts for 70% of known REE reserves. Once extracted from the ground, 
+					ore from the mining complex undergoes hydro&shy;metal&shy;lurgical leaching in the nearby city of Baotou. 
+					Liquid waste from this process is deposited into a nearly four-square-mile artificial lake 
+					"filled with a black, barely-liquid, toxic sludge"
+					<Citation {bib} citekey="Maughan2015">
+						(Maughan, 2015).
+					</Citation>
+					In 2016,
+					<Citation {bib} citekey="Pan and Li2016">
+						an investigation into soil pollution
+					</Citation>
+					found that high concentrations of heavy metals at and around Bayan Obo pose substantial ecological
+					and public health risks.
+				</Exhibit>
 			{/if}
 		</div>
 	</div>
