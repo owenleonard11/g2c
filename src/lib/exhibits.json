@@ -1,18 +1,18 @@
 {
     "extract": [
         {
+            "id"   : "bisie-tin",
+            "title": "Bisie Cassiterite Deposit",
+            "loc"  : "North Kivu Province, DRC",
+            "alt"  : "Satellite view of a mining camp and pits in the jungle",
+            "desc" : "Artisinal mining pits and Alphamin camp at Bisie, screenshot from Google Earth"
+        },
+        {
             "id"   : "bayan-obo",
             "title": "Baogang Steel and Rare Earth Complex",
             "loc"  : "Inner Mongolia, China",
             "alt"  : "Satellite view of a mining and processing complex",
             "desc" : "Baogang Steel and Rare Earth complex, screenshot from Google Earth"
-        },
-        {
-            "id"   : "bisie-tin",
-            "title": "Bisie Casseterite Deposit",
-            "loc"  : "North Kivu Province, DRC",
-            "alt"  : "Satellite view of a mining camp and pits in the jungle",
-            "desc" : "Artisinal mining pits and Alphamin camp at Bisie, screenshot from Google Earth"
         }
     ]
 }

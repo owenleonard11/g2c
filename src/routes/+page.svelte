@@ -176,25 +176,42 @@
 		{:else if layer == Layer.Extract}
 		<ExhibitCarousel exhibits={exhibits['extract']}>
 			<Exhibit exhibit={exhibits['extract'][0]}>
-				The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
-				rare earth elements (REEs)—key materials in the production of the semi&shy;conductor devices that 
-				power AI training. According to
-				<Citation {bib} citekey="BayanObo">
-					mindat.org,
+				Nestled deep in Congo's Walikale territory, the Bisie mine is of the world's largest
+				deposits of cassiterite, a valuable tin-containing ore. Although the jungle hides much of the operation,
+				the patchwork of mostly hand-dug pits visible in the satellite image has seen military skirmishes, labor
+				riots, and international boycotts
+				<Citation {bib} citekey="Wimmer and Hilgert2011">
+					(Wimmer and Hilgert 2011,
 				</Citation>
-				Bayan Obo accounts for 70% of known REE reserves. Once extracted from the ground, 
-				ore from the mining complex undergoes hydro&shy;metal&shy;lurgical leaching in the nearby city of Baotou. 
-				Liquid waste from this process is deposited into a nearly four-square-mile artificial lake 
-				"filled with a black, barely-liquid, toxic sludge"
-				<Citation {bib} citekey="Maughan2015">
-					(Maughan, 2015).
+				<Citation {bib} citekey="Witley and Heins2014">
+					Witley and Heins 2014).
 				</Citation>
-				In 2016,
-				<Citation {bib} citekey="Pan and Li2016">
-					an investigation into soil pollution
+				Since the move away from lead-based solders in the early 2000s, tin-based alloys have become the 
+				solder of choice in electronics manufacturing
+				<Citation {bib} citekey="Moshrefi-Torbati and Swingler2011">
+					(Moshrefi-Torbati and Swingler, 2011).
 				</Citation>
-				found that high concentrations of heavy metals at and around Bayan Obo pose substantial ecological
-				and public health risks.
+				An MIT study comissioned by the 
+				<Citation {bib} citekey="Latham2018">
+					Rio Tinto mining group in 2018 
+				</Citation>
+				predicted that tin would be the metal most affected by new technologies, with high-performance
+				computing representing the largest demand sector. Following this demand, international mining interests 
+				have converged on sites like Bisie—leading to conflict between corporate personnel and local artisinal
+				miners
+				<Citation {bib} citekey="Huggins2023">
+					(Huggins, 2023).
+				</Citation>
+				The increasing computational needs of AI models are likely to drive further extraction and exploitation
+				at Bisie and throughout North Kivu, where slavery, child labor, and extremely hazardous working conditions 
+				have been documented
+				<Citation {bib} citekey="TheCongo2011">
+					(Free the Slaves 2011,
+				</Citation>
+				<Citation {bib} citekey="Rudahigwa2010">
+					Rudahigwa 2010).
+				</Citation>
+
 			</Exhibit>
 			<Exhibit exhibit={exhibits['extract'][1]}>
 				The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
