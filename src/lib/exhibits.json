@@ -1,6 +1,14 @@
 {
     "extract": [
         {
+            "id"   : "kolwezi-cobalt",
+            "title": "Cobalt Mines in Kolwezi",
+            "loc"  : "Lualaba Province, DRC",
+            "alt"  : "Satellite view of cobalt mining pits next to a city",
+            "desc" : "Cobalt mines bordering the city of Kolwezi, screenshot from Google Earth"
+        },
+
+        {
             "id"   : "bisie-tin",
             "title": "Bisie Cassiterite Deposit",
             "loc"  : "North Kivu Province, DRC",
@@ -8,11 +16,25 @@
             "desc" : "Artisinal mining pits and Alphamin camp at Bisie, screenshot from Google Earth"
         },
         {
+            "id"   : "bangka-tin",
+            "title": "Bangka Island Tin Mines",
+            "loc"  : "Bangka Belitung Islands, Indonesia",
+            "alt"  : "Satellite view of tin mining scars",
+            "desc" : "Tin mines on the island of Bangka, screenshot from Google Earth"
+        },
+        {
             "id"   : "bayan-obo",
             "title": "Baogang Steel and Rare Earth Complex",
             "loc"  : "Inner Mongolia, China",
             "alt"  : "Satellite view of a mining and processing complex",
             "desc" : "Baogang Steel and Rare Earth complex, screenshot from Google Earth"
+        },
+        {
+            "id"   : "rubaya-coltan",
+            "title": "Bibatama Mining Concession",
+            "loc"  : "North Kivu Province, DRC",
+            "alt"  : "Satellite view of coltan mining pits on a hill",
+            "desc" : "Artisanal coltan mining sites at Rubala, screenshot from Google Earth"
         }
     ]
 }

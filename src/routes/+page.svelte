@@ -176,6 +176,36 @@
 		{:else if layer == Layer.Extract}
 		<ExhibitCarousel exhibits={exhibits['extract']}>
 			<Exhibit exhibit={exhibits['extract'][0]}>
+				Because of its higher resistivity at small dimensions, cobalt powers AI computing by allowing
+				for the manufacture of faster, smaller integrated circuits
+				<Citation {bib} citekey="Bakke2018">
+					(Bakke 2018).
+				</Citation>
+				In the Congolese city of Kolwezi, the provincial capital of Lualaba, cobalt-mining pits have 
+				"swallowed" enter neighborhoods as global demand rises
+				<Citation {bib} citekey="Beaule2023">
+					(Beaule 2023).
+				</Citation>
+				Siddharth Kara, who profiles the mine at Kolwezi in a chapter of her 
+				<Citation {bib} citekey="Kara2023">
+					2023 book <i>Cobalt Red</i>
+				</Citation> 
+				titled "We Work in Our Graves," reports extremely hazardous work in hand-dug tunnels at constant
+				risk of collapse, often involving children trafficked by local militias.
+				Attempts by the Congolese government to formalize and regulate artisanal cobalt mining have
+				proceeded only haltingly, furstrated by corruption and instability. A 
+				<Citation {bib} citekey="Umpula et al.2021">
+					2021 report 
+				</Citation>
+				by the International Institute for Environment Development in collaboration with African Resources Watch
+				found that supply chain reform attempts often have little effect beyond empowering black-market
+				traders. A 
+				<Citation {bib} citekey="Umpula and Bisil2023">
+					2023 follow-up
+				</Citation>
+				found that predatory middlemen forcibly evicted from Kolwezi in 2019 had returned to the same sites.
+			</Exhibit>
+			<Exhibit exhibit={exhibits['extract'][1]}>
 				Nestled deep in Congo's Walikale territory, the Bisie mine is of the world's largest
 				deposits of cassiterite, a valuable tin-containing ore. Although the jungle hides much of the operation,
 				the patchwork of mostly hand-dug pits visible in the satellite image has seen military skirmishes, labor
@@ -189,7 +219,7 @@
 				Since the move away from lead-based solders in the early 2000s, tin-based alloys have become the 
 				solder of choice in electronics manufacturing
 				<Citation {bib} citekey="Moshrefi-Torbati and Swingler2011">
-					(Moshrefi-Torbati and Swingler, 2011).
+					(Moshrefi-Torbati and Swingler 2011).
 				</Citation>
 				An MIT study comissioned by the 
 				<Citation {bib} citekey="Latham2018">
@@ -200,7 +230,7 @@
 				have converged on sites like Bisie—leading to conflict between corporate personnel and local artisinal
 				miners
 				<Citation {bib} citekey="Huggins2023">
-					(Huggins, 2023).
+					(Huggins 2023).
 				</Citation>
 				The increasing computational needs of AI models are likely to drive further extraction and exploitation
 				at Bisie and throughout North Kivu, where slavery, child labor, and extremely hazardous working conditions 
@@ -211,9 +241,33 @@
 				<Citation {bib} citekey="Rudahigwa2010">
 					Rudahigwa 2010).
 				</Citation>
-
 			</Exhibit>
-			<Exhibit exhibit={exhibits['extract'][1]}>
+			<Exhibit exhibit={exhibits['extract'][2]}>
+				Another major source of tin is Indonesia's Bangka island, where the metal is extracted 
+				on behalf of the national tin corporation PT Timah and supplied via various solder manufacturers
+				to Foxconn, which partners with AI firms and manufactures devices for Apple
+				<Citation {bib} citekey="Simpson2012">
+					(Simpson 2012).
+				</Citation>
+				Artisanal miners dredge for ore off the coast or risk being buried by landslides in the huge mining 
+				pits visible in turquoise in the satellite image
+				<Citation {bib} citekey="Hodal2012">
+					(Hodal 2012).
+				</Citation>
+				Tin mined under dangerous conditions with little regulatory oversight passes through a "shadow network"
+				of distributors that "hides behind official companies"
+				<Citation {bib} citekey="Nugraha and Purwanto2020">
+					(Nugraha and Purwanto 2020).
+				</Citation>
+				Despite the establishment of the Tin Working Group in 2014 by electronics manufacturers and various NGOs
+				to promote fair labor practices and supply chain accountability
+				<Citation {bib} citekey="Diprose et al.2022">
+					Diprose et al. (2022)
+				</Citation>
+				conclude that the group's interventions "make small contributions to narrowly defined regulatory 'problems',
+				while failing to curtail patterns of environmental and social harm."
+			</Exhibit>
+			<Exhibit exhibit={exhibits['extract'][3]}>
 				The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
 				rare earth elements (REEs)—key materials in the production of the semi&shy;conductor devices that 
 				power AI training. According to
@@ -225,7 +279,7 @@
 				Liquid waste from this process is deposited into a nearly four-square-mile artificial lake 
 				"filled with a black, barely-liquid, toxic sludge"
 				<Citation {bib} citekey="Maughan2015">
-					(Maughan, 2015).
+					(Maughan 2015).
 				</Citation>
 				In 2016,
 				<Citation {bib} citekey="Pan and Li2016">
@@ -233,6 +287,44 @@
 				</Citation>
 				found that high concentrations of heavy metals at and around Bayan Obo pose substantial ecological
 				and public health risks.
+			</Exhibit>
+			<Exhibit exhibit={exhibits['extract'][4]}>
+				Tantalum, an element used in the electrolytic capacitors that are crucial for microelectronics production,
+				is derived almost entirely from coltan ore mined in the DRC
+				<Citation {bib} citekey="Taffel2015">
+					(Taffel 2015).
+				</Citation>
+				The Bibatama Mining Concession at Rubaya is one of many sites where coltan is illegally extracted and laundered
+				into the global supply chain, enabled by widespread corruption and political instability. Lack of transportation
+				infrastructure makes regulation extremely difficult, encouraging smuggling and diverting profits away from
+				local communities and into the hands of corrupt officials and foreign corporations
+				<Citation {bib} citekey="Whyit’s2021">
+					(<i>The Economist</i> 2021).
+				</Citation>
+				Multinational mining groups surreptitiously purchase and fraudulently certify illegal coltan, meaning that "end
+				users cannot be certain about the origins of the tantalum elements in their electronic devices"
+				<Citation {bib} citekey="Ojewale2022">
+					(Ojewale 2022).
+				</Citation>
+				NVIDIA, a major supplier of GPUs, claimed in its
+				<Citation {bib} citekey="NVIDIA Corporation2023">
+					2023 Conflict Minerals Report
+				</Citation>  
+				that 97% of processing facilities in its supply chain were RMAP-compliant—
+				but the report includes only the information disclosed by direct suppliers.
+				An 
+				<Citation {bib} citekey="NVIDIA Corporation2014">
+					earlier SEC filing
+				</Citation>
+				shows that a majority of suppliers reported unknown countries of origin; later filings
+				do not provide any information about the proportion of suppliers reporting.
+				As companies struggle to account for the origin of their coltan, fighting over the
+				valuable deposits in North Kivu continues: the Rwanda-affiliated M23 rebel group
+				siezed control of Rubaya in May of 2024 and continues to threaten the nearby provincial
+				capital of Goma
+				<Citation {bib} citekey="Malkia and Banchereau2024">
+					(Malkia and Banchereau 2024).
+				</Citation>
 			</Exhibit>
 		</ExhibitCarousel>
 		{/if}
