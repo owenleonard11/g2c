@@ -44,7 +44,7 @@ export class ZoteroBib {
 }
 
 export function buildZoteroBib(groupId: string, groupName: string, citeFormat: string): Promise<ZoteroBib> {
-    const apiUrl = 'https://api.zotero.org/groups/' + groupId + '/items'
+    const apiUrl = 'https://api.zotero.org/groups/' + groupId + '/items?limit=100'
     return fetch(apiUrl).then(
         response => { return response.json() }
     ).then(
