@@ -125,7 +125,7 @@
 					mining, smelting, and refining operations that provide the raw materials for
 					the manufacture of chips, boards, batteries, and other components. Despite
 					abstract, ethereal imagery of "cloud architectures" and "wireless comm&shy;unications," 
-					<Citation {bib} citekey="Hogan and Lepage-Richter">
+					<Citation {bib} citekey="Hogan and Lepage-Richter2024">
 						Hogan and Lepage-Richer
 					</Citation>
 					remind us that AI "is ultimately a resource-heavy technology reliant on
@@ -182,7 +182,7 @@
 					(Bakke 2018).
 				</Citation>
 				In the Congolese city of Kolwezi, the provincial capital of Lualaba, cobalt-mining pits have 
-				"swallowed" enter neighborhoods as global demand rises
+				"swallowed" entire neighborhoods as global demand rises
 				<Citation {bib} citekey="Beaule2023">
 					(Beaule 2023).
 				</Citation>
