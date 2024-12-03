@@ -76,8 +76,13 @@
 					<Citation {bib} citekey="Crawford2021">
 						Kate Crawford's "atlas,"
 					</Citation>
-					G2C has organized a selection of this work into the layers you see on the left. Select one to
-					browse sites of interest and accompanying resources. Text
+					G2C has organized a selection of this work into the layers you see on the left. Each layer is represented by a 
+					verb, reflecting a focus on labor and materiality. Train, compute, connect, transport, produce, extract: these
+					are things done by people to physical objects. Select one to learn more about the sites at which this
+					materiality is realized.
+				</SummaryParagraph>
+				<SummaryParagraph>
+					Text
 					<span class="px-1 rounded-md bg-[#9cbeaf]">highlighted in teal</span>
 					indicates a citation; hover to view and click to see more details on Zotero. 
 					
@@ -162,7 +167,24 @@
 
 	<div class="h-lvh w-full animate-exhibit-bg-{LAYER_NAMES[layer]}">
 		{#if layer == Layer.Home}
-			placeholder
+		<div class="h-[92dvh] my-[4dvh]">
+			<div class="grid grid-cols-[auto_1fr_auto] gap-4 items-center">
+			
+				<div class="max-h-[82.8dvh] mx-8">
+					<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
+						{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
+							<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
+						{/await} 
+						<div class="p-4 bg-[#dcd6cc] rounded-b-md">
+							<div class="xl:text-xl text-justify max-h-full">
+								Each site is accompanied by a satellite image, courtesy of Google Earth. 
+								Select a layer on the left to start exploring the infrastructures of AI.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		{:else if layer == Layer.Train}
 			placeholder
 		{:else if layer == Layer.Compute}
@@ -172,7 +194,39 @@
 		{:else if layer == Layer.Transport}
 			placeholder
 		{:else if layer == Layer.Produce}
-			placeholder
+		<ExhibitCarousel exhibits={exhibits['produce']}>
+			<Exhibit exhibit={exhibits['produce'][0]}>
+				The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
+				rare earth elements (REEs)—key materials in the production of the semi&shy;conductor devices that 
+				power AI training.
+				According to
+				<Citation {bib} citekey="BayanObo">
+					mindat.org,
+				</Citation>
+				Bayan Obo accounts for 70% of known REE reserves. Although found across the world, REEs require
+				a difficult refinement process that produces toxic and radioactive byproducts.
+				<Citation {bib} citekey="Klinger2015">
+					(Klinger 2015).
+				</Citation>
+				Ore from the Bayan Obo complex undergoes hydro&shy;metal&shy;lurgical leaching in the 
+				nearby city of Baotou, where waste flows into a nearly four-square-mile artificial lake 
+				"filled with a black, barely-liquid, toxic sludge"
+				<Citation {bib} citekey="Maughan2015">
+					(Maughan 2015).
+				</Citation>
+				In 2016,
+				<Citation {bib} citekey="Pan and Li2016">
+					an investigation into soil pollution
+				</Citation>
+				found that high concentrations of heavy metals at and around Bayan Obo pose substantial ecological
+				and public health risks. 
+				<Citation {bib} citekey="Wang et al.2016">
+					Another 2016 survey
+				</Citation>
+				found high levels of atmospheric thorium around the smelters,
+				likely exposing residents to dangerous levels of radioactivity.
+			</Exhibit>
+		</ExhibitCarousel>
 		{:else if layer == Layer.Extract}
 		<ExhibitCarousel exhibits={exhibits['extract']}>
 			<Exhibit exhibit={exhibits['extract'][0]}>
@@ -268,27 +322,6 @@
 				while failing to curtail patterns of environmental and social harm."
 			</Exhibit>
 			<Exhibit exhibit={exhibits['extract'][3]}>
-				The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
-				rare earth elements (REEs)—key materials in the production of the semi&shy;conductor devices that 
-				power AI training. According to
-				<Citation {bib} citekey="BayanObo">
-					mindat.org,
-				</Citation>
-				Bayan Obo accounts for 70% of known REE reserves. Once extracted from the ground, 
-				ore from the mining complex undergoes hydro&shy;metal&shy;lurgical leaching in the nearby city of Baotou. 
-				Liquid waste from this process is deposited into a nearly four-square-mile artificial lake 
-				"filled with a black, barely-liquid, toxic sludge"
-				<Citation {bib} citekey="Maughan2015">
-					(Maughan 2015).
-				</Citation>
-				In 2016,
-				<Citation {bib} citekey="Pan and Li2016">
-					an investigation into soil pollution
-				</Citation>
-				found that high concentrations of heavy metals at and around Bayan Obo pose substantial ecological
-				and public health risks.
-			</Exhibit>
-			<Exhibit exhibit={exhibits['extract'][4]}>
 				Tantalum, an element used in the electrolytic capacitors that are crucial for microelectronics production,
 				is derived almost entirely from coltan ore mined in the DRC
 				<Citation {bib} citekey="Taffel2015">
