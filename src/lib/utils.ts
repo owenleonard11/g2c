@@ -55,6 +55,8 @@ export function buildZoteroBib(groupId: string, groupName: string, citeFormat: s
                 const meta = items[item]['meta'];
                 const data = items[item]['data'];
 
+                if (!data['title']) {console.log(data)}
+
                 const citekeyFirst  = Object.hasOwn(meta, 'creatorSummary') ? meta['creatorSummary'] : data['title'].split(' ').slice(0, 2).join('');
                 const citekeySecond = meta['parsedDate'] ? meta['parsedDate'].slice(0, 4) : ''
                 let citekeyNo = 0

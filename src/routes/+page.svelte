@@ -77,9 +77,10 @@
 						Kate Crawford's "atlas,"
 					</Citation>
 					G2C has organized a selection of this work into the layers you see on the left. Each layer is represented by a 
-					verb, reflecting a focus on labor and materiality. Train, compute, connect, transport, produce, extract: these
-					are things done by people to physical objects. Select one to learn more about the sites at which this
-					materiality is realized.
+					verb, reflecting a focus on labor and materiality. Extract, produce, transport, connect, compute, train: these
+					are things done by people to physical objects. Although the layers can be browsed in any order, I recommended 
+					beginning with "Extract": as Bratton reminds us, "there is no planetary-scale computation... 
+					that does not intake and absorb the Earth's chemsitry in order to function." Everything begins in the ground.
 				</SummaryParagraph>
 				<SummaryParagraph>
 					Text
@@ -113,11 +114,86 @@
 			</LayerSummary>
 			{:else if layer == Layer.Transport}
 			<LayerSummary heading="Layer 3: Transportation">
-
+				<SummaryParagraph>
+					For minerals extracted in the Congo to be assembled into processors in Taiwan which are then installed in 
+					Utah data centers, the supply chains of AI require a massive global network of logistics and distribution.
+					Dimerco, a Taiwanese freight company, claims that semiconductor components travel up to 25,000 miles and
+					cross up to 70 international borders before integration into a finished product
+					<Citation {bib} citekey="SemiconductorSupply2022">
+						(Dimerco 2022).
+					</Citation>
+					Further transportation is then required to deliver finished microelectronics to end users.
+					Although chips are themselves relatively lightweight, the sheer diffusion of their raw materials
+					engenders a heavy reliance on overseas shipping—an industry whose carbon footprint is growing rapidly
+					due to the difficulty of regulating emissions in high seas regions
+					<Citation {bib} citekey="Li et al.2023">
+						(Li et al. 2023).
+					</Citation> 
+				</SummaryParagraph>
+				<SummaryParagraph>
+					Global shipping networks obviously predate contemporary compu&shy;tational techniques, and in some ways even prefigure 
+					the planetary megamachine of artificial intelligence. Kate Crawford writes that the modern logistics industry
+					"made it possible to envision and model the planet as a single massive factory" and observes that the standardized
+					cargo container is not unlike the data packets discussed in the "Connect" layer
+					<Citation {bib} citekey="Crawford2021">
+						(Crawford 2021).
+					</Citation>
+					As with other AI infrastructures, the materiality of logistics networks is often effaced by the illusory 
+					convenience of consumer products like Amazon Prime—leading Rose George to term shipping "the invisible industry" in
+					<Citation {bib} citekey="George2013">
+						her 2013 book.
+					</Citation>
+					Invisible or not, transportation of solid physical objects is a critical—if often overlooked—component of 
+					modern AI systems.
+				</SummaryParagraph>
 			</LayerSummary>
 			{:else if layer == Layer.Produce}
 			<LayerSummary heading="Layer 2: Production">
-
+				<SummaryParagraph>
+					<Citation {bib} citekey="Bratton2015">
+						Benjamin Bratton (2015)
+					</Citation>
+					writes that planetary computational infrastructure
+					"terraforms the host planet by drinking and vomiting its elemental juices and spitting up mobile phones."
+					This metaphor of agitated digestion is appropriate to the sites of the production layer,
+					at which the raw materials extracted from the earth are transformed into semiconductors, integrated 
+					circuits, and finally the processors that power AI computation. Refining minerals and assembling 
+					devices requires a massive expenditure of energy and labor, and leaves behind toxic byproducts—whether 
+					runoff from smelting operations or worker injuries at chipmaking factories.
+				</SummaryParagraph>
+				<SummaryParagraph>
+					Artificial intelligence affects the production layer mostly by driving demand for integrated circuits (ICs),
+					also called microchips.
+					Labor in the IC industry is distributed unevenly; the so-called "fabless-foundry"
+					model
+					<Citation {bib} citekey="Chatterjee et al.1999">
+						(Chatterjee et al. 1999),
+					</Citation>
+					in which the companies that design and sell chips outsource their actual production, has resulted in 
+					a market dominated by "fabless" firms based mostly in the U.S. and "foundry" firms based mostly in Southeast Asia
+					<Citation {bib} citekey="Ren et al.2023">
+						(Ren et al. 2023).
+					</Citation>
+					Such partnerships, which direct profit towards designers and environmental damage towards 
+					producers, are responsible for much of the recent revenue growth in the industry
+					<Citation {bib} citekey="Hung et al.2017">
+						(Hung et al. 2017).
+					</Citation>
+					While these disproportionate effects have long been acknowledged
+					<Citation {bib} citekey="Williams et al.2002">
+						(Williams et al. 2002,
+					</Citation>
+					<Citation {bib} citekey="Sonnenfeld et al.2006">
+						Sonnenfeld et al. 2006),
+					</Citation>
+					the length of supply chains and the lack of transparent climate reporting by tech
+					companies makes the true scale of the problem difficult to assess
+					<Citation {bib} citekey="Dobbe and Whittaker2019">
+						(Dobbe and Whittaker 2019).
+					</Citation>
+					Larger and larger models demand more and more chips, inevitably 
+					exacerbating existing inequalities in the relations of production.
+				</SummaryParagraph>
 			</LayerSummary>
 			{:else if layer == Layer.Extract}
 			<LayerSummary heading="Layer 1: Extraction">
@@ -157,7 +233,7 @@
 					semiconductor device design, the actual extraction of the necessary
 					raw materials (and therefore the environmental and health impacts of mining)
 					are heavily concentrated in China and the Global South. From coltan in the 
-					Congo to rare earth elements in Inner Mongolia, the exhibits on the right
+					Congo to tin in Indonesia, the exhibits on the right
 					represent only a few of the many sites at which this disparity is realized.
 				</SummaryParagraph>
 			</LayerSummary>
@@ -168,18 +244,15 @@
 	<div class="h-lvh w-full animate-exhibit-bg-{LAYER_NAMES[layer]}">
 		{#if layer == Layer.Home}
 		<div class="h-[92dvh] my-[4dvh]">
-			<div class="grid grid-cols-[auto_1fr_auto] gap-4 items-center">
-			
-				<div class="max-h-[82.8dvh] mx-8">
-					<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
-						{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
-							<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
-						{/await} 
-						<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-							<div class="xl:text-xl text-justify max-h-full">
-								Each site is accompanied by a satellite image, courtesy of Google Earth. 
-								Select a layer on the left to start exploring the infrastructures of AI.
-							</div>
+			<div class="max-h-[82.8dvh] mx-8">
+				<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
+					{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
+						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
+					{/await} 
+					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
+						<div class="xl:text-lg text-justify max-h-full">
+							Each site is accompanied by a satellite image, courtesy of Google Earth. 
+							Select a layer on the left to start exploring the infrastructures of AI.
 						</div>
 					</div>
 				</div>
@@ -192,7 +265,18 @@
 		{:else if layer == Layer.Connect}
 			placeholder
 		{:else if layer == Layer.Transport}
-			placeholder
+		<ExhibitCarousel exhibits={exhibits['transport']}>
+			<Exhibit exhibit={exhibits['transport'][0]}>
+				Because of its proximity to the Nanzi Export Processing Zone, home to several important
+				semiconductor foundries, the Port of Kaohsiung is a major hub for the distribution of the microchips
+				that are eventually used to train AI systems. In 2020,
+				<Citation {bib} citekey="Yang and Ge2020">
+					an investigation by Taiwanese and Chinese researchers
+				</Citation>
+				found that harbor operations at Kaohsiung are threatened by rising sea levels and more intense typhoon seasons—an 
+				instance in which the climate impact of AI endangers the very infrastructure that makes it possible. 
+			</Exhibit>
+		</ExhibitCarousel>
 		{:else if layer == Layer.Produce}
 		<ExhibitCarousel exhibits={exhibits['produce']}>
 			<Exhibit exhibit={exhibits['produce'][0]}>

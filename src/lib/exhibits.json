@@ -38,5 +38,14 @@
             "alt"  : "Satellite view of a mining and processing complex",
             "desc" : "Baogang Steel and Rare Earth complex, screenshot from Google Earth"
         }
+    ],
+    "transport": [
+        {
+            "id"   : "kaohsiung-port",
+            "title": "Port of Kaohsiung",
+            "loc"  : "Kaohsiung City, Taiwan",
+            "alt"  : "Satellite view of a busy cargo port",
+            "desc" : "Kaohsiung Port in southern Taiwan, screenshot from Google Earth"
+        }
     ]
 }
