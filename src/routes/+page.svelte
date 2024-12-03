@@ -259,11 +259,50 @@
 			</div>
 		</div>
 		{:else if layer == Layer.Train}
-			placeholder
+		<div class="h-[92dvh] my-[4dvh]">
+			<div class="max-h-[82.8dvh] mx-8">
+				<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
+					{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
+						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
+					{/await} 
+					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
+						<div class="xl:text-lg text-justify max-h-full">
+							Exhibits coming soon.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		{:else if layer == Layer.Compute}
-			placeholder
+		<div class="h-[92dvh] my-[4dvh]">
+			<div class="max-h-[82.8dvh] mx-8">
+				<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
+					{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
+						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
+					{/await} 
+					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
+						<div class="xl:text-lg text-justify max-h-full">
+							Exhibits coming soon.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		{:else if layer == Layer.Connect}
-			placeholder
+		<div class="h-[92dvh] my-[4dvh]">
+			<div class="max-h-[82.8dvh] mx-8">
+				<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
+					{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
+						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
+					{/await} 
+					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
+						<div class="xl:text-lg text-justify max-h-full">
+							Exhibits coming soon.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		{:else if layer == Layer.Transport}
 		<ExhibitCarousel exhibits={exhibits['transport']}>
 			<Exhibit exhibit={exhibits['transport'][0]}>
