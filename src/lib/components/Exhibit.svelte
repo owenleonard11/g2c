@@ -14,7 +14,7 @@
             <span class="xl:text-xl font-semibold">{title}</span>
             <span class="xl:text-lg text-slate-800 ml-2">{loc}</span>
         </p>
-        <div class="pt-2 xl:text-lg text-justify max-h-full">
+        <div class="pt-2 xl:text-lg max-h-full">
             <slot />
         </div>
     </div>

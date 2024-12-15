@@ -1,3 +1,3 @@
-<p class="xl:text-lg text-justify mt-4">
+<p class="xl:text-lg mt-4">
     <slot />
 </p>

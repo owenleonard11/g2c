@@ -65,22 +65,9 @@
 	<div class="h-lvh min-w-[33dvw] max-w-[33dvw] bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll">
 		<div class="flex flex-col text-black">
 			{#if layer == Layer.Home}
-			<LayerSummary heading="Welcome to G2C, a starter kit for the infra&shy;structure of artificial intelligence.">
+			<LayerSummary heading="Welcome to G2C, a gallery of AI infrastructure.">
 				<SummaryParagraph>
-					Ground to Cloud (G2C) is a non-exhaustive repository of scholarly research and investigative journalism on the 
-					numerous infra&shy;structures that support contemporary artificial intelligence. Inspired by 
-					<Citation {bib} citekey="Bratton2015">
-						Benjamin Bratton's  "stack"
-					</Citation>
-					and 
-					<Citation {bib} citekey="Crawford2021">
-						Kate Crawford's "atlas,"
-					</Citation>
-					G2C has organized a selection of this work into the layers you see on the left. Each layer is represented by a 
-					verb, reflecting a focus on labor and materiality. Extract, produce, transport, connect, compute, train: these
-					are things done by people to physical objects. Although the layers can be browsed in any order, I recommended 
-					beginning with "Extract": as Bratton reminds us, "there is no planetary-scale computation... 
-					that does not intake and absorb the Earth's chemsitry in order to function." Everything begins in the ground.
+					Ground to Cloud (G2C) brings together scholarly research and investigative journalism on the vast array of infrastructure that supports contemporary artificial intelligence, with a focus on specific sites and forms of labor. Each of the six layers on the left collects examples of the material configurations that underlie the supposedly immaterial cloud, often involving very real extraction and exploitation. From cobalt mining in the Congo to logjams in the Panama Canal to image labelling in Venezuela, these exhibits serve as a corrective to the sleek, futuristic, and conspicuously depeopled images of neatly arranged server racks that dominate the official imagery of AI.
 				</SummaryParagraph>
 				<SummaryParagraph>
 					Text
@@ -250,7 +237,7 @@
 						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
 					{/await} 
 					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-						<div class="xl:text-lg text-justify max-h-full">
+						<div class="xl:text-lg max-h-full">
 							Each site is accompanied by a satellite image, courtesy of Google Earth. 
 							Select a layer on the left to start exploring the infrastructures of AI.
 						</div>
@@ -266,7 +253,7 @@
 						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
 					{/await} 
 					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-						<div class="xl:text-lg text-justify max-h-full">
+						<div class="xl:text-lg max-h-full">
 							Exhibits coming soon.
 						</div>
 					</div>
@@ -281,7 +268,7 @@
 						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
 					{/await} 
 					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-						<div class="xl:text-lg text-justify max-h-full">
+						<div class="xl:text-lg max-h-full">
 							Exhibits coming soon.
 						</div>
 					</div>
@@ -296,7 +283,7 @@
 						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
 					{/await} 
 					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-						<div class="xl:text-lg text-justify max-h-full">
+						<div class="xl:text-lg max-h-full">
 							Exhibits coming soon.
 						</div>
 					</div>
