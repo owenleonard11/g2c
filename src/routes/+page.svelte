@@ -157,29 +157,22 @@
 					<Citation {bib} citekey="Bratton2015">
 						Benjamin Bratton (2015)
 					</Citation>
-					writes that planetary computational infrastructure
-					"terraforms the host planet by drinking and vomiting its elemental juices and spitting up mobile phones."
-					This metaphor of agitated digestion is appropriate to the sites of the production layer,
-					at which the raw materials extracted from the earth are transformed into semiconductors, integrated 
-					circuits, and finally the processors that power AI computation. Refining minerals and assembling 
-					devices requires a massive expenditure of energy and labor, and leaves behind toxic byproducts—whether 
-					runoff from smelting operations or worker injuries at chipmaking factories.
+					writes that planetary computational infrastructure "terraforms the host planet by drinking and vomiting its elemental juices and spitting up mobile phones." Replace mobile phones with GPUs, and the same can be said of the AI industry—from lakes of toxic sludge in China to massively polluted Superfund sites in California, Bratton's imagery seems quite appropriate to the foundries and factories profiled here. Refining minerals and assembling devices also requires massive expenditure of energy and labor.
+					<Citation {bib} citekey="Gupta et al.2021">
+						Gupta et al. (2021)
+					</Citation>
+					report that hardware manufacturing is the largest contributor to computation-related carbon emissions. 
 				</SummaryParagraph>
 				<SummaryParagraph>
-					Artificial intelligence affects the production layer mostly by driving demand for integrated circuits (ICs),
-					also called microchips.
-					Labor in the IC industry is distributed unevenly; the so-called "fabless-foundry"
-					model
+					The recent AI boom has affected the production layer mostly by driving demand for integrated circuits (ICs), also called microchips. Labor in the IC sector is distributed unevenly; the so-called "fabless-foundry" model
 					<Citation {bib} citekey="Chatterjee et al.1999">
 						(Chatterjee et al. 1999),
 					</Citation>
-					in which the companies that design and sell chips outsource their actual production, has resulted in 
-					a market dominated by "fabless" firms based mostly in the U.S. and "foundry" firms based mostly in Southeast Asia
+					in which the companies that design and sell chips outsource their actual production, has resulted in a market dominated by "fabless" firms based mostly in the U.S. and "foundry" firms based mostly in Southeast Asia
 					<Citation {bib} citekey="Ren et al.2023">
 						(Ren et al. 2023).
 					</Citation>
-					Such partnerships, which direct profit towards designers and environmental damage towards 
-					producers, are responsible for much of the recent revenue growth in the industry
+					Such partnerships, which direct profit towards designers and environmental damage towards producers, are responsible for much of the recent revenue growth in the semiconductor industry 
 					<Citation {bib} citekey="Hung et al.2017">
 						(Hung et al. 2017).
 					</Citation>
@@ -190,13 +183,11 @@
 					<Citation {bib} citekey="Sonnenfeld et al.2006">
 						Sonnenfeld et al. 2006),
 					</Citation>
-					the length of supply chains and the lack of transparent climate reporting by tech
-					companies makes the true scale of the problem difficult to assess
+					the length of supply chains and the lack of transparent climate reporting by tech companies makes the true scale of the problem difficult to assess
 					<Citation {bib} citekey="Dobbe and Whittaker2019">
 						(Dobbe and Whittaker 2019).
 					</Citation>
-					Larger and larger models demand more and more chips, inevitably 
-					exacerbating existing inequalities in the relations of production.
+					Fast-moving development of larger AI models demands immediate availability of chips, leaving little time to redress inequalities and injustices in the production stack.
 				</SummaryParagraph>
 			</LayerSummary>
 			{:else if layer == Layer.Extract}
@@ -217,20 +208,11 @@
 					writes, "we are extracting Earth's geological history to serve a split-second of contemporary technological time."
 				</SummaryParagraph>
 				<SummaryParagraph>
-					The AI industry drives mineral extraction primarily through its reliance on 
-					specialized computer chips like Graphics Processing Units (GPUs),
-					Field-Programmable Gate Arrays (FGPAs), and Application-Specific Integrated
-					Circuits (ASICs), which rely in turn on semiconductor chips made from
-					a wide array of metals and other elements. A
+					AI training drives mineral extraction primarily through its reliance on specialized computer chips like Graphics Processing Units (GPUs), Field-Programmable Gate Arrays (FGPAs), and Application-Specific Integrated Circuits (ASICs), which rely in turn on semiconductors made from a wide array of metals and other elements. 
 					<Citation {bib} citekey="Khan et al.2021">
-						2021 report on the semiconductor supply chain
+						A 2021 report on the semiconductor supply chain
 					</Citation>
-					shows that while the United States and Western Europe dominate
-					semiconductor device design, the actual extraction of the necessary
-					raw materials—and therefore the environmental and health impacts of mining—are 
-					heavily concentrated in China and the Global South. From coltan in the 
-					Congo to tin in Indonesia, the exhibits on the right
-					represent only a few of the many sites at which this disparity is realized.
+					shows that while the United States and Western Europe dominate semiconductor device design, the actual extraction of the necessary raw materias—and therefore the environmental and health impacts of mining—are heavily concentrated in China and the Global South. From coltan in the Congo to tin in Indonesia, the exhibits on the right represent only a few of the many sites at which this disparity is realized. 
 				</SummaryParagraph>
 			</LayerSummary>
 			{/if}
@@ -315,34 +297,86 @@
 		{:else if layer == Layer.Produce}
 		<ExhibitCarousel exhibits={exhibits['produce']}>
 			<Exhibit exhibit={exhibits['produce'][0]}>
-				The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
-				rare earth elements (REEs)—key materials in the production of the semi&shy;conductor devices that 
-				power AI training. According to
-				<Citation {bib} citekey="BayanObo">
-					mindat.org,
+				Rare Earth Elements (REEs) are key materials in the semiconductors that power AI training. Although found across the world, refining REEs into usable materials require a process of dissolution in acid baths that "yields reservoirs of poisonous waste"
+				<Citation {bib} citekey="Crawford2021">
+					(Crawford 2021).
 				</Citation>
-				Bayan Obo accounts for 70% of known REE reserves. Although found across the world, REEs require
-				a difficult refinement process that produces toxic and radioactive byproducts.
-				<Citation {bib} citekey="Klinger2015">
-					(Klinger 2015).
-				</Citation>
-				Ore from the Bayan Obo complex undergoes hydro&shy;metal&shy;lurgical leaching in the 
-				nearby city of Baotou, where waste flows into a nearly four-square-mile artificial lake 
-				"filled with a black, barely-liquid, toxic sludge"
+				Ore from the mining complex undergoes hydrometallurgical leaching in the nearby city of Baotou, where waste flows into a nearly four-square-mile artificial lake "filled with a black, barely-liquid, toxic sludge" 
 				<Citation {bib} citekey="Maughan2015">
 					(Maughan 2015).
 				</Citation>
-				In 2016,
+				Investigations into pollution at and around Bayan Obo have found high concentrations of heavy metals in soil
 				<Citation {bib} citekey="Pan and Li2016">
 					an investigation into soil pollution
 				</Citation>
-				found that high concentrations of heavy metals at and around Bayan Obo pose substantial ecological
-				and public health risks. 
+				and dangerous levels of atmospheric thorium
 				<Citation {bib} citekey="Wang et al.2016">
 					Another 2016 survey
 				</Citation>
-				found high levels of atmospheric thorium around the smelters,
-				likely exposing residents to dangerous levels of radioactivity.
+				With REE demand slated to increase up to sevenfold by 2040
+				<Citation {bib} citekey="Fatunde2024">
+					(Fatunde 2024),
+				</Citation>
+				production—and pollution—at Bayan Obo is likely to ramp up in the coming years. Uncertainy about the future of trade relations with China, however, has led the U.S. to explore options for domestic REE sourcing. 
+				<Citation {bib} citekey="DoDAwards2022">
+					The Department of Defense (2022)
+				</Citation>
+				recently awarded $35 million to MP Materials for a processing facility at the Mountain Pass mine in Southern California—a site with its own history of environmental abuse
+				<Citation {bib} citekey="Margonelli2009">
+					(Margonelli 2009).
+				</Citation>
+			</Exhibit>
+			<Exhibit exhibit={exhibits['produce'][1]}>
+				Taiwan Semiconductor Manufacturing Company (TSMC) is by far the largest semiconductor foundry in the world, and its headquarters in Hsinchu is possibly the most important single site for global chip manufacturing. As Charlie Campbell
+				<Citation {bib} citekey="Campbell2021">
+					Charlie Campbell (2021)
+				</Citation>
+				writes, "TSMC's dominance is such that its chief rivals are not companies but governments"—as evidenced by massive state funding initiatives for semiconductor production across the globe
+				<Citation {bib} citekey="Goldberg et al.2024">
+					(Goldberg et al. 2024).
+				</Citation>
+				Recent demand for GPUs has only bolstered this dominance, with TSMC executives crediting revenue from AI-related processors for massive 2024 profits
+				<Citation {bib} citekey="Jie and Qin2024">
+					(Jie and Qin 2024).
+				</Citation>
+				TSMC has used its considerable economic power to influence provision of utilities, particularly water. During a 2021 drought, the Hsinchu facility continued to churn through 63,000 tons of water a day even as authorities shut off irrigation to nearby farmland
+				<Citation {bib} citekey="Zhong and Chien2021">
+					(Zhong and Chien 2021).
+				</Citation>
+				<Citation {bib} citekey="Lee et al.2024">
+					A 2024 assessment of climate impact
+				</Citation>
+				conducted by Taiwanese researchers in 2024 predicts that global warming will contribute to further insecurity in the water supply to Hsinchu—and thus to further conflict between global semiconductor demand and local resource concerns.
+			</Exhibit>
+			<Exhibit exhibit={exhibits['produce'][2]}>
+				Intended largely to maintain competitiveness in artificial intelligence by protecting against Chinese supply chain dominance, the
+				<Citation {bib} citekey="FACTSHEET2022">
+					2022 CHIPS and Science Act
+				</Citation>
+				promised $52.7 billion in funding for domestic chip production in the United States. Intel, one of the largest beneficiaries, recently announced a massive $20 billion expansion to their Ocotillo manufacturing campus 
+				<Citation {bib} citekey="Leggate2024">
+					(Leggate 2024).
+				</Citation>
+				Although significant improvements to recycling techniques have lessened the strain on local water supplies
+				<Citation {bib} citekey="Meese et al.2022">
+					(Meese et al. 2024),
+				</Citation>
+				concerns remain about the resource demands of semiconductor fabrication in Arizona given the state's reliance on the drought-sensitive Colorado River
+				<Citation {bib} citekey="Wong2024">
+					(Wong 2024).
+				</Citation>
+				In response to the construction and expansion of facilities like Ocotillo, a group of labor unions and NGOs has formed
+				<Citation {bib} citekey="Buildinga">
+					CHIPS Communities United.
+				</Citation>
+				The coalition advocates for responsible labor and environmental practices, pointing to the toxic legacy of earlier U.S. semiconductor plants in Santa Clara County, California—which led to birth defects among workers' children and left groundwater contaminated for decades
+				<Citation {bib} citekey="Calma2023">
+					(Calma 2023).
+				</Citation>
+				As of 2018, Silicon Valley still had the highest concentration of EPA-designated Superfund cites in the U.S. 
+				<Citation {bib} citekey="Nieves2018">
+					(Nieves 2018).
+				</Citation>
 			</Exhibit>
 		</ExhibitCarousel>
 		{:else if layer == Layer.Extract}

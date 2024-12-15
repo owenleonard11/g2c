@@ -37,6 +37,20 @@
             "loc"  : "Inner Mongolia, China",
             "alt"  : "Satellite view of a mining and processing complex",
             "desc" : "Baogang Steel and Rare Earth complex, screenshot from Google Earth"
+        },
+        {
+            "id"   : "tsmc-hsinchu",
+            "title": "TSMC Headquarters",
+            "loc"  : "Hsinchu County, Taiwan",
+            "alt"  : "Satellite view of a Taiwanese semiconductor production facility in an urban area",
+            "desc" : "Taiwan Semiconductor Manufacturing Company Hsinchu facility, screenshot from Google Earth"
+        },
+        {
+            "id"   : "intel-ocotillo",
+            "title": "Intel Ocotillo Campus",
+            "loc"  : "Arizona, United States",
+            "alt"  : "Satellite view of an American semiconductor production facility in suburban surroundings",
+            "desc" : "Intel manufacturing campus at Ocotillo, screenshot from Google Earth"
         }
     ],
     "transport": [
