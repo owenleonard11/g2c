@@ -70,10 +70,27 @@
 					Ground to Cloud (G2C) brings together scholarly research and investigative journalism on the vast array of infrastructure that supports contemporary artificial intelligence, with a focus on specific sites and forms of labor. Each of the six layers on the left collects examples of the material configurations that underlie the supposedly immaterial cloud, often involving very real extraction and exploitation. From cobalt mining in the Congo to logjams in the Panama Canal to image labelling in Venezuela, these exhibits serve as a corrective to the sleek, futuristic, and conspicuously depeopled images of neatly arranged server racks that dominate the official imagery of AI.
 				</SummaryParagraph>
 				<SummaryParagraph>
-					Text
-					<span class="px-1 rounded-md bg-[#9cbeaf]">highlighted in teal</span>
-					indicates a citation; hover to view and click to see more details on Zotero. 
-					
+					Another aim of G2C is to demonstrate the astonishing scale and breadth of AI systems. It is no accident that the writers cited throughout make liberal use of the term "planetary"—researchers have examined the "planetary extractive machine" 
+					<Citation {bib} citekey="Labban2014">
+						(Labban 2014),
+					</Citation>
+					"planetary-scale computation" 
+					<Citation {bib} citekey="Bratton2015">
+						(Bratton 2015),
+					</Citation>
+					"planetary labor markets" 
+					<Citation {bib} citekey="Graham and Anwar2019">
+						(Graham 2019),
+					</Citation>
+					and the "planetary costs of AI"
+					<Citation {bib} citekey="Crawford2021">
+						(Crawford 2021).
+					</Citation>
+					Artificial intelligence requires a truly earth-spanning infrastructure, one that collides and overlaps in different ways with older forms of power and sovereignty. My hope is that the exhibits here can offer a point of departure for exploring the kinds of site-specific interactions that result.
+				</SummaryParagraph>
+				<SummaryParagraph>
+					Text <span class="px-1 rounded-md bg-[#9cbeaf]">highlighted in teal</span>
+					indicates a citation; hover to preview and click to see complete bibliographic information on Zotero. 
 					You can return to this page at any time by selecting the 
 					<img src={favicon} alt="Ground to Cloud Favicon" class="inline h-[1.875rem] p-0.5" />
 					icon at the top left.
@@ -185,27 +202,19 @@
 			{:else if layer == Layer.Extract}
 			<LayerSummary heading="Layer 1: Extraction">
 				<SummaryParagraph>
-					Artificial intelligence begins with what 
+					Artificial intelligence begins with what Marzen Labban (2014) 
 					<Citation {bib} citekey="Labban2014">
 						Marzen Labban (2014)
 					</Citation>
-					calls the "planetary extractive machine": the globe-spanning collection of 
-					mining, smelting, and refining operations that provide the raw materials for
-					the manufacture of chips, boards, batteries, and other components. Despite
-					abstract, ethereal imagery of "cloud architectures" and "wireless comm&shy;unications," 
+					calls the "planetary extractive machine": the globe-spanning collection of mining operations that provide the raw materials for the manufacture of chips, boards, batteries, and other components. Despite abstract, ethereal imagery of "cloud architectures" and "wireless communications," 
 					<Citation {bib} citekey="Hogan and Lepage-Richter2024">
-						Hogan and Lepage-Richer
+						Hogan and Lepage-Richer (2024)
 					</Citation>
-					remind us that AI "is ultimately a resource-heavy technology reliant on
-					large-scale computing infra&shy;structures."
-
-					Increasing demand for the latest products and ever-shorter obsolescence cycles 
-					have driven the extractive machine into overdrive—"From the perspective of deep time,"
+					Hogan and Lepage-Richer (2024) remind us that AI "is ultimately a resource-heavy technology reliant on large-scale computing infrastructures." Increasing demand for the latest products and ever-shorter obsolescence cycles have driven the extractive machine into overdrive, as minerals that take millions of years to form are dug up to meet demand that increases daily. "From the perspective of deep time," 
 					<Citation {bib} citekey="Crawford2021">
 						Kate Crawford (2021)
 					</Citation> 
-					writes, "we are extracting Earth's geological history to serve a split-second of 
-					contemporary technological time."
+					writes, "we are extracting Earth's geological history to serve a split-second of contemporary technological time."
 				</SummaryParagraph>
 				<SummaryParagraph>
 					The AI industry drives mineral extraction primarily through its reliance on 
@@ -218,8 +227,8 @@
 					</Citation>
 					shows that while the United States and Western Europe dominate
 					semiconductor device design, the actual extraction of the necessary
-					raw materials (and therefore the environmental and health impacts of mining)
-					are heavily concentrated in China and the Global South. From coltan in the 
+					raw materials—and therefore the environmental and health impacts of mining—are 
+					heavily concentrated in China and the Global South. From coltan in the 
 					Congo to tin in Indonesia, the exhibits on the right
 					represent only a few of the many sites at which this disparity is realized.
 				</SummaryParagraph>
@@ -308,8 +317,7 @@
 			<Exhibit exhibit={exhibits['produce'][0]}>
 				The Bayan Obo deposit in Inner Mongolia, China is the world's single largest source of 
 				rare earth elements (REEs)—key materials in the production of the semi&shy;conductor devices that 
-				power AI training.
-				According to
+				power AI training. According to
 				<Citation {bib} citekey="BayanObo">
 					mindat.org,
 				</Citation>
@@ -345,43 +353,26 @@
 				<Citation {bib} citekey="Bakke2018">
 					(Bakke 2018).
 				</Citation>
-				In the Congolese city of Kolwezi, the provincial capital of Lualaba, cobalt-mining pits have 
-				"swallowed" entire neighborhoods as global demand rises
+				Rising global demand intersects with urban precarity in the Congolesse city of Kolwezi, where cobalt-mining pits have "swallowed" entire neighborhoods
 				<Citation {bib} citekey="Beaule2023">
 					(Beaule 2023).
 				</Citation>
-				Siddharth Kara, who profiles the mine at Kolwezi in a chapter of her 
+				In a chapter of her 
 				<Citation {bib} citekey="Kara2023">
-					2023 book <i>Cobalt Red</i>
+					her 2023 book <i>Cobalt Red</i>
 				</Citation> 
-				titled "We Work in Our Graves," reports extremely hazardous work in hand-dug tunnels at constant
-				risk of collapse, often involving children trafficked by local militias.
-				Attempts by the Congolese government to formalize and regulate artisanal cobalt mining have
-				proceeded only haltingly, furstrated by corruption and instability. A 
+				Siddarth Kara reports extremely hazardous conditions in and around Kolwezi. Miners, some of them children, spend twelve hours or longer in dimly-lit hand-dug tunnels at constant risk of collapse. Attempts by the Congolese government to formalize and regulate cobalt mining have proceeded only haltingly, frustrated by corruption and instability.
 				<Citation {bib} citekey="Umpula et al.2021">
-					2021 report 
+					A 2021 report 
 				</Citation>
-				by the International Institute for Environment Development in collaboration with African Resources Watch
-				found that supply chain reform attempts often have little effect beyond empowering black-market
-				traders. A 
+				by the International Institute for Environment Development in collaboration with African Resources Watch, along with
 				<Citation {bib} citekey="Umpula and Bisil2023">
-					2023 follow-up
+					a 2023 follow-up
 				</Citation>
-				found that predatory middlemen forcibly evicted from Kolwezi in 2019 had returned to the same sites.
+				found that reform attempts often have little effect beyond empowering smugglers. As demand for cobalt continues to grow, so will the profits of predatory middlemen and grey-market traders in places like Kolwezi—to the detriment of local populations, who rarely benefit from their land's enormous mineral wealth.
 			</Exhibit>
 			<Exhibit exhibit={exhibits['extract'][1]}>
-				Nestled deep in Congo's Walikale territory, the Bisie mine is of the world's largest
-				deposits of cassiterite, a valuable tin-containing ore. Although the jungle hides much of the operation,
-				the patchwork of mostly hand-dug pits visible in the satellite image has seen military skirmishes, labor
-				riots, and international boycotts
-				<Citation {bib} citekey="Wimmer and Hilgert2011">
-					(Wimmer and Hilgert 2011,
-				</Citation>
-				<Citation {bib} citekey="Witley and Heins2014">
-					Witley and Heins 2014).
-				</Citation>
-				Since the move away from lead-based solders in the early 2000s, tin-based alloys have become the 
-				solder of choice in electronics manufacturing
+				Since the move away from lead-based solders in the early 2000s, tin-based alloys have become the solder of choice in electronics manufacturing
 				<Citation {bib} citekey="Moshrefi-Torbati and Swingler2011">
 					(Moshrefi-Torbati and Swingler 2011).
 				</Citation>
@@ -389,82 +380,63 @@
 				<Citation {bib} citekey="Latham2018">
 					Rio Tinto mining group in 2018 
 				</Citation>
-				predicted that tin would be the metal most affected by new technologies, with high-performance
-				computing representing the largest demand sector. Following this demand, international mining interests 
-				have converged on sites like Bisie—leading to conflict between corporate personnel and local artisinal
-				miners
+				predicted that tin would be the metal most affected by new technologies, with high-performance computing representing the largest demand sector. Following this demand, international mining interests have converged on sites like Bisie in the DRC's North Kivu province—one of the world's largest deposits of cassiterite, a valuable tin-containing ore. Although the jungle hides much of the operation, the patchwork of mostly hand-dug pits has seen military skirmishes, labor riots, and international boycotts over accusations of child trafficking and slavery
+				<Citation {bib} citekey="Rudahigwa2010">
+					(Rudahigwa 2010,
+				</Citation>
+				<Citation {bib} citekey="Wimmer and Hilgert2011">
+					Wimmer and Hilgert 2011,
+				</Citation>
+				<Citation {bib} citekey="Witley and Heins2014">
+					Witley and Heins 2014).
+				</Citation>
+				The acquisition of the Bisie mine by Canadian conglomerate Alphamin has led to violent clashes between corporate personnel and artisinal miners, a theme of mineral rights disputes throughout the DRC
 				<Citation {bib} citekey="Huggins2023">
 					(Huggins 2023).
 				</Citation>
-				The increasing computational needs of AI models are likely to drive further extraction and exploitation
-				at Bisie and throughout North Kivu, where slavery, child labor, and extremely hazardous working conditions 
-				have been documented
-				<Citation {bib} citekey="TheCongo2011">
-					(Free the Slaves 2011,
-				</Citation>
-				<Citation {bib} citekey="Rudahigwa2010">
-					Rudahigwa 2010).
-				</Citation>
+				Although foreign corporations promise to industrialize and formalize the mining process, locals worry that their involvement will do little to ameliorate the infrastructural and regulatory failures that created the conditions for exploitation at Bisie and elsewhere.
 			</Exhibit>
 			<Exhibit exhibit={exhibits['extract'][2]}>
-				Another major source of tin is Indonesia's Bangka island, where the metal is extracted 
-				on behalf of the national tin corporation PT Timah and supplied via various solder manufacturers
-				to Foxconn, which partners with AI firms and manufactures devices for Apple
+				Besides the Bisie Deposit, another major source of tin is Indonesia's Bangka island—where the metal is extracted on behalf of the national tin corporation PT Timah and supplied via various solder manufacturers to Foxconn, whose partnerships with major device manufacturers including Apple and NVIDIA are well-documented 
 				<Citation {bib} citekey="Simpson2012">
 					(Simpson 2012).
 				</Citation>
-				Artisanal miners dredge for ore off the coast or risk being buried by landslides in the huge mining 
-				pits visible in turquoise in the satellite image
+				As in the Congo, tin extraction in Indonesia is dominated by minimally regulated artisinal mining. Workers dredge for ore off the coast or risk being buried by landslides in the huge mining pits visible in turquoise in the satellite image
 				<Citation {bib} citekey="Hodal2012">
 					(Hodal 2012).
 				</Citation>
-				Tin mined under dangerous conditions with little regulatory oversight passes through a "shadow network"
-				of distributors that "hides behind official companies"
+				Tin extracted under these dangerous conditions passes through a "shadow network" of distributors that "hides behind official companies"
 				<Citation {bib} citekey="Nugraha and Purwanto2020">
 					(Nugraha and Purwanto 2020).
 				</Citation>
-				Despite the establishment of the Tin Working Group in 2014 by electronics manufacturers and various NGOs
-				to promote fair labor practices and supply chain accountability
+				Despite efforts by electronics manufacturers and NGOs to promote fair labor practices and supply chain accountability, including the establishment of the Tin Working Group in 2014, 
 				<Citation {bib} citekey="Diprose et al.2022">
 					Diprose et al. (2022)
 				</Citation>
-				conclude that the group's interventions "make small contributions to narrowly defined regulatory 'problems',
-				while failing to curtail patterns of environmental and social harm."
+				conclude that such interventions "make small contributions to narrowly defined regulatory 'problems,' while failing to curtail patterns of environmental and social harm." 
 			</Exhibit>
 			<Exhibit exhibit={exhibits['extract'][3]}>
-				Tantalum, an element used in the electrolytic capacitors that are crucial for microelectronics production,
-				is derived almost entirely from coltan ore mined in the DRC
+				Tantalum, an element used in the electrolytic capacitors that are crucial for microelectronics production, is derived almost exclusively from coltan ore mined in the DRC
 				<Citation {bib} citekey="Taffel2015">
 					(Taffel 2015).
 				</Citation>
-				The Bibatama Mining Concession at Rubaya is one of many sites where coltan is illegally extracted and laundered
-				into the global supply chain, enabled by widespread corruption and political instability. Lack of transportation
-				infrastructure makes regulation extremely difficult, encouraging smuggling and diverting profits away from
-				local communities and into the hands of corrupt officials and foreign corporations
-				<Citation {bib} citekey="Whyit’s2021">
-					(<i>The Economist</i> 2021).
-				</Citation>
-				Multinational mining groups surreptitiously purchase and fraudulently certify illegal coltan, meaning that "end
-				users cannot be certain about the origins of the tantalum elements in their electronic devices"
+				The Bibatama Mining Concession at Rubaya is one of many sites where coltan is illegally extracted and laundered into the global supply chain. Multinational mining groups surreptitiously purchase and fraudulently certify illegal coltan, meaning that "end users cannot be certain about the origins of the tantalum elements in their electronic devices"
 				<Citation {bib} citekey="Ojewale2022">
 					(Ojewale 2022).
 				</Citation>
-				NVIDIA, a major supplier of GPUs, claimed in its
+				This uncertainty is often reflected in statements by AI device manufacturers. NVIDIA, the world's largest supplier of GPUs, claimed in
 				<Citation {bib} citekey="NVIDIA Corporation2023">
-					2023 Conflict Minerals Report
+					its 2023 Conflict Minerals Report
 				</Citation>  
-				that 97% of processing facilities in its supply chain were RMAP-compliant—
-				but the report includes only the information disclosed by direct suppliers.
-				An 
+				that 97% of processing facilities in its supply chain were compliant with the Responsible Minerals Assurance Process—but the report includes only the information disclosed by direct suppliers.
 				<Citation {bib} citekey="NVIDIA Corporation2014">
-					earlier SEC filing
+					An earlier SEC filing
 				</Citation>
-				shows that a majority of suppliers reported unknown countries of origin; later filings
-				do not provide any information about the proportion of suppliers reporting.
-				As companies struggle to account for the origin of their coltan, fighting over the
-				valuable deposits in North Kivu continues: the Rwanda-affiliated M23 rebel group
-				siezed control of Rubaya in May of 2024 and continues to threaten the nearby provincial
-				capital of Goma
+				shows that a majority of suppliers reported unknown countries of origin; since 2014, NVIDIA has not provided any information about the proportion of suppliers reporting. As reporting in
+				<Citation {bib} citekey="Whyit’s2021">
+					(<i>The Economist</i> 2021).
+				</Citation>
+				notes, difficulties in regulating coltan mining are worsened by long-standing issues like the lack of consistent transportation and communication infrastructure in many parts of the DRC. Such difficulties are further exacerbated by frequent military conflict. In May of 2024, the Rwanda-afilliated M23 rebel group siezed control of Rubaya and threatens the rest of the mineral-rich North Kivu province—promising further opacity in coltan sourcing, considering Rwanda's role in smuggling and exporting
 				<Citation {bib} citekey="Malkia and Banchereau2024">
 					(Malkia and Banchereau 2024).
 				</Citation>
