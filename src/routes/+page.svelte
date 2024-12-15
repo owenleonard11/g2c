@@ -284,14 +284,71 @@
 		{:else if layer == Layer.Transport}
 		<ExhibitCarousel exhibits={exhibits['transport']}>
 			<Exhibit exhibit={exhibits['transport'][0]}>
-				Because of its proximity to the Nanzi Export Processing Zone, home to several important
-				semiconductor foundries, the Port of Kaohsiung is a major hub for the distribution of the microchips
-				that are eventually used to train AI systems. In 2020,
+				Because of its proximity to the Nanzi Export Processing Zone, home to several important semiconductor foundries, the Port of Kaohsung is a major hub for the distribution of the microchips that are eventually used to train AI systems. In 2020,
 				<Citation {bib} citekey="Yang and Ge2020">
 					an investigation by Taiwanese and Chinese researchers
 				</Citation>
-				found that harbor operations at Kaohsiung are threatened by rising sea levels and more intense typhoon seasons—an 
-				instance in which the climate impact of AI endangers the very infrastructure that makes it possible. 
+				found that harbor operations at Kaohsiung are threatened by rising sea levels and more intense typhoon seasons associated with climate change. Benjamin Bratton 
+				<Citation {bib} citekey="Bratton2015">
+					Benjamin Bratton (2015)
+				</Citation>
+				has described this as the "ouroboural" nature of planetary-scale computation: like the snake eating its own tail, the climate impact of AI endangers the very infrastructure that makes it possible. Bratton warns that AI is locked in a "race against its own physics" as promises to help mitigate global warming
+				<Citation {bib} citekey="Zehner and Ullrich2024">
+					(Zehner and Ullrich 2024)
+				</Citation>
+				compete with the massive energy requirements of fabrication and computation
+				<Citation {bib} citekey="CleanClicks2024">
+					(Stand.earth 2024).
+				</Citation>
+				Whether or not AI can deliver on these promises might depend on the fate of vulnerable infrastructure like the Port of Kaohsiung.
+			</Exhibit>
+			<Exhibit exhibit={exhibits['transport'][1]}>
+				Although the Panama Canal might seem somewhat out of place in a gallery of AI infrastructure, the importance of transpacific shipping to global technology supply chains has carved out a key role for the century-old waterway. The Panama Canal handles almost half of all container traffic between the Eastern United States and Northeast Asia
+				<Citation {bib} citekey="Rojanasakul2024">
+					(Rojanasakul 2024),
+				</Citation>
+				including imports and exports of critical AI materials. Electronics-grade silicon manufactured near Mobile, Alabama
+				<Citation {bib} citekey="Koerner2017">
+					(Koerner 2017)
+				</Citation>
+				is shipped to manufacturers in China, Vietnam, and Taiwan
+				<Citation {bib} citekey="Silicon,>99.99%">
+					(OEC).
+				</Citation>
+				Finished processors are then shipped back to the U.S., many of them destined for use in East Coast data centers. Without the continued flow of container ships through the canal, this bidirectional trade would be prohibitively slow and expensive. After a drought in early 2024 forced authorities to limit passages, consultants at
+				<Citation {bib} citekey="FourKey2024">
+					Gallagher (2024)
+				</Citation>
+				identified water levels in the Panama canal as a major threat to global semiconductor supply chains. As one of the oldest sites presented here, the history of the canal might offer some insight into the futures of other AI infrastructures—which are likely to involve similar conflicts over colonial power, labor abuses, and displacement of local populations. Much of the canal's complex history is recounted capably by Ashley Carse in
+				<Citation {bib} citekey="Carse2014">
+					her 2014 book <em>Beyond the Big Ditch</em>.
+				</Citation>
+			</Exhibit>
+			<Exhibit exhibit={exhibits['transport'][2]}>
+				With the possibility of an AI-driven chip shortage looming
+				<Citation {bib} citekey="Hanbury et al.2024">
+					(Habury et al. 2024),
+				</Citation>
+				the scramble for processors has sometimes displaced slower overseas and overland shipping in favor of air transport. As reported by logistics industry publication *The Loadstar*, semiconductors alone account for 65% of airfreight volume from Taiwan—with nearly half a million tons of semiconductor cargo leaving Taoyuan in just the first three months of 2024
+				<Citation {bib} citekey="Goldstone2024">
+					(Goldstone 2024).
+				</Citation>
+				Major logistics firms, including
+				<Citation {bib} citekey="Taiwan'sStrategic2024">
+					Dimerco (2024)
+				</Citation>
+				and
+				<Citation {bib} citekey="DHLSupply2022">
+					DHL (2022),
+				</Citation>
+				have established large-scale operations at Taoyuan. Given the vulnerability of maritime shipping infrastructures to climate change (see Port of Koahsiung and the Panama Canal) and geopolitical instability (see e.g.
+				<Citation {bib} citekey="Mills2024">
+					Mills 2024),
+				</Citation>
+				airfreight will likely play an even larger role in the future of artificial intelligence—despite its much higher carbon emissions when compared to other modes of transportation
+				<Citation {bib} citekey="Kleijn et al.2021">
+					(Kleijn et al. 2021).
+				</Citation>
 			</Exhibit>
 		</ExhibitCarousel>
 		{:else if layer == Layer.Produce}
@@ -350,7 +407,7 @@
 			</Exhibit>
 			<Exhibit exhibit={exhibits['produce'][2]}>
 				Intended largely to maintain competitiveness in artificial intelligence by protecting against Chinese supply chain dominance, the
-				<Citation {bib} citekey="FACTSHEET2022">
+				<Citation {bib} citekey="FACTSHEET:2022">
 					2022 CHIPS and Science Act
 				</Citation>
 				promised $52.7 billion in funding for domestic chip production in the United States. Intel, one of the largest beneficiaries, recently announced a massive $20 billion expansion to their Ocotillo manufacturing campus 

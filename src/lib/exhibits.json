@@ -60,6 +60,20 @@
             "loc"  : "Kaohsiung City, Taiwan",
             "alt"  : "Satellite view of a busy cargo port",
             "desc" : "Kaohsiung Port in southern Taiwan, screenshot from Google Earth"
+        },
+        {
+            "id"   : "panama-canal",
+            "title": "Panama Canal",
+            "loc"  : "Isthmus of Panama",
+            "alt"  : "Satellite view of the Isthmus of Panama, with the canal visible in the center",
+            "desc" : "Isthmus of Panama, screenshot from Google Earth"
+        },
+        {
+            "id"   : "taoyuan-airport",
+            "title": "Taoyuan International Airport",
+            "loc"  : "Dayuan, Taoyuan, Taiwan",
+            "alt"  : "Satellite view of a Taiwanese airport with hangars and runways",
+            "desc" : "Taoyuan International Airport, screenshot from Google Earth"
         }
     ]
 }
