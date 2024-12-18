@@ -106,15 +106,98 @@
 			</LayerSummary>
 			{:else if layer == Layer.Train}
 			<LayerSummary heading="Layer 6: Training">
-
+				<SummaryParagraph>
+					Even the most advanced models still require data to be manually classified and sorted, whether to build out training sets or to avoid generating harmful images and text. This labor-intensive process relies on further infrastructure to recruit and organize AI trainers: the underpaid and precarious workers who label millions of images for use by autonomous vehicles
+					<Citation {bib} citekey="Schmidt2022">
+						(Schmidt 2022)
+					</Citation>
+					or sift through violent content to improve social media moderation algorithms
+					<Citation {bib} citekey="Roberts2021">
+						(Roberts 2021).
+					</Citation>
+					Such "clickworkers," "crowdworkers," or "Mechanical Turks" are often intentionally made invisble by AI firms intent on presenting a high-tech, fully-automated image—a phenomenon that
+					<Citation {bib} citekey="Taylor2018">
+						Astra Taylor (2018)
+					</Citation>
+					has called "fauxtomation" and
+					<Citation {bib} citekey="Sadowski2022">
+						Jathan Sadowski (2022)
+					</Citation>
+					has called "Potemkin AI." 
+				</SummaryParagraph>
+				<SummaryParagraph>
+					Describing the new "planetary labor market" of digital microwork,
+					<Citation {bib} citekey="Graham and Ferrari2022">
+						Graham and Ferrari (2022)
+					</Citation>
+					note "the sobering reality of their \[digital technologies'\] reliance on the labor of distant workers"—an observation that could equally by applied to any layer of the AI stack. The lesson of the training layer is that no amount of infrastructure, even the earth-spanning network surveyed here, is sufficient to produce a meaningfully "artificial" intelligence. Human labor is involved, top-to-bottom: from cobalt mining to image classification, the raw materials of computational intelligence are produced by human workers at specific sites. The final step in the AI supply chain, the hand-labelling of training data, is no exception.
+				</SummaryParagraph>
 			</LayerSummary>
 			{:else if layer == Layer.Compute}
 			<LayerSummary heading="Layer 5: Computation">
-
+				<SummaryParagraph>
+					Training modern AI systems requires lots of data and lots of computation—reflecting a dominant, though flawed, belief that "bigger is better"
+					<Citation {bib} citekey="Dobbe and Whittaker2019">
+						(Dobbe and Whittaker 2019).
+					</Citation>
+					One of the first efforts to footprint the energy use of contemporary architectures was undertaken by
+					<Citation {bib} citekey="Strubell et al.2020">
+						Strubell et al. 2020
+					</Citation>
+					who concluded that compute and energy requirements for the largest models were far outpacing hardware improvements. Generative models designed to respond dynamically to user prompts are even more resource-intensive to train.
+					<Citation {bib} citekey="Luccioni et al.2024">
+						Luccioni et al. (2024)
+					</Citation>
+					have shown that the shift towards general-purpose rather than task-specific models has incurred exponentially higher energy costs. While
+					<Citation {bib} citekey="MIT Technology Review Insights2023">
+						MIT Technology Review Insights (2023)
+					</Citation>
+					notes that "efficiency gains have moderated the increase" in computational energy use, the inverse is equally true: resource-hungry AI models have effectively reversed the energy savings promised by more efficient processors.
+				</SummaryParagraph>
+				<SummaryParagraph>
+					Although the nature of cloud computing makes it difficult to say exactly *where* AI models are trained, large-scale commercial models likely distribute their computation requirements across data centers and specialized supercomputers owned by cloud providers like Microsoft, Google, and Meta
+					<Citation {bib} citekey="Bobrowsky and Berber2024">
+						(Bobrowsky and Berber 2024).
+					</Citation>
+					Comparing these sites to those of the Extract and Produce layers illustrates the differential economic incentives that guide infrastructural development. Mining and fabrication facilities are located to take advantage of lax environmental and labor protections, often in the Global South, whereas compute facilities are located to take advantage of cheap energy and high-speed fiber availability, often in Scandinavia and the United States
+					<Citation {bib} citekey="Velkova2024">
+						(Velkova 2024).
+					</Citation>
+					While the former takes advantage of infrastructural instability in the form regulatory vacuums that allow harmful but profitable practices to flourish, the latter takes advantage of infrastructural stability that ensures reliable access to electricity and communications networks.
+				</SummaryParagraph>
 			</LayerSummary>
+
 			{:else if layer == Layer.Connect}
 			<LayerSummary heading="Layer 4: Connection">
-
+				<SummaryParagraph>
+					Parallel to the global shipping lanes used to transport the solid materials of AI systems, planetary-scale computation requires an equally global infrastructure for the transmission of data. Text and images are scraped from across the world wide web (see
+					<Citation {bib} citekey="Crawford and Paglen2019">
+						Crawford and Paglen 2019),
+					</Citation>
+					collected and centralized for model training, then disseminated again to end users through various APIs and interfaces. This network of transmission relies on a physical subtrate that is no less material than cargo ships and canals. "Place, proximity, and positionalities will never be fully transcended," write
+					<Citation {bib} citekey="Graham and Ferrari2022">
+						Mark Graham and Fabian Ferrari (2022).
+					</Citation>
+					"Even digital data must be transmitted over physical infrastructure and will reside in a physical server, which will sit in a particular place and jurisdiction." With next-generation models demanding wider sourcing of data
+					<Citation {bib} citekey="Muennighoff et al.2023">
+						(Muennighoff et al. 2023),
+					</Citation>
+					the infrastructural politics of connectivity have become inseparable from the development of artificial intelligence.
+				</SummaryParagraph>
+				<SummaryParagraph>
+					As scholars of media infrastructure have noted, these politics are often marked by inequality. So-called "dark fiber" networks run through rural neighborhoods without offering access to residents 
+					<Citation {bib} citekey="Halegoua2016">
+						(Halegoua 2016),
+					</Citation>
+					and Norwegian towns remain cut off from high-speed internet even as nearby "hyperscale" data centers send and receive huge amounts of information
+					<Citation {bib} citekey="Mayer and Velkova2023">
+						(Mayer and Velkova 2023).
+					</Citation>
+					<Citation {bib} citekey="Holt2024">
+						Jennifer Holt (2024)
+					</Citation>
+					notes the absence of universal service mandates for broadband in the United States—a policy choice that, together with the ephemeral, high-speed nature of data transmission, allows communications networks to bypass populations considered unprofitable or undeserving. Such populations are then excluded both from the development of AI, since they are underrepresented in training data, and from its possible benefits, since they lack access to digital delivery mechanisms.
+				</SummaryParagraph>
 			</LayerSummary>
 			{:else if layer == Layer.Transport}
 			<LayerSummary heading="Layer 3: Transportation">
