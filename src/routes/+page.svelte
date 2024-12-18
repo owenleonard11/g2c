@@ -130,7 +130,7 @@
 					<Citation {bib} citekey="Graham and Ferrari2022">
 						Graham and Ferrari (2022)
 					</Citation>
-					note "the sobering reality of their \[digital technologies'\] reliance on the labor of distant workers"—an observation that could equally by applied to any layer of the AI stack. The lesson of the training layer is that no amount of infrastructure, even the earth-spanning network surveyed here, is sufficient to produce a meaningfully "artificial" intelligence. Human labor is involved, top-to-bottom: from cobalt mining to image classification, the raw materials of computational intelligence are produced by human workers at specific sites. The final step in the AI supply chain, the hand-labelling of training data, is no exception.
+					note "the sobering reality of their [digital technologies'] reliance on the labor of distant workers"—an observation that could equally be applied to any layer of the AI stack. The lesson of the training layer is that no amount of infrastructure, even the earth-spanning network surveyed here, is sufficient to produce a meaningfully "artificial" intelligence. Human labor is involved, top-to-bottom: from cobalt mining to image classification, the raw materials of computational intelligence are produced by human workers at specific sites. The final step in the AI supply chain, the hand-labelling of training data, is no exception.
 				</SummaryParagraph>
 			</LayerSummary>
 			{:else if layer == Layer.Compute}
@@ -142,7 +142,7 @@
 					</Citation>
 					One of the first efforts to footprint the energy use of contemporary architectures was undertaken by
 					<Citation {bib} citekey="Strubell et al.2020">
-						Strubell et al. 2020
+						Strubell et al. 2020,
 					</Citation>
 					who concluded that compute and energy requirements for the largest models were far outpacing hardware improvements. Generative models designed to respond dynamically to user prompts are even more resource-intensive to train.
 					<Citation {bib} citekey="Luccioni et al.2024">
@@ -155,7 +155,7 @@
 					notes that "efficiency gains have moderated the increase" in computational energy use, the inverse is equally true: resource-hungry AI models have effectively reversed the energy savings promised by more efficient processors.
 				</SummaryParagraph>
 				<SummaryParagraph>
-					Although the nature of cloud computing makes it difficult to say exactly *where* AI models are trained, large-scale commercial models likely distribute their computation requirements across data centers and specialized supercomputers owned by cloud providers like Microsoft, Google, and Meta
+					Although the nature of cloud computing makes it difficult to say exactly <em>where</em> AI models are trained, large-scale commercial models likely distribute their computation requirements across data centers and specialized supercomputers owned by cloud providers like Microsoft, Google, and Meta
 					<Citation {bib} citekey="Bobrowsky and Berber2024">
 						(Bobrowsky and Berber 2024).
 					</Citation>
@@ -412,7 +412,7 @@
 				<Citation {bib} citekey="Hanbury et al.2024">
 					(Habury et al. 2024),
 				</Citation>
-				the scramble for processors has sometimes displaced slower overseas and overland shipping in favor of air transport. As reported by logistics industry publication *The Loadstar*, semiconductors alone account for 65% of airfreight volume from Taiwan—with nearly half a million tons of semiconductor cargo leaving Taoyuan in just the first three months of 2024
+				the scramble for processors has sometimes displaced slower overseas and overland shipping in favor of air transport. As reported by logistics industry publication <em>The Loadstar</em>, semiconductors alone account for 65% of airfreight volume from Taiwan—with nearly half a million tons of semiconductor cargo leaving Taoyuan in just the first three months of 2024
 				<Citation {bib} citekey="Goldstone2024">
 					(Goldstone 2024).
 				</Citation>
