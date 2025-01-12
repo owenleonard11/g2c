@@ -1,25 +1,13 @@
 <script lang="ts">
-    import type { ZoteroBib } from "$lib/utils";
-    import { onMount } from "svelte";
     enum xDirection { Auto, Left, Center, Right }
     enum yDirection { Auto, Up, Middle, Down }
 
-    export let bib:     Promise<ZoteroBib>;
-    export let citekey: string    = "";
+    export let citation: string    = '';
     export let xDir:    xDirection = xDirection.Center;
     export let yDir:    yDirection = yDirection.Auto;
 
     let showCitation = false;
-    let citation = '';
     let citationUrl = '';
-    let citationId = '';
-    onMount( () =>
-        bib.then(bib => { 
-            citationId = bib.citeMap.get(citekey) || ''
-            citationUrl = `https://www.zotero.org/groups/${bib.groupId}/${bib.groupName}/items/${citationId}/library`
-            bib.getCitationByCitekey(citekey).then(citekey => { citation = citekey; }) 
-        })
-    )
 
     let windowWidth: number;
     let windowHeight: number;
@@ -63,11 +51,7 @@
     class="{showCitation ? "" : "hidden"} bg-[#9cbeaf] absolute top-0 p-2 text-sm w-[24dvw] text-left"
     style="{positionStyle}"
 >     
-    {#if citation}
-        {@html citation}
-    {:else}
-        Loading citation...
-    {/if}
+    {@html citation}
 </div>
 
 <a 
