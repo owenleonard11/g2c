@@ -7,7 +7,7 @@
     export let yDir:    yDirection = yDirection.Auto;
 
     let showCitation = false;
-    let citationUrl = 'https://www.zotero.org/groups/5766383/g2c';
+    let citationUrl = 'https://www.zotero.org/groups/5766383/g2c/library';
 
     let windowWidth: number;
     let windowHeight: number;
