@@ -1,6 +1,8 @@
 <script lang="ts">
     import '@fortawesome/fontawesome-free/css/all.min.css'
     import type { exhibit } from '$lib/utils.ts'
+    import { page } from '$app/stores';
+	import { onMount } from 'svelte';
 
     export let exhibits: exhibit[];
 
@@ -18,6 +20,14 @@
         carouselDiv.scroll(carouselDiv.clientWidth * i, 0);
         selected = i;
     }
+
+    onMount(() => {
+		let layerParam = $page.url.searchParams.get('exhibit')
+		if (layerParam && parseInt(layerParam) && 0 <= parseInt(layerParam) && parseInt(layerParam) <= exhibits.length) {
+			selected = parseInt(layerParam);
+            carouselToIndex(selected)
+		}
+	})
 </script>
 
 <div class="h-[92dvh] my-[4dvh] mx-4">
