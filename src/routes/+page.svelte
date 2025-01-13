@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+
 	import bib from '../lib/bib.json'
 	import { slide } from 'svelte/transition';
 	
@@ -23,6 +26,13 @@
 	let layer = Layer.Home; let showMenu = true;
 	currentLayer.subscribe((value) => layer = value);
 	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
+
+	onMount(() => {
+		let layerParam = $page.url.searchParams.get('layer')
+		if (layerParam && parseInt(layerParam) && 0 <= parseInt(layerParam) && parseInt(layerParam) <= 6) {
+			currentLayer.set(parseInt(layerParam));
+		}
+	})
 </script>
 
 <svelte:head>
