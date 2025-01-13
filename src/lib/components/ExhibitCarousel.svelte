@@ -7,14 +7,12 @@
     let carouselDiv: HTMLDivElement
     let selected: number = 0;
     let carouselLeft = () => {
-        const x = carouselDiv.scrollLeft == 0 ? carouselDiv.clientWidth * carouselDiv.childElementCount : carouselDiv.scrollLeft - carouselDiv.clientWidth;
-        carouselDiv.scroll(x, 0);
         selected = selected ? selected - 1 : exhibits.length - 1;
+        carouselToIndex(selected);
     }
     let carouselRight = () => {
-        const x = carouselDiv.scrollLeft == carouselDiv.scrollWidth - carouselDiv.clientWidth ? 0 : carouselDiv.scrollLeft + carouselDiv.clientWidth;
-        carouselDiv.scroll(x, 0);
         selected = (selected + 1) % exhibits.length;
+        carouselToIndex(selected);
     }
     let carouselToIndex = (i: number) => {
         carouselDiv.scroll(carouselDiv.clientWidth * i, 0);

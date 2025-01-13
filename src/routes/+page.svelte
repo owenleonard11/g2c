@@ -9,7 +9,7 @@
 	import * as exhibits from '$lib/exhibits.json'
 
 	import { currentLayer } from "$lib/../stores";
-	import { buildZoteroBib, Layer } from '$lib/utils';
+	import { Layer } from '$lib/utils';
 
 	import LayerCard from "$lib/components/LayerCard.svelte";
     import LayerSummary from '$lib/components/LayerSummary.svelte';
