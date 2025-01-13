@@ -1,5 +1,7 @@
 from requests import get
+from requests import exceptions
 from json import dump
+from time import sleep
 
 API_URL = 'https://api.zotero.org/groups/5766383/items'
 CITATION_OPTIONS = {
@@ -12,9 +14,10 @@ CITATION_OPTIONS = {
 citemap: dict[str, str] = {}
 
 items_remain = True
+offset = 0
 while(items_remain):
-    offset = 0
-    json = get(API_URL, params={'limit': '100', 'start': str(offset)}).json()
+
+    json = get(API_URL, params={'sort': 'creator', 'limit': '100', 'start': str(offset)}).json()
     for item in json:
         meta, data = item['meta'], item['data']
         citekey_first = meta.get('creatorSummary', 0) or ' '.join(data['title'].split(' ')[0:2])
@@ -31,7 +34,16 @@ while(items_remain):
 # get full citations
 bib: dict[str, str] = {}
 for citekey, key in citemap.items():
-    bib[citekey] = get(f'{API_URL}/{key}', CITATION_OPTIONS).json()['citation']
+    try:
+        response =  get(f'{API_URL}/{key}', CITATION_OPTIONS)
+        response.raise_for_status()
+        bib[citekey] = response.json()['citation']
+    except exceptions.RequestException as e:
+        print(f'citekey: {citekey}, key: {key}, url: {API_URL}/{key}\n')
+        print(f'Request failed: {e}')
+        if response:
+            print(f'Response content: {response.text}')
+    sleep(1)
 
 # write to bib.json
 with open('src/lib/bib.json', 'w', encoding='utf-8') as fp:
