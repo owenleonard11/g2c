@@ -75,5 +75,47 @@
             "alt"  : "Satellite view of a Taiwanese airport with hangars and runways",
             "desc" : "Taoyuan International Airport, screenshot from Google Earth"
         }
+    ],
+    "connect": [
+        {
+            "id"   : "vandenberg-space",
+            "title": "Vandenberg Space Force Base",
+            "loc"  : "California, United States",
+            "alt"  : "Satellite view of a satellite launch site and roads on brush-like terrain",
+            "desc" : "Vandenberg Space Force Base, screenshot from Google Earth"
+        },
+        {
+            "id"   : "jersey-fiber",
+            "title": "New Jersey Fiber Exchange",
+            "loc"  : "New Jersey, United States",
+            "alt"  : "Satellite view of a warehouse building surrounded by roads and trees",
+            "desc" : "NJFX Cable Landing Site, screenshot from Google Earth"
+        }
+    ],
+    "compute": [
+        {
+            "id"   : "nsa-utah",
+            "title": "NSA Utah Data Center",
+            "loc"  : "Utah, United States",
+            "alt"  : "Satellite view of an array of warehouse buildings in a desert",
+            "desc" : "NSA Data Center in Bluffdale, Utah, screenshot from Google Earth"
+        },
+        {
+            "id"   : "google-hamina",
+            "title": "Google Hamina Data Center",
+            "loc"  : "Hamina, Finland",
+            "alt"  : "Satellite view of an array of warehouse buildings next to a purple-toned river",
+            "desc" : "Google Data Center in Hamina, Finland, screenshot from Google Earth"
+        },
+        {
+            "id"   : "three-mile",
+            "title": "Three Mile Island",
+            "loc"  : "Pennsylvania, United States",
+            "alt"  : "Satellite view of two narrow islands in a river",
+            "desc" : "Three Mile Island in Londonberry Township, PA, screenshot from Google Earth"
+        }
+    ],
+    "train": [
+
     ]
 }
