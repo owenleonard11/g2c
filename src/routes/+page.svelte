@@ -9,6 +9,7 @@
 	import favicon from '$lib/images/favicon.svg';
 	import zotero from '$lib/images/zotero.svg';
 	import github from '$lib/images/github.svg';
+	import rotate_device from '$lib/images/rotate_device.svg';
 	import * as exhibits from '$lib/exhibits.json'
 
 	import { currentLayer } from "$lib/../stores";
@@ -22,6 +23,9 @@
     import ExhibitCarousel from '$lib/components/ExhibitCarousel.svelte';
 
 	const LAYER_NAMES  = ['Home', 'Extract', 'Produce', 'Transport', 'Connect', 'Compute', 'Train'];
+
+	let windowWidth: number;
+    let windowHeight: number;
 	
 	let layer = Layer.Home; let showMenu = true;
 	currentLayer.subscribe((value) => layer = value);
@@ -39,7 +43,23 @@
 	<title>{'G2C - ' + LAYER_NAMES[layer]}</title>
 </svelte:head>
 
-<div class="flex flex-row justify-start h-lvh bg-[#111928]">
+<svelte:window bind:innerWidth={windowWidth} bind:innerHeight={windowHeight} />
+
+{#if windowHeight > windowWidth}
+	<div class="h-[90lvh] w-[90dvw] bg-[#111928] absolute z-50 rounded-xl left-[5dvw] top-[5dvh]">
+		<div class="my-2 md:my-8">
+			<img src={rotate_device} alt="" class="h-[60dvh] w-[60dvw] mx-auto"/>
+			<p class="text-center text-2xl md:text-3xl">
+				G2C is designed to be viewed in landscape orientation.
+			</p>
+			<p class="text-center text-2xl md:text-3xl">
+				Please rotate your device.
+			</p>
+		</div>
+	</div>
+{/if}
+
+<div class="flex flex-row justify-start h-lvh bg-[#111928] {windowHeight > windowWidth ? 'opacity-30' : ''}">
 	<div class="flex flex-col">
 		<div class="h-[10dvh] w-[40dvh] flex flex-row items-center">
 			<div class="bg-[#a56b47] h-0.5 md:h-1 w-full rounded-r-xl mr-2"/>
