@@ -408,20 +408,62 @@
 			</Exhibit>
 		</ExhibitCarousel>
 		{:else if layer == Layer.Connect}
-		<div class="h-[92dvh] my-[4dvh]">
-			<div class="max-h-[82.8dvh] mx-8">
-				<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
-					{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
-						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
-					{/await} 
-					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-						<div class="xl:text-lg max-h-full">
-							Exhibits coming soon.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<ExhibitCarousel exhibits={exhibits['connect']}>
+			<Exhibit exhibit={exhibits['connect'][0]}>
+				Although most AI-related data transmission uses terrestrial internet connections, important applications like autonomous vehicles
+				<Citation citation={bib['Ma et al. 2020']}>
+					(Ma et al. 2020)
+				</Citation>
+				and surveillance software
+				<Citation citation={bib['Fontes et al. 2022']}>
+					(Fontes et al. 2022)
+				</Citation>
+				rely on GPS for geolocation. Demand for real-time spatial data is likely to increase as hype around so-called "agentic AI"
+				<Citation citation={bib['Purdy 2024']}>
+					(Purdy 2024)
+				</Citation>
+				shifts the focus from pretrained generative models to decision-making agents requiring up-to-date information. Alongside the location services offered by GPS, the expansion of satellite internet purports to expand the availability of AI and other digital technologies to populations underserved by traditional telecom infrastructure
+				<Citation citation={bib['Graydon and Parks 2020']}>
+					(Graydon and Parks 2020).
+				</Citation>
+				But reliance on satellite networks, especially privately owned constellations, comes with drawbacks. Space Launch Complex 4 East at the Vandenberg Space Force Base, pictured above, is a major launch site for Starlink, a satellite internet provider owned by Elon Musk's SpaceX
+				<Citation citation={bib['Robinson-Smith 2024']}>
+					(Robinson-Smith 2024).
+				</Citation>
+				Despite a history of cooperation with the U.S. military, in 2022 Musk made the apparently unilateral decision to revoke Starlink access from Ukrainian frontline troops in the Russia-Ukraine war
+				<Citation citation={bib['Abels 2024']}>
+					(Abels 2024)—
+				</Citation>
+				a major blow to optimism that satellite internet might precipitate a more equitable or more democratic provisioning of connectivity. Space-based communications technology promises to liberate AI from the concerns of terrestrial infrastructure, but the politics that guide its deployment remain decidedly earthbound.
+			</Exhibit>
+			<Exhibit exhibit={exhibits['connect'][1]}>
+				At the NJFX campus in Wall Township, New Jersey, high-traffic undersea cables providing direct connection to Europe, South America, and the U.S. East Coast make landfall
+				<Citation citation={bib['Service & 2022']}>
+					(NJFX 2022).
+				</Citation>
+				Training AI systems requires global coordination of data and compute resources, and cable landing stations facilitate the the necessary transoceanic communication. "Cables may do the running," claims NJFX promotional material, "but cable landing stations do the heavy lifting"
+				<Citation citation={bib['Yadav 2024']}>
+					(Yadav 2024).
+				</Citation>
+				Both cables and cable landing stations are promising avenues for telecommunications sustainability efforts, as demonstrated by the success of the Sustainable Subsea Networks project 
+				<Citation citation={bib['Starosielski et al. 2023']}>
+					(Starosielski et al. 2023).
+				</Citation>
+				While valuable, such efforts can sometimes exacerbate inequalities in connectivity. As
+				<Citation citation={bib['Starosielski and Bojczuk']}>
+					Starosielski and Bojczuk (2023)
+				</Citation>
+				note, the cheap renewable energy available in the Nordic countries encourages the construction of cable infrastructure across the already heavily-trafficked North Atlantic. Three such cables land at NJFX alone, while only three run between all of South America and Africa. Before the installation of the first South Atlantic subsea cable in 2018, internet traffic between the two continents had to pass through both the U.S. and Europe, facing high latency and traffic costs
+				<Citation citation={bib['Dawn-Hiscox 2018']}>
+					(Dawn-Hiscox 2018)—
+				</Citation>
+				an example of what
+				<Citation citation={bib['Starosielski 2015']}>
+					Nicole Starosielski (2015)
+				</Citation>
+				calls the "differential topographies" of subsea connectivity by which "communities on the periphery of current networks face a disadvantage in a cabled era."
+			</Exhibit>
+		</ExhibitCarousel>
 		{:else if layer == Layer.Transport}
 		<ExhibitCarousel exhibits={exhibits['transport']}>
 			<Exhibit exhibit={exhibits['transport'][0]}>
