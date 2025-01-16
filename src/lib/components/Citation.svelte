@@ -100,7 +100,7 @@
 
 <div bind:clientWidth={citationWidth} bind:clientHeight={citationHeight}
     style="{$positionStyle}; opacity: {showCitation ? 1 : 0}; pointer-events: {showCitation? 'auto' : 'none'}"
-    class="bg-[#9cbeaf] absolute top-0 p-2 text-sm w-[24dvw] text-left"
+    class="bg-[#9cbeaf] absolute top-0 text-xs lg:text-sm p-2 w-[24dvw] text-left"
 >     
     {@html citation}
 </div>
