@@ -577,7 +577,7 @@
 				<Citation citation={bib['DHL Supply 2022']}>
 					DHL (2022),
 				</Citation>
-				have established large-scale operations at Taoyuan. Given the vulnerability of maritime shipping infrastructures to climate change (see Port of Koahsiung and the Panama Canal) and geopolitical instability (see e.g.
+				have established large-scale operations at Taoyuan. Given the vulnerability of maritime shipping infrastructures to climate change and geopolitical instability (see e.g.
 				<Citation citation={bib['Mills 2024']}>
 					Mills 2024),
 				</Citation>
