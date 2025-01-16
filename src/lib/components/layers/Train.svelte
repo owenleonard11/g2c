@@ -12,7 +12,7 @@
    ry="0.1" />
 <text class="animate-text-{animate}"
    xml:space="preserve"
-   style="font-size:33.7767px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';letter-spacing:-0.132292px;word-spacing:-2.38125px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:round"
+   style="font-size:33.7767px;font-family:'DejaVuSerif';-inkscape-font-specification:'DejaVuSerif, Normal';letter-spacing:-0.132292px;word-spacing:-2.38125px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:round"
    x="87.041512"
    y="56.85424"
    id="text1"><tspan

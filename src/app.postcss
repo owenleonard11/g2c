@@ -3,6 +3,11 @@
 @tailwind utilities;
 @tailwind variants;
 
+@font-face {
+    font-family: 'DejaVuSerif';
+    src: url('/fonts/dejavu-serif/DejaVuSerif.ttf');
+}
+
 html,body
 {
     width: 100%;
@@ -11,6 +16,7 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
     overflow-y: hidden;
+    font-family: DejaVuSerif;
 }
 
 .animate-text-forwards  { animation: textForwards  0.25s linear forwards }

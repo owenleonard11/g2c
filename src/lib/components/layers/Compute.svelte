@@ -195,12 +195,12 @@
 <text
    class="animate-text-{animate}"
    xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.7768px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.633318px;word-spacing:-11.3997px;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-dasharray:none"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.7768px;font-family:'DejaVuSerif';-inkscape-font-specification:'DejaVuSerif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.633318px;word-spacing:-11.3997px;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-dasharray:none"
    x="55.790558"
    y="57.974159"
    id="text2"><tspan
    id="tspan2"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.7768px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.7768px;font-family:'DejaVuSerif';-inkscape-font-specification:'DejaVuSerif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
    x="55.790558"
    y="57.974159">compute</tspan></text>
 <path

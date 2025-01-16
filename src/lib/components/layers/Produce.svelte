@@ -25,7 +25,7 @@
 <text
    class="animate-text-{animate}"
    xml:space="preserve"
-   style="font-size:33.7767px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';letter-spacing:-0.132292px;word-spacing:-2.38125px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0"
+   style="font-size:33.7767px;font-family:'DejaVuSerif';-inkscape-font-specification:'DejaVuSerif, Normal';letter-spacing:-0.132292px;word-spacing:-2.38125px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0"
    x="58.559261"
    y="57.662376"
    id="text1"><tspan

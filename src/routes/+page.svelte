@@ -342,7 +342,7 @@
 						<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
 					{/await} 
 					<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-						<div class="xl:text-lg max-h-full">
+						<div class="xl:text-lg max-h-full" style="font-family: DejaVuSerif">
 							Each site is accompanied by a satellite image, courtesy of Google Earth. 
 							Select a layer on the left to start exploring the infrastructures of AI.
 						</div>
