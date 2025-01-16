@@ -30,13 +30,13 @@
 	})
 </script>
 
-<div class="h-[92dvh] my-[4dvh] mx-4">
+<div class="my-[4dvh] mx-4">
     <div class="grid grid-cols-[auto_1fr_auto] gap-4 items-center">
         <button type="button" class="btn-icon bg-[#dcd6cc]" on:click={carouselLeft}>
             <i class="fa-solid fa-arrow-left text-black" />
         </button>
     
-        <div bind:this={carouselDiv} class="snap-x snap-mandatory scroll-smooth flex overflow-x-auto max-h-[82.8dvh] hide-scrollbar">
+        <div bind:this={carouselDiv} class="snap-x snap-mandatory scroll-smooth flex overflow-x-scroll max-h-[82.8dvh] hide-scrollbar">
             <slot />
         </div>
     

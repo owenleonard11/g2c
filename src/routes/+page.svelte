@@ -61,7 +61,7 @@
 	</div>
 {/if}
 
-<div class="flex flex-row justify-start h-lvh bg-[#111928] {windowHeight > windowWidth ? 'opacity-30' : ''}">
+<div class="flex flex-row justify-start h-lvh w-lvw bg-[#111928] {windowHeight > windowWidth ? 'opacity-30' : ''}">
 	<div class="flex flex-col">
 		<div class="h-[10dvh] w-[40dvh] flex flex-row items-center">
 			<div class="bg-[#a56b47] h-0.5 md:h-1 w-full rounded-r-xl mr-2"/>
