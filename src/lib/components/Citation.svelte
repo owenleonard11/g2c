@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { onMount } from "svelte";
     import { writable, type Writable } from "svelte/store";
 
     enum xDirection { Auto, Left, Center, Right }
@@ -15,6 +16,7 @@
     let windowHeight: number;
     let citationWidth: number;
     let citationHeight: number;
+    let anchor: HTMLAnchorElement;
 
     let positionStyle: Writable<string> = writable("")
     const calcPosStyle = (x: number, y: number) => {
@@ -83,20 +85,22 @@
     }
 </script>
 
-<svelte:window bind:innerWidth={windowWidth} bind:innerHeight={windowHeight} />
-
-<div bind:clientWidth={citationWidth} bind:clientHeight={citationHeight} 
-    style="{$positionStyle}; opacity: {showCitation ? 1 : 0}; pointer-events: {showCitation? 'auto' : 'none'}"
-    class="bg-[#9cbeaf] absolute top-0 p-2 text-sm w-[24dvw] text-left"
->     
-    {@html citation}
-</div>
+<svelte:window bind:innerWidth={windowWidth} bind:innerHeight={windowHeight}/>
 
 <a 
     class="bg-[#9cbeaf] rounded-md px-1" href={citationUrl} target="_blank"
+    bind:this={anchor}
+    on:focusin={ () => { let rect = anchor.getBoundingClientRect(); calcPosStyle(rect.x, rect.y); showCitation = true }}
+    on:focusout={() => { showCitation = false }}
     on:mouseenter={(e) => { calcPosStyle(e.clientX, e.clientY); showCitation = true;}}
     on:mouseleave={() => { showCitation = false }}
 >
     <slot />
 </a>
 
+<div bind:clientWidth={citationWidth} bind:clientHeight={citationHeight}
+    style="{$positionStyle}; opacity: {showCitation ? 1 : 0}; pointer-events: {showCitation? 'auto' : 'none'}"
+    class="bg-[#9cbeaf] absolute top-0 p-2 text-sm w-[24dvw] text-left"
+>     
+    {@html citation}
+</div>
