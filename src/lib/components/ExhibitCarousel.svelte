@@ -3,6 +3,7 @@
     import type { exhibit } from '$lib/utils.ts'
     import { page } from '$app/stores';
 	import { onMount } from 'svelte';
+    import { fade } from 'svelte/transition';
 
     export let exhibits: exhibit[];
 
@@ -30,7 +31,7 @@
 	})
 </script>
 
-<div class="my-[4dvh] mx-2 lg:mx-4">
+<div class="my-[4dvh] mx-2 lg:mx-4" transition:fade>
     <div class="grid grid-cols-[auto_1fr_auto] gap-2 lg:gap-4 items-center">
         <button type="button" class="btn-icon bg-[#dcd6cc] w-6 md:w-8 lg:w-12" on:click={carouselLeft}>
             <i class="fa-solid fa-arrow-left text-black text-xs md:text-sm lg:text-md xl:text-lg" />
