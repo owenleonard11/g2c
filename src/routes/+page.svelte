@@ -28,12 +28,14 @@
 
 	let windowWidth: number;
     let windowHeight: number;
-	
+	let show = "summary";
+
+
 	let layer = Layer.Home; let showMenu = true;
 	currentLayer.subscribe((value) => layer = value);
 	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
+	currentLayer.subscribe(() => show = "summary")
 
-	let show = "summary";
 
 	onMount(() => {
 		let layerParam = $page.url.searchParams.get('layer')
