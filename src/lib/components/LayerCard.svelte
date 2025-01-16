@@ -20,7 +20,9 @@
 </script>
 
 <button 
-    class="{ !isCurrentLayer ? "hover:brightness-110" : "z-10" }" 
+    class="{ !isCurrentLayer ? "hover:brightness-110 focus:brightness-110" : "z-10" }" 
+    on:focusin={() => animate = "forwards"} 
+    on:focusout={() => animate = isCurrentLayer ? "forwards" : "backwards"} 
     on:mouseenter={() => animate = "forwards"} 
     on:mouseleave={() => animate = isCurrentLayer ? "forwards" : "backwards"} 
     on:click={() => { currentLayer.update(() => layer)} }

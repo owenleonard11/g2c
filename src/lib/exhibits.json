@@ -90,6 +90,13 @@
             "loc"  : "New Jersey, United States",
             "alt"  : "Satellite view of a warehouse building surrounded by roads and trees",
             "desc" : "NJFX Cable Landing Site, screenshot from Google Earth"
+        },
+        {
+            "id"   : "malaysia-brain",
+            "title": "Malaysia City Brain",
+            "loc"  : "Kuala Lumpur, Malaysia",
+            "alt"  : "Satellite view of a skyscraper casting a shadow in urban surroundings",
+            "desc" : "Kuala Lumpur City Hall, screenshot from Google Earth"
         }
     ],
     "compute": [

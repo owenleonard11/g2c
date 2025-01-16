@@ -3,6 +3,7 @@
     import type { exhibit } from '$lib/utils.ts'
     import { page } from '$app/stores';
 	import { onMount } from 'svelte';
+    import { fade } from 'svelte/transition';
 
     export let exhibits: exhibit[];
 
@@ -30,22 +31,22 @@
 	})
 </script>
 
-<div class="h-[92dvh] my-[4dvh] mx-4">
-    <div class="grid grid-cols-[auto_1fr_auto] gap-4 items-center">
-        <button type="button" class="btn-icon bg-[#dcd6cc]" on:click={carouselLeft}>
-            <i class="fa-solid fa-arrow-left text-black" />
+<div class="my-[4dvh] mx-2 lg:mx-4" transition:fade>
+    <div class="grid grid-cols-[auto_1fr_auto] gap-2 lg:gap-4 items-center">
+        <button type="button" class="btn-icon bg-[#dcd6cc] w-6 md:w-8 lg:w-12" on:click={carouselLeft}>
+            <i class="fa-solid fa-arrow-left text-black text-xs md:text-sm lg:text-md xl:text-lg" />
         </button>
     
-        <div bind:this={carouselDiv} class="snap-x snap-mandatory scroll-smooth flex overflow-x-auto max-h-[82.8dvh] hide-scrollbar">
+        <div bind:this={carouselDiv} class="snap-x snap-mandatory scroll-smooth flex overflow-x-scroll max-h-[82.8dvh] hide-scrollbar">
             <slot />
         </div>
     
-        <button type="button" class="btn-icon bg-[#dcd6cc]" on:click={carouselRight}>
-            <i class="fa-solid fa-arrow-right text-black" />
+        <button type="button" class="btn-icon bg-[#dcd6cc] w-6 md:w-8 lg:w-12" on:click={carouselRight}>
+            <i class="fa-solid fa-arrow-right text-black text-xs md:text-sm lg:text-md xl:text-lg" />
         </button>
     </div>
     
-    <div class="flex flex-row justify-center mt-4 min-h-[9.2dvh] max-h-[9.2dvh]">
+    <div class="flex flex-row justify-center my-2 lg:my-4 min-h-[9.2dvh] max-h-[9.2dvh]">
         {#each exhibits as exhibit, i}
             <button on:click={() => carouselToIndex(i)} class="max-w-[9.2dvh] hover:brightness-125 border-[#dcd6cc]">
                 {#await import(`$lib/images/exhibits/thumbnails/${exhibit.id}.png`) then { default: src }}

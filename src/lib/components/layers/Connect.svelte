@@ -7,7 +7,7 @@
   style="fill:#c49b87;fill-opacity:1;fill-rule:evenodd;stroke-width:4;stroke-linecap:square"
   d="M 256,96 287.99999,47.999999 256,0 Z M 0.1,0 h 255.8 c 0.0554,0 0.1,0.0446 0.1,0.1 v 95.8 c 0,0.0554 -0.0446,0.1 -0.1,0.1 H 0.1 C 0.0446,96 0,95.9554 0,95.9 V 0.1 C 0,0.0446 0.0446,0 0.1,0 Z" /><text
   xml:space="preserve"
-  style="font-size:33.7767px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';letter-spacing:-0.132292px;word-spacing:-2.38125px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.499999"
+  style="font-size:33.7767px;font-family:'DejaVuSerif';-inkscape-font-specification:'DejaVuSerif, Normal';letter-spacing:-0.132292px;word-spacing:-2.38125px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.499999"
   x="60.068329"
   y="54.974094"
   id="text1" class="animate-text-{animate}"><tspan
