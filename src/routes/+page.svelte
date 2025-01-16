@@ -470,7 +470,7 @@
 					(Starosielski et al. 2023).
 				</Citation>
 				While valuable, such efforts can sometimes exacerbate inequalities in connectivity. As
-				<Citation citation={bib['Starosielski and Bojczuk']}>
+				<Citation citation={bib['Starosielski and Bojczuk 2023']}>
 					Starosielski and Bojczuk (2023)
 				</Citation>
 				note, the cheap renewable energy available in the Nordic countries encourages the construction of cable infrastructure across the already heavily-trafficked North Atlantic. Three such cables land at NJFX alone, while only three run between all of South America and Africa. Before the installation of the first South Atlantic subsea cable in 2018, internet traffic between the two continents had to pass through both the U.S. and Europe, facing high latency and traffic costs
@@ -482,6 +482,37 @@
 					Nicole Starosielski (2015)
 				</Citation>
 				calls the "differential topographies" of subsea connectivity by which "communities on the periphery of current networks face a disadvantage in a cabled era."
+			</Exhibit>
+			<Exhibit exhibit={exhibits['connect'][2]}>
+				Connection infrastructure includes not only the long-haul cables that transit data between continents, but also the short-range networks that allow for central analysis and collection of data. Kuala Lumpur City Hall, pictured above, is the hub for Malaysia City Brain—an AI-powered urban monitoring system installed in 2017 by the computing arm of Chinese retailer Alibaba
+				<Citation citation={bib['Willy 2018']}>
+					(Willy 2018).
+				</Citation>
+				Originally implemented in the Chinese city of Hangzhou, the City Brain promises to "improve urban development through the utilisation of machine intelligence" by collecting data from thousands ofcameras, traffic lights, and other sources
+				<Citation citation={bib['Venturous Group 2023']}>
+					(Venturous Group 2023).
+				</Citation>
+				This data-driven approach to governance, which
+				<Citation citation={bib['Han and Hawken 2018']}>
+					Han and Hawken (2018)
+				</Citation>
+				have called "platform urbanism," has raised concerns about surveillance
+				<Citation citation={bib['Beall 2018']}>
+					(Beall 2018)
+				</Citation>
+				and reliance on black-box technologies that discourage civic participation
+				<Citation citation={bib['Caprotti and Liu 2022']}>
+					(Caprotti and Liu 2022).
+				</Citation>
+				Coverage of the City Brain and similar systems often adopts the vocabulary of the extractive industries;
+				<Citation citation={bib['Revell 2017']}>
+					Revell (2017)
+				</Citation>
+				describes the original Hangzhou implementation "slurping up video feeds," and
+				<Citation citation={bib['City Brain 2019']}>
+					Alibaba itself (2019)
+				</Citation>
+				reports "harvesting the intelligence" of the urban environment. As network infrastructure allows the high-speed data transfer that powers AI training and implementations, it also allows for the extraction and centralization of data as a resource—and with it new possibilities for surveillance and control.
 			</Exhibit>
 		</ExhibitCarousel>
 		{:else if layer == Layer.Transport}
