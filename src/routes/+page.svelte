@@ -41,6 +41,8 @@
 
 <svelte:head>
 	<title>{'G2C - ' + LAYER_NAMES[layer]}</title>
+	<meta name="title" content="Ground to Cloud | Artificial Intelligence Infratructure" />
+	<meta name="description" content="Ground to Cloud (G2C) brings together scholarly research and investigative journalism on the vast array of infrastructure that supports contemporary artificial intelligence and machine learning, with a focus on specific sites and forms of labor." />
 </svelte:head>
 
 <svelte:window bind:innerWidth={windowWidth} bind:innerHeight={windowHeight} />
