@@ -25,7 +25,7 @@
     on:focusout={() => animate = isCurrentLayer ? "forwards" : "backwards"} 
     on:mouseenter={() => animate = "forwards"} 
     on:mouseleave={() => animate = isCurrentLayer ? "forwards" : "backwards"} 
-    on:click={() => { currentLayer.update(() => layer)} }
+    on:click={() => { currentLayer.set(layer) }}
 >
     <svg 
         width="256mm" height="96mm" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg" 

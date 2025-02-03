@@ -31,10 +31,6 @@
 	let show = "summary";
 
 	let layer = Layer.Home; let showMenu = true;
-	currentLayer.subscribe((value) => layer = value);
-	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
-	currentLayer.subscribe(() => show = "summary");
-
 	let summaryDiv: HTMLElement;
 
 	onMount(() => {
@@ -43,7 +39,12 @@
 			currentLayer.set(parseInt(layerParam));
 		}
 		
-		currentLayer.subscribe(() => summaryDiv.scrollTop = 0)
+		currentLayer.subscribe((value) => {
+			show = "summary"
+			if (summaryDiv) { summaryDiv.scrollTop = 0 }
+			layer = value
+			showMenu = value == Layer.Home
+		});
 	})
 </script>
 
