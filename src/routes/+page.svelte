@@ -145,6 +145,10 @@
 						<a class="anchor" href="https://www.zotero.org/groups/5766383/g2c" target="_blank" title="G2C on Zotero">Zotero</a>. 
 						The code is open-source and can be viewed on 
 						<a class="anchor" href="https://github.com/owenleonard11/g2c" target="_blank" title="G2C on Github">Github</a>. 
+						Suggested citation for this site:
+						<p class="text-[1.5dvh] ml-2 border-black border-2 p-1">
+							Owen Leonard, "Ground to Cloud: A Gallery of AI Infrastructure" (2025), https://g2c.owenleonard.dev/
+						</p>
 					</SummaryParagraph>
 				</LayerSummary>
 				{:else if layer == Layer.Train}

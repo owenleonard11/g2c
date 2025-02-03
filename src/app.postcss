@@ -26,6 +26,11 @@ html,body
     background-color: black;
 }
 
+::selection 
+{
+    background: #f2e879;
+}
+
 .animate-text-forwards  { animation: textForwards  0.25s linear forwards }
 .animate-text-backwards { animation: textBackwards 0.25s linear forwards }
 @keyframes textForwards { 
@@ -97,8 +102,6 @@ html,body
 .animate-exhibit-bg-Transport { background-color: #9cbeaf; transition: all 1s ease-in-out }
 .animate-exhibit-bg-Produce   { background-color: #c9bf96; transition: all 1s ease-in-out }
 .animate-exhibit-bg-Extract   { background-color: #a56b47; transition: all 1s ease-in-out }
-
-
 
 .hide-scrollbar {
     scrollbar-width: none;
