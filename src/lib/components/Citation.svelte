@@ -25,10 +25,10 @@
         let useYDir: yDirection = yDir;
 
         // check distance to left
-        if (useXDir == xDirection.Left && x - citationWidth < 0.4 * windowHeight) {
+        if (useXDir == xDirection.Left && x - citationWidth < 0.45 * windowHeight) {
             useXDir = xDirection.Center;
         }
-        if (useXDir == xDirection.Center && x - citationWidth / 2 < 0.4 * windowHeight) {
+        if (useXDir == xDirection.Center && x - citationWidth / 2 < 0.45 * windowHeight) {
             useXDir = xDirection.Right;
         }
 

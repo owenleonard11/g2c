@@ -126,7 +126,10 @@
 						Artificial intelligence requires a truly earth-spanning infrastructure, one that collides and overlaps in different ways with older forms of power and sovereignty. My hope is that the exhibits here can offer a point of departure for exploring the kinds of site-specific interactions that result.
 					</SummaryParagraph>
 					<SummaryParagraph>
-						Text <span class="px-1 rounded-md bg-[#9cbeaf]">highlighted in teal</span>
+						Text 
+						<Citation citation="Bibliographic information will appear in a popup. Click to visit the bibliography on Zotero.">
+							highlighted in teal
+						</Citation>
 						indicates a citation; hover to preview and click to see complete bibliographic information on Zotero. 
 						You can return to this page at any time by selecting the 
 						<img src={favicon} alt="Ground to Cloud Favicon" class="inline h-[1.875rem] p-0.5" />
@@ -200,7 +203,7 @@
 						<Citation citation={bib['Velkova 2024']}>
 							(Velkova 2024).
 						</Citation>
-						While the former takes advantage of infrastructural instability in the form regulatory vacuums that allow harmful but profitable practices to flourish, the latter takes advantage of infrastructural stability that ensures reliable access to electricity and communications networks.
+						While the former takes advantage of infrastructural instability in the form of regulatory vacuums that allow harmful but profitable practices to flourish, the latter takes advantage of infrastructural stability that ensures reliable access to electricity and communications networks.
 					</SummaryParagraph>
 				</LayerSummary>
 
@@ -313,7 +316,7 @@
 				{:else if layer == Layer.Extract}
 				<LayerSummary heading="Layer 1: Extraction">
 					<SummaryParagraph>
-						Artificial intelligence begins with what Marzen Labban (2014) 
+						Artificial intelligence begins with what
 						<Citation citation={bib['Labban 2014']}>
 							Marzen Labban (2014)
 						</Citation>
@@ -321,7 +324,7 @@
 						<Citation citation={bib['Hogan and Lepage-Richter 2024']}>
 							Hogan and Lepage-Richer (2024)
 						</Citation>
-						Hogan and Lepage-Richer (2024) remind us that AI "is ultimately a resource-heavy technology reliant on large-scale computing infrastructures." Increasing demand for the latest products and ever-shorter obsolescence cycles have driven the extractive machine into overdrive, as minerals that take millions of years to form are dug up to meet demand that increases daily. "From the perspective of deep time," 
+						Hogan and Lepage-Richer (2024) remind us that AI "is ultimately a resource-heavy technology reliant on large-scale computing infrastructures." Increasing demand for the latest products and ever-shorter obsolescence cycles have pushed the extractive machine into overdrive, as minerals that take millions of years to form are dug up to meet demand that increases daily. "From the perspective of deep time," 
 						<Citation citation={bib['Crawford 2021']}>
 							Kate Crawford (2021)
 						</Citation> 
@@ -431,7 +434,7 @@
 					<Citation citation={bib['Crawford 2021']}>
 						Kate Crawford (2021)
 					</Citation>
-					writes that "the new AI gold rush consists of enclosing different fields of human knowing, feeling, and action... It has become a pillaging of public space." This mad scramble for training data has turned cities and campuses into sites for information extraction, at the expense of personal privacy and informed consent. Anyone who walks by a camera risks being pulled into a planetary network of AI-augmented monitoring and surveillance.
+					writes that "the new AI gold rush consists of enclosing different fields of human knowing, feeling, and action... It has become a pillaging of public space." This scramble for training data has turned cities and campuses into sites for information extraction, at the expense of personal privacy and informed consent—anyone who walks by a camera risks being pulled into a planetary network of AI-augmented monitoring and surveillance.
 				</Exhibit>
 			</ExhibitCarousel>
 			{:else if layer == Layer.Compute}
@@ -441,7 +444,7 @@
 					<Citation citation={bib['Bosco et al. 2024']}>
 						Bosco et al. (2023)
 					</Citation>
-					note that the precise figure is impossible to calculate due to the secrecy of data center operators; Meta, for example, considers its water usage to be a trade secret. Besides resource consumption, the U.S. National Security Agency's data center in Bluffdale, Utah raises another concern: the use of AI to intensify regimes of surveillance. While rarely advertised to individual consumers for obvious reasons, surveillance technology is intimately tied to the history and development of AI.
+					note that the precise figure is impossible to calculate due to the opacity of data center operators; Meta, for example, considers its water usage to be a trade secret. Besides resource consumption, the U.S. National Security Agency's data center in Bluffdale, Utah raises another concern: the use of AI to intensify regimes of surveillance. While rarely advertised to individual consumers for obvious reasons, surveillance technology is intimately tied to the history and development of AI.
 					<Citation citation={bib['Zylinska 2023']}>
 						Joanna Zylinska (2023)
 					</Citation>
@@ -481,9 +484,9 @@
 				<Exhibit exhibit={exhibits['compute'][2]}>
 					Famous as the site of a partial reactor meltdown that permanently altered public perception of nuclear energy in the U.S., Three Mile Island is expected to resume operations in 2028 after a deal with Microsoft. All of the electricity generated by the plant's Unit 1 reactor, enough to power 800,000 homes, will be purchased by the tech giant for use in the data centers that drive its AI efforts
 					<Citation citation={bib['Crownhart 2024']}>
-						(Crownhart 2024)—
+						(Crownhart 2024)
 					</Citation>
-					including the development of consumer products like OpenAI's ChatGPT, for which Microsoft provides the computational infrastructure. The Three Mile Island deal follows an agreement deal with Constellation Energy to provide nuclear power to Microsoft's Boydton, Virginia data center
+					—including the development of consumer products like OpenAI's ChatGPT, for which Microsoft provides the computational infrastructure. The Three Mile Island deal follows an agreement deal with Constellation Energy to provide nuclear power to Microsoft's Boydton, Virginia data center
 					<Citation citation={bib['Judge 2023']}>
 						(Judge 2023)
 					</Citation>
@@ -523,9 +526,9 @@
 					</Citation>
 					Despite a history of cooperation with the U.S. military, in 2022 Musk made the apparently unilateral decision to revoke Starlink access from Ukrainian frontline troops in the Russia-Ukraine war
 					<Citation citation={bib['Abels 2024']}>
-						(Abels 2024)—
+						(Abels 2024)
 					</Citation>
-					a major blow to optimism that satellite internet might precipitate a more equitable or more democratic provisioning of connectivity. Space-based communications technology promises to liberate AI from the concerns of terrestrial infrastructure, but the politics that guide its deployment remain decidedly earthbound.
+					—a major blow to optimism that satellite internet might precipitate a more equitable or more democratic provisioning of connectivity. Space-based communications technology promises to liberate AI from the concerns of terrestrial infrastructure, but the politics that guide its deployment remain decidedly earthbound.
 				</Exhibit>
 				<Exhibit exhibit={exhibits['connect'][1]}>
 					At the NJFX campus in Wall Township, New Jersey, high-traffic undersea cables providing direct connection to Europe, South America, and the U.S. East Coast make landfall
@@ -546,9 +549,9 @@
 					</Citation>
 					note, the cheap renewable energy available in the Nordic countries encourages the construction of cable infrastructure across the already heavily-trafficked North Atlantic. Three such cables land at NJFX alone, while only three run between all of South America and Africa. Before the installation of the first South Atlantic subsea cable in 2018, internet traffic between the two continents had to pass through both the U.S. and Europe, facing high latency and traffic costs
 					<Citation citation={bib['Dawn-Hiscox 2018']}>
-						(Dawn-Hiscox 2018)—
+						(Dawn-Hiscox 2018)
 					</Citation>
-					an example of what
+					—an example of what
 					<Citation citation={bib['Starosielski 2015']}>
 						Nicole Starosielski (2015)
 					</Citation>
@@ -559,7 +562,7 @@
 					<Citation citation={bib['Willy 2018']}>
 						(Willy 2018).
 					</Citation>
-					Originally implemented in the Chinese city of Hangzhou, the City Brain promises to "improve urban development through the utilisation of machine intelligence" by collecting data from thousands ofcameras, traffic lights, and other sources
+					Originally implemented in the Chinese city of Hangzhou, the City Brain promises to "improve urban development through the utilisation of machine intelligence" by collecting data from thousands of cameras, traffic lights, and other sources
 					<Citation citation={bib['Venturous Group 2023']}>
 						(Venturous Group 2023).
 					</Citation>
@@ -635,7 +638,7 @@
 						(Habury et al. 2024),
 					</Citation>
 					the scramble for processors has sometimes displaced slower overseas and overland shipping in favor of air transport. As reported by logistics industry publication <em>The Loadstar</em>, semiconductors alone account for 65% of airfreight volume from Taiwan—with nearly half a million tons of semiconductor cargo leaving Taoyuan in just the first three months of 2024
-					<Citation citation={bib['Hanbury et al. 2024']}>
+					<Citation citation={bib['Goldstone 2024']}>
 						(Goldstone 2024).
 					</Citation>
 					Major logistics firms, including
@@ -673,7 +676,7 @@
 					</Citation>
 					and dangerous levels of atmospheric thorium
 					<Citation citation={bib['Wang et al. 2016']}>
-						Another 2016 survey
+						(Wang et al. 2016).
 					</Citation>
 					With REE demand slated to increase up to sevenfold by 2040
 					<Citation citation={bib['Fatunde 2024']}>
@@ -689,7 +692,7 @@
 					</Citation>
 				</Exhibit>
 				<Exhibit exhibit={exhibits['produce'][1]}>
-					Taiwan Semiconductor Manufacturing Company (TSMC) is by far the largest semiconductor foundry in the world, and its headquarters in Hsinchu is possibly the most important single site for global chip manufacturing. As Charlie Campbell
+					Taiwan Semiconductor Manufacturing Company (TSMC) is by far the largest semiconductor foundry in the world, and its headquarters in Hsinchu is possibly the most important single site for global chip manufacturing. As
 					<Citation citation={bib['Campbell 2021']}>
 						Charlie Campbell (2021)
 					</Citation>
@@ -735,7 +738,7 @@
 					<Citation citation={bib['Calma 2023']}>
 						(Calma 2023).
 					</Citation>
-					As of 2018, Silicon Valley still had the highest concentration of EPA-designated Superfund cites in the U.S. 
+					As of 2018, Silicon Valley still had the highest concentration of EPA-designated Superfund sites in the U.S. 
 					<Citation citation={bib['Nieves 2018']}>
 						(Nieves 2018).
 					</Citation>
@@ -755,7 +758,7 @@
 					</Citation>
 					In a chapter of her 
 					<Citation citation={bib['Kara 2023']}>
-						her 2023 book <i>Cobalt Red</i>
+						her 2023 book <i>Cobalt Red</i>,
 					</Citation> 
 					Siddarth Kara reports extremely hazardous conditions in and around Kolwezi. Miners, some of them children, spend twelve hours or longer in dimly-lit hand-dug tunnels at constant risk of collapse. Attempts by the Congolese government to formalize and regulate cobalt mining have proceeded only haltingly, frustrated by corruption and instability.
 					<Citation citation={bib['Umpula et al. 2021']}>
@@ -830,7 +833,7 @@
 					</Citation>
 					shows that a majority of suppliers reported unknown countries of origin; since 2014, NVIDIA has not provided any information about the proportion of suppliers reporting. As reporting in
 					<Citation citation={bib['Why it’s 2021']}>
-						(<i>The Economist</i> 2021).
+						(<i>The Economist</i> 2021)
 					</Citation>
 					notes, difficulties in regulating coltan mining are worsened by long-standing issues like the lack of consistent transportation and communication infrastructure in many parts of the DRC. Such difficulties are further exacerbated by frequent military conflict. In May of 2024, the Rwanda-afilliated M23 rebel group siezed control of Rubaya and threatens the rest of the mineral-rich North Kivu province—promising further opacity in coltan sourcing, considering Rwanda's role in smuggling and exporting
 					<Citation citation={bib['Malkia and Banchereau 2024']}>
