@@ -1,16 +1,14 @@
 <script lang="ts">
-    import { onMount } from "svelte";
     import { writable, type Writable } from "svelte/store";
 
     enum xDirection { Auto, Left, Center, Right }
     enum yDirection { Auto, Up, Middle, Down }
 
-    export let citation: string    = '';
+    export let citation: string[]    = [];
     export let xDir:    xDirection = xDirection.Center;
     export let yDir:    yDirection = yDirection.Auto;
 
     let showCitation = false;
-    let citationUrl = 'https://www.zotero.org/groups/5766383/g2c/library';
 
     let windowWidth: number;
     let windowHeight: number;
@@ -25,10 +23,10 @@
         let useYDir: yDirection = yDir;
 
         // check distance to left
-        if (useXDir == xDirection.Left && x - citationWidth < 0.4 * windowHeight) {
+        if (useXDir == xDirection.Left && x - citationWidth < 0.45 * windowHeight) {
             useXDir = xDirection.Center;
         }
-        if (useXDir == xDirection.Center && x - citationWidth / 2 < 0.4 * windowHeight) {
+        if (useXDir == xDirection.Center && x - citationWidth / 2 < 0.45 * windowHeight) {
             useXDir = xDirection.Right;
         }
 
@@ -88,7 +86,7 @@
 <svelte:window bind:innerWidth={windowWidth} bind:innerHeight={windowHeight}/>
 
 <a 
-    class="bg-[#9cbeaf] rounded-md px-1" href={citationUrl} target="_blank"
+    class="bg-[#9cbeaf] rounded-md px-1" href={citation[1]} target="_blank"
     bind:this={anchor}
     on:focusin={ () => { let rect = anchor.getBoundingClientRect(); calcPosStyle(rect.x, rect.y); showCitation = true }}
     on:focusout={() => { showCitation = false }}
@@ -100,7 +98,7 @@
 
 <div bind:clientWidth={citationWidth} bind:clientHeight={citationHeight}
     style="{$positionStyle}; opacity: {showCitation ? 1 : 0}; pointer-events: {showCitation? 'auto' : 'none'}"
-    class="bg-[#9cbeaf] absolute top-0 text-xs lg:text-sm p-2 w-[24dvw] text-left"
+    class="bg-[#9cbeaf] absolute top-0 text-[1.5dvh] leading-[2dvh] p-1 lg:p-2 w-[24dvw] text-left"
 >     
-    {@html citation}
+    {@html citation[0]}
 </div>

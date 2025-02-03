@@ -13,12 +13,12 @@
     {:then { default: src }}
         <img {src} {alt} title={desc} class="h-auto w-full rounded-t-md"/>
     {/await} 
-    <div class="text-sm lg:text-base xl:text-lg p-2 lg:p-4 bg-[#dcd6cc] rounded-b-md">
+    <div class="text-[2dvh] leading-[3dvh] p-2 lg:p-4 bg-[#dcd6cc] rounded-b-md">
         <div>
-            <p class="xl:text-xl font-semibold mr-2">{title}</p>
-            <p class="xl:text-lg text-slate-800">{loc}</p>
+            <p class="text-[2.5dvh] leading-[3dvh] font-semibold mr-2">{title}</p>
+            <p class="pt-1 text-slate-800">{loc}</p>
         </div>
-        <div class="pt-2 xl:text-lg max-h-full">
+        <div class="pt-2 max-h-full">
             <slot />
         </div>
     </div>
