@@ -30,7 +30,6 @@
     let windowHeight: number;
 	let show = "summary";
 
-
 	let layer = Layer.Home; let showMenu = true;
 	currentLayer.subscribe((value) => layer = value);
 	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
@@ -99,7 +98,7 @@
 		<LayerCard layer={Layer.Extract}/>
 	</div>
 	{#if windowHeight < 0.65 * windowWidth || show == "summary"}
-		<div class="h-lvh min-w-[33dvw] {windowHeight < 0.65 * windowWidth ? 'max-w-[33dvw]' : ''} bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll" in:fly={{ x: '-x', duration: 1000}}>
+		<div class="h-lvh min-w-[33dvw] {windowHeight < 0.65 * windowWidth ? 'max-w-[33dvw]' : ''} bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll">
 			<div class="flex flex-col text-black">
 				{#if layer == Layer.Home}
 				<LayerSummary heading="Welcome to G2C, a gallery of AI infrastructure.">
@@ -132,7 +131,7 @@
 						</Citation>
 						indicates a citation; hover to preview and click to see complete bibliographic information on Zotero. 
 						You can return to this page at any time by selecting the 
-						<img src={favicon} alt="Ground to Cloud Favicon" class="inline h-[1.875rem] p-0.5" />
+						<img src={favicon} alt="Ground to Cloud Favicon" class="inline h-[3.5dvh] p-0.5" />
 						icon at the top left.
 					</SummaryParagraph>
 					<SummaryParagraph>
@@ -343,11 +342,12 @@
 		</div>
 	{:else}
 		<button class="bg-[#dcd6cc] min-w-[10dvh] max-w-[10dvh] ml-[-5dvh] pl-[2dvh] z-0" on:click={() => show="summary"}>
-			<i class="fa-solid fa-chevron-left text-black" />
+			<i class="fa-solid fa-chevron-left text-black text-[3dvh]" />
 		</button>
 	{/if}
+	<div class="h-lvh animate-exhibit-bg-{LAYER_NAMES[layer]}">
 	{#if windowHeight < 0.65 * windowWidth || show == "exhibits"}
-		<div class="h-lvh w-full animate-exhibit-bg-{LAYER_NAMES[layer]}" in:fly={{ x: '-x', duration: 2000}}>
+		<div>
 			{#if layer == Layer.Home}
 			<div class="h-[92dvh] my-[4dvh]">
 				<div class="max-h-[82.8dvh] mx-8">
@@ -356,7 +356,7 @@
 							<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
 						{/await} 
 						<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-							<div class="xl:text-lg max-h-full" style="font-family: DejaVuSerif">
+							<div class="text-[2dvh] leading-[3dvh] max-h-full" style="font-family: DejaVuSerif">
 								Each site is accompanied by a satellite image, courtesy of Google Earth. 
 								Select a layer on the left to start exploring the infrastructures of AI.
 							</div>
@@ -844,8 +844,9 @@
 			{/if}
 		</div>
 	{:else}
-		<button class="animate-exhibit-bg-{LAYER_NAMES[layer]} min-w-[10dvh] max-w-[10dvh] ml-[-5dvh] pl-[2dvh] z-0" on:click={() => show="exhibits"}>
-			<i class="fa-solid fa-chevron-right text-black" />
+		<button class="h-lvh flex flex-col justify-items-center min-w-[10dvh] max-w-[10dvh] hover:bg-[#ffffff1a]" on:click={() => show="exhibits"}>
+			<i class="fa-solid fa-chevron-right text-black text-[5dvh] mx-auto my-auto" />
 		</button>
 	{/if}
+	</div>
 </div>
