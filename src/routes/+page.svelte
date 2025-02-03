@@ -33,13 +33,16 @@
 	let layer = Layer.Home; let showMenu = true;
 	currentLayer.subscribe((value) => layer = value);
 	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
-	currentLayer.subscribe(() => show = "summary")
+	currentLayer.subscribe(() => show = "summary");
+
+	let summaryDiv: HTMLElement;
 
 	onMount(() => {
 		let layerParam = $page.url.searchParams.get('layer')
 		if (layerParam && parseInt(layerParam) && 0 <= parseInt(layerParam) && parseInt(layerParam) <= 6) {
 			currentLayer.set(parseInt(layerParam));
 		}
+		currentLayer.subscribe(() => summaryDiv.scrollTop = 0)
 	})
 </script>
 
@@ -97,7 +100,7 @@
 		<LayerCard layer={Layer.Extract}/>
 	</div>
 	{#if windowHeight < 0.65 * windowWidth || show == "summary"}
-		<div class="h-lvh min-w-[33dvw] {windowHeight < 0.65 * windowWidth ? 'max-w-[33dvw]' : ''} bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll">
+		<div class="h-lvh min-w-[33dvw] {windowHeight < 0.65 * windowWidth ? 'max-w-[33dvw]' : ''} bg-[#dcd6cc] ml-[-5dvh] z-0 px-[6dvh] pt-[4dvh] overflow-y-scroll" bind:this={summaryDiv}>
 			<div class="flex flex-col text-black">
 				{#if layer == Layer.Home}
 				<LayerSummary heading="Welcome to G2C, a gallery of AI infrastructure.">
