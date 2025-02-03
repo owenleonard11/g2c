@@ -35,7 +35,6 @@
 	currentLayer.subscribe((value) => showMenu = value == Layer.Home);
 	currentLayer.subscribe(() => show = "summary")
 
-
 	onMount(() => {
 		let layerParam = $page.url.searchParams.get('layer')
 		if (layerParam && parseInt(layerParam) && 0 <= parseInt(layerParam) && parseInt(layerParam) <= 6) {
@@ -129,7 +128,7 @@
 						<Citation citation={["Bibliographic information will appear in a popup. Click to visit the bibliography on Zotero.", "/"]}>
 							highlighted in teal
 						</Citation>
-						indicates a citation; hover to preview and click to see complete bibliographic information on Zotero. 
+						indicates a citation; hover or focus to preview and click to see complete bibliographic information on Zotero. 
 						You can return to this page at any time by selecting the 
 						<img src={favicon} alt="Ground to Cloud Favicon" class="inline h-[3.5dvh] p-0.5" />
 						icon at the top left.
