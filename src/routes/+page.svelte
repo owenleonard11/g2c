@@ -362,20 +362,17 @@
 				</div>
 			</div>
 			{:else if layer == Layer.Train}
-			<div class="h-[92dvh] my-[4dvh]">
-				<div class="max-h-[82.8dvh] mx-8">
-					<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
-						{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
-							<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
-						{/await} 
-						<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-							<div class="xl:text-lg max-h-full">
-								Exhibits coming soon.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<ExhibitCarousel exhibits={exhibits['train']}>
+				<Exhibit exhibit={exhibits['train'][0]}>
+
+				</Exhibit>
+				<Exhibit exhibit={exhibits['train'][1]}>
+
+				</Exhibit>
+				<Exhibit exhibit={exhibits['train'][2]}>
+
+				</Exhibit>
+			</ExhibitCarousel>
 			{:else if layer == Layer.Compute}
 			<ExhibitCarousel exhibits={exhibits['compute']}>
 				<Exhibit exhibit={exhibits['compute'][0]}>

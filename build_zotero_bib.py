@@ -20,6 +20,9 @@ while(items_remain):
     json = get(API_URL, params={'sort': 'creator', 'limit': '100', 'start': str(offset)}).json()
     for item in json:
         meta, data = item['meta'], item['data']
+        if 'title' not in data:
+            print(data)
+            continue
         citekey_first = meta.get('creatorSummary', 0) or ' '.join(data['title'].split(' ')[0:2])
         citekey_second = meta.get('parsedDate', '')[0:4]
         citekey_no, citekey = 0, f'{citekey_first} {citekey_second}'
