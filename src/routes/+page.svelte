@@ -42,6 +42,7 @@
 		if (layerParam && parseInt(layerParam) && 0 <= parseInt(layerParam) && parseInt(layerParam) <= 6) {
 			currentLayer.set(parseInt(layerParam));
 		}
+		
 		currentLayer.subscribe(() => summaryDiv.scrollTop = 0)
 	})
 </script>
