@@ -3,7 +3,8 @@ from requests import exceptions
 from json import dump
 from time import sleep
 
-API_URL = 'https://api.zotero.org/groups/5766383/items'
+API_URL = 'https://api.zotero.org/groups/5766383/items/'
+LIB_URL = 'https://www.zotero.org/groups/576693/g2c/items/'
 CITATION_OPTIONS = {
     'format': 'json',
     'include': 'citation',
@@ -35,14 +36,13 @@ while(items_remain):
     offset += 100
 
 # get full citations
-bib: dict[str, str] = {}
+bib: dict[str, tuple[str, str]] = {}
 for citekey, key in citemap.items():
     try:
         response =  get(f'{API_URL}/{key}', CITATION_OPTIONS)
         response.raise_for_status()
-        bib[citekey] = response.json()['citation']
+        bib[citekey] = (response.json()['citation'], f'{LIB_URL}{key}/library')
     except exceptions.RequestException as e:
-        print(f'citekey: {citekey}, key: {key}, url: {API_URL}/{key}\n')
         print(f'Request failed: {e}')
         if response:
             print(f'Response content: {response.text}')

@@ -127,7 +127,7 @@
 					</SummaryParagraph>
 					<SummaryParagraph>
 						Text 
-						<Citation citation="Bibliographic information will appear in a popup. Click to visit the bibliography on Zotero.">
+						<Citation citation={["Bibliographic information will appear in a popup. Click to visit the bibliography on Zotero.", "/"]}>
 							highlighted in teal
 						</Citation>
 						indicates a citation; hover to preview and click to see complete bibliographic information on Zotero. 

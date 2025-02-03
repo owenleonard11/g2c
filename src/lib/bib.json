@@ -1,139 +1,550 @@
 {
-    "Abels 2024": "<span>Joscha Abels, “Private Infrastructure in Geopolitical Conflicts: The Case of Starlink and the War in Ukraine,” <i>European Journal of International Relations</i> 30, no. 4 (2024): 842–66, https://doi.org/10.1177/13540661241260653.</span>",
-    "Anwar and Graham 2020": "<span>Mohammad Amir Anwar and Mark Graham, “Digital Labour at Economic Margins: African Workers and the Global Information Economy,” <i>Review of African Political Economy</i> 47, no. 163 (January 2, 2020), https://doi.org/10.1080/03056244.2020.1728243.</span>",
-    "Bakke 2018": "<span>Jonathan Bakke, “The Role Of Cobalt In Enabling AI,” Semiconductor Engineering, July 19, 2018, https://semiengineering.com/the-role-of-cobalt-in-ai-devices/.</span>",
-    "Bamford 2024": "<span>James Bamford, “The NSA Wants Carte Blanche for Warrantless Surveillance,” <i>The Nation</i>, April 18, 2024, https://www.thenation.com/article/world/nsa-warrantless-surveillance/.</span>",
-    "Beall 2018": "<span>Abigail Beall, “In China, Alibaba’s Data-Hungry AI Is Controlling (and Watching) Cities,” <i>Wired</i>, May 30, 2018, https://www.wired.com/story/alibaba-city-brain-artificial-intelligence-china-kuala-lumpur/.</span>",
-    "Beaule 2023": "<span>Victoria Beaule, “Artisanal Cobalt Mining Swallowing City in Democratic Republic of the Congo, Satellite Imagery Shows,” ABC News, February 8, 2023, https://abcnews.go.com/International/cobalt-mining-transforms-city-democratic-republic-congo-satellite/story?id=96795773.</span>",
-    "Bobrowsky and Berber 2024": "<span>Meghan Bobrowsky and Jin Berber, “Elon Musk’s XAI Plans to Build Supercomputer in Memphis,” Wall Street Journal, June 5, 2024, https://www.wsj.com/tech/ai/elon-musks-xai-plans-to-build-supercomputer-in-memphis-ecee78fb.</span>",
-    "Bosco et al. 2024": "<span>Mary-Clare Bosco, Jonathan Gilmour, and Rebecca Kilberg, “Voices: Data Centers Must Be Transparent about Water Usage — for the Sake of the Great Salt Lake,” The Salt Lake Tribune, December 31, 2024, https://www.sltrib.com/opinion/commentary/2024/12/31/voices-utah-data-centers-must-be/.</span>",
-    "Bratton 2015": "<span>Benjamin H. Bratton, <i>The Stack: On Software and Sovereignty</i>, Software Studies (Cambridge, Mass. London: MIT press, 2015).</span>",
-    "Calma 2023": "<span>Justine Calma, “The Fight to Clean up the Toxic Legacy of Semiconductors,” The Verge, December 8, 2023, https://www.theverge.com/23990525/semiconductor-biden-infrastructure-plan-toxic-chemicals.</span>",
-    "Campbell 2021": "<span>Charlie Campbell, “From Phones to Cars and Fridges, This Taiwan Firm Powers the World. But Success Brings Problems,” TIME, October 1, 2021, https://time.com/6102879/semiconductor-chip-shortage-tsmc/.</span>",
-    "Caprotti and Liu 2022": "<span>Federico Caprotti and Dong Liu, “Platform Urbanism and the Chinese Smart City: The Co-Production and Territorialisation of Hangzhou City Brain,” <i>GeoJournal</i> 87, no. 3 (June 1, 2022): 1559–73, https://doi.org/10.1007/s10708-020-10320-2.</span>",
-    "Carse 2014": "<span>Ashley Carse, <i>Beyond the Big Ditch: Politics, Ecology, and Infrastructure at the Panama Canal</i> (Cambridge: The MIT Press, 2014), https://mitpress.mit.edu/9780262537414/beyond-the-big-ditch/.</span>",
-    "Cawford and Paglen 2019": "<span>Kate Cawford and Trevor Paglen, “Excavating AI,” Excavating AI: The Politics of Images in Machine Learning Training Sets, 2019, https://excavating.ai.</span>",
-    "Chatterjee et al. 1999": "<span>A. Chatterjee et al., “Fabless-Foundry Partnership: Models and Analysis of Coordination Issues,” <i>IEEE Transactions on Semiconductor Manufacturing</i> 12, no. 1 (February 1999): 44–52, https://doi.org/10.1109/66.744521.</span>",
-    "Crawford 2021": "<span>Kate Crawford, <i>The Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence</i> (Yale University Press, 2021), https://doi.org/10.2307/j.ctv1ghv45t.</span>",
-    "Crownhart 2024": "<span>Casey Crownhart, “Why Microsoft Made a Deal to Help Restart Three Mile Island,” MIT Technology Review, September 26, 2024, https://www.technologyreview.com/2024/09/26/1104516/three-mile-island-microsoft/.</span>",
-    "Dawn-Hiscox 2018": "<span>Tanwen Dawn-Hiscox, “Angola Cables Lights up World’s First Submarine Cable Linking Africa to the Americas,” Data Center Dynamics, September 28, 2018, https://www.datacenterdynamics.com/en/news/angola-cables-lights-up-worlds-first-submarine-cable-linking-africa-to-the-americas/.</span>",
-    "Deng et al. 2009": "<span>Jia Deng et al., “ImageNet: A Large-Scale Hierarchical Image Database,” in <i>2009 IEEE Conference on Computer Vision and Pattern Recognition</i>, 2009, 248–55, https://doi.org/10.1109/CVPR.2009.5206848.</span>",
-    "Diprose et al. 2022": "<span>Rachael Diprose et al., “Regulating Sustainable Minerals in Electronics Supply Chains: Local Power Struggles and the ‘Hidden Costs’ of Global Tin Supply Chain Governance,” <i>Review of International Political Economy</i> 29, no. 3 (May 4, 2022): 792–817, https://doi.org/10.1080/09692290.2020.1814844.</span>",
-    "Dobbe and Whittaker 2019": "<span>Roel Dobbe and Meredith Whittaker, “AI and Climate Change: How They’re Connected, and What We Can Do about It,” <i>AI Now Institute</i> (blog), October 17, 2019, https://ainowinstitute.org/publication/ai-and-climate-change-how-theyre-connected-and-what-we-can-do-about-it.</span>",
-    "Dobson 2023": "<span>James E. Dobson, <i>The Birth of Computer Vision</i> (Minneapolis London: University of Minnesota Press, 2023).</span>",
-    "Edwards 2021": "<span>Paul N. Edwards, “Platforms Are Infrastructures on Fire,” in <i>Your Computer Is on Fire</i>, ed. Thomas S. Mullaney et al. (The MIT Press, 2021), 313–36, https://doi.org/10.7551/mitpress/10993.003.0021.</span>",
-    "Fatunde 2024": "<span>Mureji Fatunde, “The Race to Produce Rare Earth Elements,” MIT Technology Review, January 5, 2024, https://www.technologyreview.com/2024/01/05/1084791/rare-earth-materials-clean-energy/.</span>",
-    "Fontes et al. 2022": "<span>Catarina Fontes et al., “AI-Powered Public Surveillance Systems: Why We (Might) Need Them and How We Want Them,” <i>Technology in Society</i> 71 (2022): 102137, https://doi.org/10.1016/j.techsoc.2022.102137.</span>",
-    "George 2013": "<span>Rose George, <i>Ninety Percent of Everything: Inside Shipping, the Invisible Industry That Puts Clothes on Your Back, Gas in Your Car, and Food on Your Plate</i>, 1. Auflage, Social Science (New York: Metropolitan Books, 2013).</span>",
-    "Goldberg et al. 2024": "<span>Pinelopi Goldberg et al., “Industrial Policy in the Global Semiconductor Sector” (Cambridge, MA: National Bureau of Economic Research, 2024), https://doi.org/10.3386/w32651.</span>",
-    "Goldstone 2024": "<span>Charlotte Goldstone, “Airfreight Shift as Taiwan Earthquake Impacts Semiconductor Production,” <i>The Loadstar</i> (blog), April 4, 2024, https://theloadstar.com/airfreight-shift-as-taiwan-earthquake-impacts-semiconductor-production/.</span>",
-    "Graham and Anwar 2019": "<span>Mark Graham and Mohammad Amir Anwar, “The Global Gig Economy: Towards a Planetary Labour Market?,” <i>First Monday</i>, April 1, 2019, https://doi.org/10.5210/fm.v24i4.9913.</span>",
-    "Graham and Ferrari 2022": "<span>Mark Graham and Fabian Ferrari, “Introduction,” in <i>Digital Work in the Planetary Market</i>, ed. Mark Graham and Fabian Ferrari (The MIT Press, 2022), 1–20, https://doi.org/10.7551/mitpress/13835.003.0003.</span>",
-    "Gray and Suri 2019": "<span>Mary L. Gray and Siddharth Suri, <i>Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass</i> (Boston: Houghton Mifflin Harcourt, 2019).</span>",
-    "Graydon and Parks 2020": "<span>Matthew Graydon and Lisa Parks, “‘Connecting the Unconnected’: A Critical Assessment of US Satellite Internet Services,” <i>Media, Culture &#38; Society</i> 42, no. 2 (2020): 260–76, https://doi.org/10.1177/0163443719861835.</span>",
-    "Grohmann et al. 2022": "<span>Rafael Grohmann et al., “Platform Scams: Brazilian Workers’ Experiences of Dishonest and Uncertain Algorithmic Management,” <i>New Media &#38; Society</i> 24, no. 7 (2022): 1611–31, https://doi.org/10.1177/14614448221099225.</span>",
-    "Gupta et al. 2021": "<span>Udit Gupta et al., “Chasing Carbon: The Elusive Environmental Footprint of Computing,” in <i>2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA)</i> (2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA), Seoul, Korea (South): IEEE, 2021), 854–67, https://doi.org/10.1109/HPCA51647.2021.00076.</span>",
-    "Halegoua 2016": "<span>Germaine Halegoua, “‘Always Off’ Connection,” <i>Flow: A Critical Forum on Media and Culture</i> (blog), October 24, 2016, https://www.flowjournal.org/2016/10/always-off-connection/.</span>",
-    "Halegoua and Lingel 2018": "<span>Germaine R Halegoua and Jessa Lingel, “Lit up and Left Dark: Failures of Imagination in Urban Broadband Networks,” <i>New Media &#38; Society</i> 20, no. 12 (December 1, 2018): 4634–52, https://doi.org/10.1177/1461444818779593.</span>",
-    "Halper 2024": "<span>Evan Halper, “Microsoft Deal Would Reopen Three Mile Island Nuclear Plant to Power AI,” <i>Washington Post</i>, September 20, 2024, https://www.washingtonpost.com/business/2024/09/20/microsoft-three-mile-island-nuclear-constellation/.</span>",
-    "Han and Hawken 2018": "<span>Hoon Han and Scott Hawken, “Introduction: Innovation and Identity in next-Generation Smart Cities,” <i>City, Culture and Society</i>, Innovation and identity in next generation smart cities, 12 (March 1, 2018): 1–4, https://doi.org/10.1016/j.ccs.2017.12.003.</span>",
-    "Hanbury et al. 2024": "<span>Peter Hanbury, Anne Hoecker, and Michael Schallehn, “Prepare for the Coming AI Chip Shortage,” Bain &#38; Company, September 25, 2024, https://www.bain.com/insights/prepare-for-the-coming-ai-chip-shortage-tech-report-2024/.</span>",
-    "Harvey and LaPlace 2021": "<span>Adam Harvey and Jules LaPlace, “Exposing.Ai: Duke Multi-Target Multi-Camera Tracking Dataset,” Exposing.ai, 2021, https://exposing.ai/datasets/duke_mtmc/.</span>",
-    "Hodal 2012": "<span>Kate Hodal, “Death Metal: Tin Mining in Indonesia,” <i>The Guardian</i>, November 23, 2012, sec. Environment, https://www.theguardian.com/environment/2012/nov/23/tin-mining-indonesia-bangka.</span>",
-    "Hogan 2015": "<span>Mél Hogan, “Data Flows and Water Woes: The Utah Data Center,” <i>Big Data &#38; Society</i> 2, no. 2 (December 1, 2015): 1–12, https://doi.org/10.1177/2053951715592429.</span>",
-    "Hogan and Lepage-Richter 2024": "<span>Mél Hogan and Théo Lepage-Richter, “Extractive AI,” Centre for Media, Technology and Democracy, 2024, https://www.mediatechdemocracy.com/climatetechhoganlepagericher.</span>",
-    "Holden and Harsh 2024": "<span>Kerry Holden and Matthew Harsh, “On Pipelines, Readiness and Annotative Labour: Political Geographies of AI and Data Infrastructures in Africa,” <i>Political Geography</i> 113 (August 1, 2024): 103150, https://doi.org/10.1016/j.polgeo.2024.103150.</span>",
-    "Holt 2024": "<span>Jennifer Holt, <i>Cloud Policy: A History of Regulating Pipelines, Platforms, and Data</i> (The MIT Press, 2024), https://doi.org/10.7551/mitpress/14683.001.0001.</span>",
-    "Huggins 2023": "<span>Chris Huggins, “Is Collaboration Possible between the Small-Scale and Large-Scale Mining Sectors? Evidence from ‘Conflict-Free Mining’ in the Democratic Republic of the Congo (DRC),” <i>The Extractive Industries and Society</i> 13 (March 1, 2023): 101163, https://doi.org/10.1016/j.exis.2022.101163.</span>",
-    "Hung et al. 2017": "<span>Hui-Chih Hung, Yu-Chih Chiu, and Muh-Cherng Wu, “Analysis of Competition Between IDM and Fabless–Foundry Business Models in the Semiconductor Industry,” <i>IEEE Transactions on Semiconductor Manufacturing</i> 30, no. 3 (2017): 254–60, https://doi.org/10.1109/TSM.2017.2699739.</span>",
-    "Janah 2017": "<span>Leila Janah, <i>Give Work: Reversing Poverty One Job at a Time</i> (Erscheinungsort nicht ermittelbar: Penguin Publishing Group, 2017).</span>",
-    "Jie and Qin 2024": "<span>Yang Jie and Sherry Qin, “AI Boom Is Real—and Really Profitable—Says Chip Maker TSMC,” WSJ, October 17, 2024, https://www.wsj.com/business/earnings/tsmc-posts-record-quarterly-profit-amid-ai-boom-f1002934.</span>",
-    "Judge 2023": "<span>Peter Judge, “Microsoft Signs 24/7 Nuclear Power Deal with Constellation for Boydton Data Center,” June 30, 2023, https://www.datacenterdynamics.com/en/news/microsoft-signs-247-nuclear-power-deal-with-constellation-for-boydton-data-center/.</span>",
-    "Kara 2023": "<span>Siddharth Kara, <i>Cobalt Red: How the Blood of the Congo Powers Our Lives</i>, First edition (New York, NY: St. Martin’s Press, 2023).</span>",
-    "Khan et al. 2021": "<span>Saif M. Khan, Alexander Mann, and Dahlia Peterson, “The Semiconductor Supply Chain: Assessing National Competitiveness” (Center for Security and Emerging Technology, 2021), https://doi.org/10.51593/20190016.</span>",
-    "Kleijn et al. 2021": "<span>Anne Kleijn et al., “STREAM Freight Transport 2020: Emissions of Freight Transport Modes” (CE Delft, February 2021), https://cedelft.eu/publications/stream-freight-transport-2020/.</span>",
-    "Klinger 2015": "<span>Julie Michelle Klinger, “On the Rare Earth Frontier” (Ph.D., United States -- California, University of California, Berkeley, 2015), https://www.proquest.com/docview/1750075914/abstract/54C877AE5A7B4D9DPQ/1.</span>",
-    "Koerner 2017": "<span>Brendan I. Koerner, “The Inside Story of the Great Silicon Heist,” <i>Wired</i>, September 26, 2017, https://www.wired.com/story/inside-story-of-the-great-silicon-heist/.</span>",
-    "Krizhevsky et al. 2012": "<span>Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton, “ImageNet Classification with Deep Convolutional Neural Networks,” in <i>Advances in Neural Information Processing Systems</i>, vol. 25 (Curran Associates, Inc., 2012), https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html.</span>",
-    "Labban 2014": "<span>Mazen Labban, “Deterritorializing Extraction: Bioaccumulation and the Planetary Mine,” <i>Annals of the Association of American Geographers</i> 104, no. 3 (2014): 560–76, https://www.jstor.org/stable/24537757.</span>",
-    "Latham 2018": "<span>Andrew Latham, “Lithium and Battery Metals Conference 2018,” March 21, 2018, https://www.riotinto.com/en/invest/presentations/2018/lithium-conference.</span>",
-    "Lee et al. 2024": "<span>Tsung-Yu Lee et al., “Impact Assessment of Climate Change on Water Supply to Hsinchu Science Park in Taiwan,” <i>Water</i> 16, no. 12 (June 20, 2024): 1746, https://doi.org/10.3390/w16121746.</span>",
-    "Leggate 2024": "<span>James Leggate, “Intel’s $20B Arizona Chip Plant Project Poised to Make National Impact,” Engineering News-Record, March 19, 2024, https://www.enr.com/articles/58334-intels-20b-arizona-chip-plant-project-poised-to-make-national-impact.</span>",
-    "Li et al. 2023": "<span>Yuze Li et al., “The Climate Impact of High Seas Shipping,” <i>National Science Review</i> 10, no. 3 (February 28, 2023): nwac279, https://doi.org/10.1093/nsr/nwac279.</span>",
-    "Luccioni et al. 2023": "<span>Alexandra Sasha Luccioni, Sylvain Viguier, and Anne-Laure Ligozat, “Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model,” <i>Journal of Machine Learning Research</i> 24, no. 253 (2023): 1–15, http://jmlr.org/papers/v24/23-0069.html.</span>",
-    "Luccioni et al. 2024": "<span>Alexandra Sasha Luccioni, Yacine Jernite, and Emma Strubell, “Power Hungry Processing: Watts Driving the Cost of AI Deployment?,” in <i>The 2024 ACM Conference on Fairness, Accountability, and Transparency</i>, 2024, 85–99, https://doi.org/10.1145/3630106.3658542.</span>",
-    "Ma et al. 2020": "<span>Yifang Ma et al., “Artificial Intelligence Applications in the Development of Autonomous Vehicles: A Survey,” <i>IEEE/CAA Journal of Automatica Sinica</i> 7, no. 2 (2020): 315–29, https://doi.org/10.1109/JAS.2020.1003021.</span>",
-    "Malkia and Banchereau 2024": "<span>Christina Malkia and Mark Banchereau, “M23 Rebels Seize Key Smartphone Mineral Mining Town in Eastern Congo,” <i>PBS News</i>, May 3, 2024, https://www.pbs.org/newshour/world/m23-rebels-seize-key-smartphone-mineral-mining-town-in-eastern-congo.</span>",
-    "Margonelli 2009": "<span>Lisa Margonelli, “Clean Energy’s Dirty Little Secret,” <i>The Atlantic</i>, May 1, 2009, https://www.theatlantic.com/magazine/archive/2009/05/clean-energys-dirty-little-secret/307377/.</span>",
-    "Maughan 2015": "<span>Tim Maughan, “The Dystopian Lake Filled by the World’s Tech Lust,” <i>BBC</i>, April 2, 2015, https://www.bbc.com/future/article/20150402-the-worst-place-on-earth.</span>",
-    "Mayer and Velkova 2023": "<span>Vicki Mayer and Julia Velkova, “The Social Mapping of Hyperscale Data Center Regions,” in <i>Media Backends: Digital Infrastructures and Sociotechnical Relations</i>, ed. Lisa Parks, Julia Velkova, and Sander De Ridder, The Geopolitics of Information (Urbana: University of Illinois Press, 2023), 114–28.</span>",
-    "Meese et al. 2022": "<span>Aidan Francis Meese et al., “Opportunities and Challenges for Industrial Water Treatment and Reuse,” <i>ACS ES&#38;T Engineering</i> 2, no. 3 (March 11, 2022): 465–88, https://doi.org/10.1021/acsestengg.1c00282.</span>",
-    "Mills 2024": "<span>Alex Mills, “The Long Shadow of the Red Sea Shipping Disruption,” <i>Atlantic Council</i> (blog), January 8, 2024, https://www.atlanticcouncil.org/blogs/econographics/the-long-shadow-of-the-red-sea-shipping-disruption/.</span>",
-    "MIT Technology Review Insights 2023": "<span>MIT Technology Review Insights, “Sustainability Starts with the Data Center,” MIT Technology Review, November 30, 2023, https://www.technologyreview.com/2023/11/30/1083909/sustainability-starts-with-the-data-center/.</span>",
-    "Moore and Woodcock 2021": "<span>Phoebe V. Moore and Jamie Woodcock, eds., <i>Augmented Exploitation: Artificial Intelligence, Automation and Work</i> (Pluto Press, 2021), https://doi.org/10.2307/j.ctv1h0nv3d.</span>",
-    "Moshrefi-Torbati and Swingler 2011": "<span>M. Moshrefi-Torbati and J. Swingler, “Reliability of Printed Circuit Boards Containing Lead-Free Solder in Aggressive Environments,” <i>Journal of Materials Science: Materials in Electronics</i> 22, no. 4 (April 1, 2011): 400–411, https://doi.org/10.1007/s10854-010-0150-7.</span>",
-    "Muennighoff et al. 2023": "<span>Niklas Muennighoff et al., “Scaling Data-Constrained Language Models,” <i>Advances in Neural Information Processing Systems</i> 36 (December 15, 2023): 50358–76, https://proceedings.neurips.cc/paper_files/paper/2023/hash/9d89448b63ce1e2e8dc7af72c984c196-Abstract-Conference.html.</span>",
-    "Murgia and Harlow 2019": "<span>Madhumita Murgia and Max Harlow, “Who’s Using Your Face? The Ugly Truth about Facial Recognition,” <i>Financial Times</i>, September 18, 2019, sec. FT Magazine, https://www.ft.com/content/cf19b956-60a2-11e9-b285-3acd5d43599e.</span>",
-    "Nieves 2018": "<span>Evelyn Nieves, “The Superfund Sites of Silicon Valley,” <i>The New York Times</i>, March 26, 2018, sec. Lens, https://www.nytimes.com/2018/03/26/lens/the-superfund-sites-of-silicon-valley.html.</span>",
-    "Nugraha and Purwanto 2020": "<span>Agung Nugraha and Semiarto A. Purwanto, “Neo-Esktraktivisme Tambang Timah di Pulau Bangka (Neo-Extractivism of Tin Mining in Bangka Island),” <i>Indonesian Journal of Religion and Society</i> 2, no. 1 (June 6, 2020): 12–22, https://doi.org/10.36256/ijrs.v2i1.95.</span>",
-    "NVIDIA Corporation 2014": "<span>NVIDIA Corporation, “Conflict Minerals Report of NVIDIA Corporation for the Calendar Year Ended December 31, 2014,” SEC, 2014, https://www.sec.gov/Archives/edgar/data/1045810/000104581015000119/conflictmineralsreport.htm.</span>",
-    "NVIDIA Corporation 2023": "<span>NVIDIA Corporation, “Conflict Minerals Report of NVIDIA Corporation for the Calendar Year Ended December 31, 2023,” SEC, 2023, https://www.sec.gov/Archives/edgar/data/1045810/000104581024000116/a2024conflictmineralsrepor.htm.</span>",
-    "Ojewale 2022": "<span>Oluwole Ojewale, “Mining and Illicit Trading of Coltan in the Democratic Republic of the Congo,” <i>ENACT: Enhancing Africa’s Response to Transnational Organised Crime</i>, no. 29 (March 2022), https://enactafrica.org/research/research-papers/mining-and-illicit-trading-of-coltan-in-the-democratic-republic-of-congo.</span>",
-    "Pan and Li 2016": "<span>Yuxue Pan and Haitao Li, “Investigating Heavy Metal Pollution in Mining Brownfield and Its Policy Implications: A Case Study of the Bayan Obo Rare Earth Mine, Inner Mongolia, China,” <i>Environmental Management</i> 57, no. 4 (April 1, 2016): 879–93, https://doi.org/10.1007/s00267-016-0658-6.</span>",
-    "Perrigo 2023": "<span>Billy Perrigo, “Exclusive: The $2 Per Hour Workers Who Made ChatGPT Safer,” TIME, January 18, 2023, https://time.com/6247678/openai-chatgpt-kenya-workers/.</span>",
-    "Purdy 2024": "<span>Mark Purdy, “What Is Agentic AI, and How Will It Change Work?,” Harvard Business Review, December 12, 2024, https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work.</span>",
-    "Ren et al. 2023": "<span>Yawen Ren et al., “Dynamics of the Global Semiconductor Trade and Its Dependencies,” <i>Journal of Geographical Sciences</i> 33, no. 6 (2023): 1141–60, https://doi.org/10.1007/s11442-023-2123-9.</span>",
-    "Revell 2017": "<span>Timothy Revell, “A Smart City in China Tracks Every Citizen and Yours Could Too,” New Scientist, October 24, 2017, https://www.newscientist.com/article/2151297-a-smart-city-in-china-tracks-every-citizen-and-yours-could-too/.</span>",
-    "Ristani et al. 2016": "<span>Ergys Ristani et al., “Performance Measures and a Data Set for Multi-Target, Multi-Camera Tracking” (arXiv, September 19, 2016), https://doi.org/10.48550/arXiv.1609.01775.</span>",
-    "Roberts 2021": "<span>Sarah T. Roberts, “Your AI Is a Human,” in <i>Your Computer Is on Fire</i>, ed. Thomas S. Mullaney et al. (The MIT Press, 2021), 51–70, https://doi.org/10.7551/mitpress/10993.003.0006.</span>",
-    "Robinson-Smith 2024": "<span>Will Robinson-Smith, “SpaceX Launches 22 Starlink Satellites on Falcon 9 Rocket from California – Spaceflight Now,” <i>Spaceflight Now</i> (blog), December 12, 2024, https://spaceflightnow.com/2024/12/12/live-coverage-spacex-to-launch-22-starlink-satellites-on-falcon-9-rocket-from-california/.</span>",
-    "Rojanasakul 2024": "<span>Mira Rojanasakul, “Panama Canal Drought Slows Cargo Traffic,” <i>The New York Times</i>, January 26, 2024, sec. Climate, https://www.nytimes.com/interactive/2024/01/26/climate/panama-canal-drought-shipping.html.</span>",
-    "Rollet 2025": "<span>Charles Rollet, “Exclusive: Scale AI Hit by Its Second Wage Theft Lawsuit in Less than a Month,” <i>TechCrunch</i> (blog), January 9, 2025, https://techcrunch.com/2025/01/09/scale-ai-hit-by-its-second-employee-wage-lawsuit-in-less-than-a-month/.</span>",
-    "Rowe 2023": "<span>Niamh Rowe, “‘It’s Destroyed Me Completely’: Kenyan Moderators Decry Toll of Training of AI Models,” <i>The Guardian</i>, August 2, 2023, sec. Technology, https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai.</span>",
-    "Rudahigwa 2010": "<span>Primo Pascal Rudahigwa, “Seventy-Two Hours at the Mining Sites of Bisie,” in <i>Blood Minerals: The Criminalization of the Mining Industry in Eastern DRC</i> (Pole Institute, 2010), 12–16.</span>",
-    "Sadowski 2022": "<span>Jathan Sadowski, “Planetary Potemkin AI: The Humans Hidden inside Mechanical Minds,” in <i>Digital Work in the Planetary Market</i>, ed. Mark Graham and Fabian Ferrari (The MIT Press, 2022), 229–40, https://doi.org/10.7551/mitpress/13835.003.0018.</span>",
-    "Schmidt 2022": "<span>Florian A. Schmidt, “The Planetary Stacking Order of Multilayered Crowd-AI Systems,” in <i>Digital Work in the Planetary Market</i>, ed. Mark Graham and Fabian Ferrari (The MIT Press, 2022), 137–56, https://doi.org/10.7551/mitpress/13835.003.0012.</span>",
-    "Simpson 2012": "<span>Cam Simpson, “The Deadly Tin Inside Your Smartphone,” <i>Bloomberg.Com</i>, August 24, 2012, https://www.bloomberg.com/news/articles/2012-08-23/the-deadly-tin-inside-your-smartphone.</span>",
-    "Sonnenfeld et al. 2006": "<span>David A. Sonnenfeld, David N. Pellow, and Ted Smith, eds., <i>Challenging the Chip: Labor Rights and Environmental Justice in the Global Electronics Industry</i> (Philadelphia: Temple University Press, 2006).</span>",
-    "Starosielski 2015": "<span>Nicole Starosielski, “Fixed Flow: Undersea Cables as Media Infrastructure,” in <i>Signal Traffic: Critical Studies of Media Infrastructures</i>, ed. Lisa Parks and Nicole Starosielski, The Geopolitics of Information Ser (Champaign: University of Illinois Press, 2015), 53–70.</span>",
-    "Starosielski and Bojczuk 2023": "<span>Nicole Starosielski and Iago Bojczuk, “Southern Imaginaries of Digital Infrastructures,” e-flux Architecture, December 2023, https://www.e-flux.com/architecture/accumulation/552647/southern-imaginaries-of-digital-infrastructures/.</span>",
-    "Starosielski et al. 2023": "<span>Nicole Starosielski et al., “Report on Best Practices in Subsea Telecommunications Sustainability” (Sustainable Subsea Networks, 2023).</span>",
-    "Strubell et al. 2020": "<span>Emma Strubell, Ananya Ganesh, and Andrew McCallum, “Energy and Policy Considerations for Modern Deep Learning Research,” <i>Proceedings of the AAAI Conference on Artificial Intelligence</i> 34, no. 09 (April 3, 2020): 13693–96, https://doi.org/10.1609/aaai.v34i09.7123.</span>",
-    "Taffel 2015": "<span>Sy Taffel, “Towards an Ethical Electronics? Ecologies of Congolese Conflict Minerals,” <i>Westminster Papers in Culture and Communication</i> 10, no. 1 (September 15, 2015): 18–33, https://doi.org/10.16997/wpcc.210.</span>",
-    "Taylor 2019": "<span>A.R.E. Taylor, “The Data Center as Technological Wilderness,” <i>Culture Machine</i>, The Nature of Data Centers, 18 (2019).</span>",
-    "Taylor 2018": "<span>Astra Taylor, “The Automation Charade,” Logic(s) Magazine, August 1, 2018, https://logicmag.io/failure/the-automation-charade/.</span>",
-    "Umpula and Bisil 2023": "<span>Emmanuel Umpula and Eric Bisil, “Formalising Artisanal Cobalt Mining in the DRC: Much Work Remains,” International Institute for Environment and Development, July 25, 2023, https://www.iied.org/formalising-artisanal-cobalt-mining-drc-much-work-remains.</span>",
-    "Umpula et al. 2021": "<span>Emmanuel Umpula, Abbi Buxton, and Brendan Schwartz, “Islands of Responsibility? Corporate Sourcing of Artisanal Cobalt in the Democratic Republic of the Congo” (London: International Institute for Environment and Development, September 2021), https://www.iied.org/20436iied.</span>",
-    "Velkova 2024": "<span>Julia Velkova, “Dismantling Public Values, One Data Center at the Time,” Linköping University, February 16, 2024, https://liu.se/en/research/megabytes-vs-megawatts/dismantling-public-values-one-data-center-at-the-time.</span>",
-    "Venturous Group 2023": "<span>Venturous Group, “City Brain: A New Model of Urban Governance Catalyzed by Big Data,” Venturous: The CityTech Group, February 26, 2023, https://www.venturousgroup.com/resources/city-brain-a-new-model-of-urban-governance-catalyzed-by-big-data.</span>",
-    "Vonderau 2018": "<span>Asta Vonderau, “Technologies of Imagination: Locating the Cloud in Sweden’s North,” <i>Imaginations: Journal of Cross-Cultural Image Studies</i> 8, no. 2 (September 6, 2018): 8–21, https://doi.org/10.17742/IMAGE.LD.8.2.2.</span>",
-    "Vonderau and Holt 2015": "<span>Patrick Vonderau and Jennifer Holt, “‘Where the Internet Lives’: Data Centers as Cloud Infrastructures,” in <i>Signal Traffic: Critical Studies of Media Infrastructures</i>, ed. Lisa Parks and Nicole Starosielski, The Geopolitics of Information Ser (Champaign: University of Illinois Press, 2015).</span>",
-    "Wang et al. 2016": "<span>Lingqing Wang et al., “Atmospheric Thorium Pollution and Inhalation Exposure in the Largest Rare Earth Mining and Smelting Area in China,” <i>Science of The Total Environment</i> 572 (2016): 1–8, https://doi.org/10.1016/j.scitotenv.2016.07.192.</span>",
-    "Weinberg 2020": "<span>Lindsay Weinberg, “Feminist Research Ethics and Student Privacy in the Age of AI,” <i>Catalyst: Feminism, Theory, Technoscience</i> 6, no. 2 (2020): 1–10.</span>",
-    "Wiles 2021": "<span>Russ Wiles, “Intel Breaks Ground on $20B Expansion in Chandler,” The Arizona Republic, September 24, 2021, https://www.azcentral.com/story/money/business/tech/2021/09/24/intels-20-billion-arizona-chip-factories-break-ground-chandler/5836524001/.</span>",
-    "Williams et al. 2002": "<span>Eric D. Williams, Robert U. Ayres, and Miriam Heller, “The 1.7 Kilogram Microchip:  Energy and Material Use in the Production of Semiconductor Devices,” <i>Environmental Science &#38; Technology</i> 36, no. 24 (December 1, 2002): 5504–10, https://doi.org/10.1021/es025643o.</span>",
-    "Willy 2018": "<span>Adela Megan Willy, “Malaysia to Adopt Alibaba’s City Brain Smart City Solution,” The Edge Malaysia, January 29, 2018, https://theedgemalaysia.com/article/malaysia-adopt-alibabas-city-brain-smart-city-solution.</span>",
-    "Wimmer and Hilgert 2011": "<span>Sarah Zingg Wimmer and Filip Hilgert, “Bisie. A One-Year Snapshot of the DRC’s Principal Cassiterite Mine” (Iternational Peace Information Service, November 28, 2011).</span>",
-    "Witley and Heins 2014": "<span>Jeremy C Witley and Russel A Heins, “Alphamin Resources Corporation, Bisie Tin Project, North Kivu Province, Democratic Republic of Congo,” Technical Report - Mineral Resource Estimate (The MSA Group, January 9, 2014), Wayback Machine, https://web.archive.org/web/20160304091330/http://alphaminresources.com/wp-content/uploads/2014/02/Alphamin-Bisie-Tin-Project-NI-43-101-Report-Jan-2014.pdf?4737e9.</span>",
-    "Wolverton 2024": "<span>Troy Wolverton, “Lawsuit Charges SF’s Scale AI with Wage Theft,” <i>San Francisco Examiner</i>, December 12, 2024, https://www.sfexaminer.com/news/technology/scale-ai-lawsuit-charges-sf-tech-startup-with-wage-theft/article_b6b3781a-b827-11ef-8cc7-c320ca742702.html.</span>",
-    "Wong 2024": "<span>Erin X. Wong, “A Silicon Revival in the West,” High Country News, August 1, 2024, http://www.hcn.org/issues/56-8/a-silicon-revival-in-the-west/.</span>",
-    "Yadav 2024": "<span>Nina Yadav, “What Is a Cable Landing Station?,” <i>NJFX</i> (blog), September 3, 2024, https://njfx.net/what-is-a-cable-landing-station/.</span>",
-    "Yang and Ge 2020": "<span>Yi-Chih Yang and Ying-En Ge, “Adaptation Strategies for Port Infrastructure and Facilities under Climate Change at the Kaohsiung Port,” <i>Transport Policy</i> 97 (2020): 232–44, https://doi.org/10.1016/j.tranpol.2020.06.019.</span>",
-    "Zehner and Ullrich 2024": "<span>Nicolas Zehner and André Ullrich, “Dreaming of AI: Environmental Sustainability and the Promise of Participation,” <i>AI &#38; SOCIETY</i>, July 16, 2024, https://doi.org/10.1007/s00146-024-02011-0.</span>",
-    "Zeitlin 2024": "<span>Matthew Zeitlin, “What Does Amazon Want With Nuclear?,” Heatmap News, March 13, 2024, https://heatmap.news/technology/amazon-nuclear-talen-energy.</span>",
-    "Zhong and Chien 2021": "<span>Raymond Zhong and Amy Chang Chien, “Drought in Taiwan Pits Chip Makers Against Farmers,” <i>The New York Times</i>, April 8, 2021, sec. Technology, https://www.nytimes.com/2021/04/08/technology/taiwan-drought-tsmc-semiconductors.html.</span>",
-    "Zylinska 2023": "<span>Joanna Zylinska, <i>The Perception Machine: Our Photographic Future between the Eye and AI</i> (The MIT Press, 2023), https://doi.org/10.7551/mitpress/14471.001.0001.</span>",
-    "The Congo 2011": "<span>“The Congo Report: Slavery in Conflict Minerals” (Free the Slaves and Open Square Foundation, June 2011), https://freetheslaves.net/wp-content/uploads/2015/03/The-Congo-Report-English.pdf.</span>",
-    "Why it’s 2021": "<span>“Why It’s Hard for Congo’s Coltan Miners to Abide by the Law,” <i>The Economist</i>, January 21, 2021, https://www.economist.com/middle-east-and-africa/2021/01/21/why-its-hard-for-congos-coltan-miners-to-abide-by-the-law.</span>",
-    "Semiconductor Supply 2022": "<span>“Semiconductor Supply Chain Infographic,” Dimerco, December 21, 2022, https://dimerco.com/semiconductor-supply-chain-infographic/.</span>",
-    "DoD Awards 2022": "<span>“DoD Awards $35 Million to MP Materials to Build U.S. Heavy Rare Earth Separation Capacity,” U.S. Department of Defense, February 22, 2022, https://www.defense.gov/News/Releases/Release/Article/2941793/dod-awards-35-million-to-mp-materials-to-build-us-heavy-rare-earth-separation-c/https%3A%2F%2Fwww.defense.gov%2FNews%2FReleases%2FRelease%2FArticle%2F2941793%2Fdod-awards-35-million-to-mp-materials-to-build-us-heavy-rare-earth-separation-c%2F.</span>",
-    "Building a ": "<span>“Building a Sustainable, Equitable Semiconductor Industry,” CHIPS Communities United, accessed December 13, 2024, https://chipscommunitiesunited.org/.</span>",
-    "FACT SHEET: 2022": "<span>“FACT SHEET: CHIPS and Science Act Will Lower Costs, Create Jobs, Strengthen Supply Chains, and Counter China,” The White House, August 9, 2022, https://www.whitehouse.gov/briefing-room/statements-releases/2022/08/09/fact-sheet-chips-and-science-act-will-lower-costs-create-jobs-strengthen-supply-chains-and-counter-china/.</span>",
-    "Silicon, >99.99% ": "<span>“Silicon, &#62;99.99% Pure (HS: 280461) Product Trade, Exporters and Importers,” The Observatory of Economic Complexity, accessed December 13, 2024, https://oec.world/en/profile/hs/silicon-9999-pure.</span>",
-    "DHL Supply 2022": "<span>“DHL Supply Chain to Invest EUR 10 Million (NTD 320 Million) to Expand Warehousing in Northern Taiwan, Fulfill Logistics Demand of Semiconductor and Life Sciences and Healthcare (LSHC) Sectors,” DHL, December 19, 2022, https://www.dhl.com/kr-en/home/press/press-archive/2022/dhl-supply-chain-to-invest-eur-10-million-ntd-320-million-to-expand-warehousing-in-northern-taiwan.html.</span>",
-    "Four Key 2024": "<span>“Four Key Threats to Semiconductor Supply Chains: The Race to Source Contingencies in a Polycrisis World,” Gallagher Spotlight Series: Powering Growth (Arthur J. Gallagher &#38; Co., April 2024), https://www.ajg.com/no/-/media/files/gallagher/global/insights/four-key-threats-to-semiconductor-supply-chains.pdf.</span>",
-    "Clean Clicks 2024": "<span>“Clean Clicks or Dirty Chips? Despite Commitments to 100% Renewable Energy, U.S. Semiconductor Expansion Driving Demand for Dirty Energy” (Stand.earth, February 2024), https://stand.earth/wp-content/uploads/2024/02/Clean-Clicks-or-Dirty-Chips-Feb-2024_230224.pdf.</span>",
-    "Taiwan's Strategic 2024": "<span>“Taiwan’s Strategic Role in the Global Semiconductor Supply Chain,” Dimerco, October 28, 2024, https://dimerco.com/taiwans-strategic-role-global-semiconductor-supply-chain/.</span>",
-    "Service & 2022": "<span>“Service &#38; Solutions,” NJFX, August 9, 2022, https://njfx.net/service-solutions/.</span>",
-    "City Brain 2019": "<span>“City Brain Now in 23 Cities in Asia,” Alibaba Cloud Community, October 28, 2019, https://www.alibabacloud.com/blog/city-brain-now-in-23-cities-in-asia_595479.</span>"
+    "Abels 2024": [
+        "<span>Joscha Abels, “Private Infrastructure in Geopolitical Conflicts: The Case of Starlink and the War in Ukraine,” <i>European Journal of International Relations</i> 30, no. 4 (2024): 842–66, https://doi.org/10.1177/13540661241260653.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/X63UFLI2/library"
+    ],
+    "Anwar and Graham 2020": [
+        "<span>Mohammad Amir Anwar and Mark Graham, “Digital Labour at Economic Margins: African Workers and the Global Information Economy,” <i>Review of African Political Economy</i> 47, no. 163 (January 2, 2020), https://doi.org/10.1080/03056244.2020.1728243.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/E8Q3WZ7J/library"
+    ],
+    "Bakke 2018": [
+        "<span>Jonathan Bakke, “The Role Of Cobalt In Enabling AI,” Semiconductor Engineering, July 19, 2018, https://semiengineering.com/the-role-of-cobalt-in-ai-devices/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/ZJXFDJZW/library"
+    ],
+    "Bamford 2024": [
+        "<span>James Bamford, “The NSA Wants Carte Blanche for Warrantless Surveillance,” <i>The Nation</i>, April 18, 2024, https://www.thenation.com/article/world/nsa-warrantless-surveillance/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/SLH9ZPI3/library"
+    ],
+    "Beall 2018": [
+        "<span>Abigail Beall, “In China, Alibaba’s Data-Hungry AI Is Controlling (and Watching) Cities,” <i>Wired</i>, May 30, 2018, https://www.wired.com/story/alibaba-city-brain-artificial-intelligence-china-kuala-lumpur/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/ZYUBML9R/library"
+    ],
+    "Beaule 2023": [
+        "<span>Victoria Beaule, “Artisanal Cobalt Mining Swallowing City in Democratic Republic of the Congo, Satellite Imagery Shows,” ABC News, February 8, 2023, https://abcnews.go.com/International/cobalt-mining-transforms-city-democratic-republic-congo-satellite/story?id=96795773.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/LFFWMLZ2/library"
+    ],
+    "Bobrowsky and Berber 2024": [
+        "<span>Meghan Bobrowsky and Jin Berber, “Elon Musk’s XAI Plans to Build Supercomputer in Memphis,” Wall Street Journal, June 5, 2024, https://www.wsj.com/tech/ai/elon-musks-xai-plans-to-build-supercomputer-in-memphis-ecee78fb.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/HB885X69/library"
+    ],
+    "Bosco et al. 2024": [
+        "<span>Mary-Clare Bosco, Jonathan Gilmour, and Rebecca Kilberg, “Voices: Data Centers Must Be Transparent about Water Usage — for the Sake of the Great Salt Lake,” The Salt Lake Tribune, December 31, 2024, https://www.sltrib.com/opinion/commentary/2024/12/31/voices-utah-data-centers-must-be/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/3PLECPJ4/library"
+    ],
+    "Bratton 2015": [
+        "<span>Benjamin H. Bratton, <i>The Stack: On Software and Sovereignty</i>, Software Studies (Cambridge, Mass. London: MIT press, 2015).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/I97UHTHB/library"
+    ],
+    "Calma 2023": [
+        "<span>Justine Calma, “The Fight to Clean up the Toxic Legacy of Semiconductors,” The Verge, December 8, 2023, https://www.theverge.com/23990525/semiconductor-biden-infrastructure-plan-toxic-chemicals.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/FGBUVEG6/library"
+    ],
+    "Campbell 2021": [
+        "<span>Charlie Campbell, “From Phones to Cars and Fridges, This Taiwan Firm Powers the World. But Success Brings Problems,” TIME, October 1, 2021, https://time.com/6102879/semiconductor-chip-shortage-tsmc/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/H2AKHN87/library"
+    ],
+    "Caprotti and Liu 2022": [
+        "<span>Federico Caprotti and Dong Liu, “Platform Urbanism and the Chinese Smart City: The Co-Production and Territorialisation of Hangzhou City Brain,” <i>GeoJournal</i> 87, no. 3 (June 1, 2022): 1559–73, https://doi.org/10.1007/s10708-020-10320-2.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/LH7MRNZ9/library"
+    ],
+    "Carse 2014": [
+        "<span>Ashley Carse, <i>Beyond the Big Ditch: Politics, Ecology, and Infrastructure at the Panama Canal</i> (Cambridge: The MIT Press, 2014), https://mitpress.mit.edu/9780262537414/beyond-the-big-ditch/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/DVWJA7LJ/library"
+    ],
+    "Cawford and Paglen 2019": [
+        "<span>Kate Cawford and Trevor Paglen, “Excavating AI,” Excavating AI: The Politics of Images in Machine Learning Training Sets, 2019, https://excavating.ai.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/RXSL8236/library"
+    ],
+    "Chatterjee et al. 1999": [
+        "<span>A. Chatterjee et al., “Fabless-Foundry Partnership: Models and Analysis of Coordination Issues,” <i>IEEE Transactions on Semiconductor Manufacturing</i> 12, no. 1 (February 1999): 44–52, https://doi.org/10.1109/66.744521.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/N2GAHJZN/library"
+    ],
+    "Crawford 2021": [
+        "<span>Kate Crawford, <i>The Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence</i> (Yale University Press, 2021), https://doi.org/10.2307/j.ctv1ghv45t.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/Q9D77WAN/library"
+    ],
+    "Crownhart 2024": [
+        "<span>Casey Crownhart, “Why Microsoft Made a Deal to Help Restart Three Mile Island,” MIT Technology Review, September 26, 2024, https://www.technologyreview.com/2024/09/26/1104516/three-mile-island-microsoft/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/2JWX9PJW/library"
+    ],
+    "Dawn-Hiscox 2018": [
+        "<span>Tanwen Dawn-Hiscox, “Angola Cables Lights up World’s First Submarine Cable Linking Africa to the Americas,” Data Center Dynamics, September 28, 2018, https://www.datacenterdynamics.com/en/news/angola-cables-lights-up-worlds-first-submarine-cable-linking-africa-to-the-americas/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/C9ZVQD8W/library"
+    ],
+    "Deng et al. 2009": [
+        "<span>Jia Deng et al., “ImageNet: A Large-Scale Hierarchical Image Database,” in <i>2009 IEEE Conference on Computer Vision and Pattern Recognition</i>, 2009, 248–55, https://doi.org/10.1109/CVPR.2009.5206848.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/7DEP4T8W/library"
+    ],
+    "Diprose et al. 2022": [
+        "<span>Rachael Diprose et al., “Regulating Sustainable Minerals in Electronics Supply Chains: Local Power Struggles and the ‘Hidden Costs’ of Global Tin Supply Chain Governance,” <i>Review of International Political Economy</i> 29, no. 3 (May 4, 2022): 792–817, https://doi.org/10.1080/09692290.2020.1814844.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/29SVK3BX/library"
+    ],
+    "Dobbe and Whittaker 2019": [
+        "<span>Roel Dobbe and Meredith Whittaker, “AI and Climate Change: How They’re Connected, and What We Can Do about It,” <i>AI Now Institute</i> (blog), October 17, 2019, https://ainowinstitute.org/publication/ai-and-climate-change-how-theyre-connected-and-what-we-can-do-about-it.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/3LUQI47C/library"
+    ],
+    "Dobson 2023": [
+        "<span>James E. Dobson, <i>The Birth of Computer Vision</i> (Minneapolis London: University of Minnesota Press, 2023).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/8T8QM6YV/library"
+    ],
+    "Edwards 2021": [
+        "<span>Paul N. Edwards, “Platforms Are Infrastructures on Fire,” in <i>Your Computer Is on Fire</i>, ed. Thomas S. Mullaney et al. (The MIT Press, 2021), 313–36, https://doi.org/10.7551/mitpress/10993.003.0021.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/WPFJIDSH/library"
+    ],
+    "Fatunde 2024": [
+        "<span>Mureji Fatunde, “The Race to Produce Rare Earth Elements,” MIT Technology Review, January 5, 2024, https://www.technologyreview.com/2024/01/05/1084791/rare-earth-materials-clean-energy/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/PL4J5W86/library"
+    ],
+    "Fontes et al. 2022": [
+        "<span>Catarina Fontes et al., “AI-Powered Public Surveillance Systems: Why We (Might) Need Them and How We Want Them,” <i>Technology in Society</i> 71 (2022): 102137, https://doi.org/10.1016/j.techsoc.2022.102137.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/SVJSJ63Y/library"
+    ],
+    "George 2013": [
+        "<span>Rose George, <i>Ninety Percent of Everything: Inside Shipping, the Invisible Industry That Puts Clothes on Your Back, Gas in Your Car, and Food on Your Plate</i>, 1. Auflage, Social Science (New York: Metropolitan Books, 2013).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/IELMABXE/library"
+    ],
+    "Goldberg et al. 2024": [
+        "<span>Pinelopi Goldberg et al., “Industrial Policy in the Global Semiconductor Sector” (Cambridge, MA: National Bureau of Economic Research, 2024), https://doi.org/10.3386/w32651.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/C636URA3/library"
+    ],
+    "Goldstone 2024": [
+        "<span>Charlotte Goldstone, “Airfreight Shift as Taiwan Earthquake Impacts Semiconductor Production,” <i>The Loadstar</i> (blog), April 4, 2024, https://theloadstar.com/airfreight-shift-as-taiwan-earthquake-impacts-semiconductor-production/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/B48MCX9M/library"
+    ],
+    "Graham and Anwar 2019": [
+        "<span>Mark Graham and Mohammad Amir Anwar, “The Global Gig Economy: Towards a Planetary Labour Market?,” <i>First Monday</i>, April 1, 2019, https://doi.org/10.5210/fm.v24i4.9913.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/CGKUC27W/library"
+    ],
+    "Graham and Ferrari 2022": [
+        "<span>Mark Graham and Fabian Ferrari, “Introduction,” in <i>Digital Work in the Planetary Market</i>, ed. Mark Graham and Fabian Ferrari (The MIT Press, 2022), 1–20, https://doi.org/10.7551/mitpress/13835.003.0003.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/XX52SY6R/library"
+    ],
+    "Gray and Suri 2019": [
+        "<span>Mary L. Gray and Siddharth Suri, <i>Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass</i> (Boston: Houghton Mifflin Harcourt, 2019).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/MGJWFKIV/library"
+    ],
+    "Graydon and Parks 2020": [
+        "<span>Matthew Graydon and Lisa Parks, “‘Connecting the Unconnected’: A Critical Assessment of US Satellite Internet Services,” <i>Media, Culture &#38; Society</i> 42, no. 2 (2020): 260–76, https://doi.org/10.1177/0163443719861835.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/GT7KDMFQ/library"
+    ],
+    "Grohmann et al. 2022": [
+        "<span>Rafael Grohmann et al., “Platform Scams: Brazilian Workers’ Experiences of Dishonest and Uncertain Algorithmic Management,” <i>New Media &#38; Society</i> 24, no. 7 (2022): 1611–31, https://doi.org/10.1177/14614448221099225.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/5IIVPA2I/library"
+    ],
+    "Gupta et al. 2021": [
+        "<span>Udit Gupta et al., “Chasing Carbon: The Elusive Environmental Footprint of Computing,” in <i>2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA)</i> (2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA), Seoul, Korea (South): IEEE, 2021), 854–67, https://doi.org/10.1109/HPCA51647.2021.00076.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/LZZLWQ8Y/library"
+    ],
+    "Halegoua 2016": [
+        "<span>Germaine Halegoua, “‘Always Off’ Connection,” <i>Flow: A Critical Forum on Media and Culture</i> (blog), October 24, 2016, https://www.flowjournal.org/2016/10/always-off-connection/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/ES9GGW9P/library"
+    ],
+    "Halegoua and Lingel 2018": [
+        "<span>Germaine R Halegoua and Jessa Lingel, “Lit up and Left Dark: Failures of Imagination in Urban Broadband Networks,” <i>New Media &#38; Society</i> 20, no. 12 (December 1, 2018): 4634–52, https://doi.org/10.1177/1461444818779593.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/7TKKMQFM/library"
+    ],
+    "Halper 2024": [
+        "<span>Evan Halper, “Microsoft Deal Would Reopen Three Mile Island Nuclear Plant to Power AI,” <i>Washington Post</i>, September 20, 2024, https://www.washingtonpost.com/business/2024/09/20/microsoft-three-mile-island-nuclear-constellation/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/BT6WEZ28/library"
+    ],
+    "Han and Hawken 2018": [
+        "<span>Hoon Han and Scott Hawken, “Introduction: Innovation and Identity in next-Generation Smart Cities,” <i>City, Culture and Society</i>, Innovation and identity in next generation smart cities, 12 (March 1, 2018): 1–4, https://doi.org/10.1016/j.ccs.2017.12.003.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/5766383/library"
+    ],
+    "Hanbury et al. 2024": [
+        "<span>Peter Hanbury, Anne Hoecker, and Michael Schallehn, “Prepare for the Coming AI Chip Shortage,” Bain &#38; Company, September 25, 2024, https://www.bain.com/insights/prepare-for-the-coming-ai-chip-shortage-tech-report-2024/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/JZTW4ZNF/library"
+    ],
+    "Harvey and LaPlace 2021": [
+        "<span>Adam Harvey and Jules LaPlace, “Exposing.Ai: Duke Multi-Target Multi-Camera Tracking Dataset,” Exposing.ai, 2021, https://exposing.ai/datasets/duke_mtmc/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/A3KB9PRC/library"
+    ],
+    "Hodal 2012": [
+        "<span>Kate Hodal, “Death Metal: Tin Mining in Indonesia,” <i>The Guardian</i>, November 23, 2012, sec. Environment, https://www.theguardian.com/environment/2012/nov/23/tin-mining-indonesia-bangka.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/G4ENGDMB/library"
+    ],
+    "Hogan 2015": [
+        "<span>Mél Hogan, “Data Flows and Water Woes: The Utah Data Center,” <i>Big Data &#38; Society</i> 2, no. 2 (December 1, 2015): 1–12, https://doi.org/10.1177/2053951715592429.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/IIP3FL3H/library"
+    ],
+    "Hogan and Lepage-Richter 2024": [
+        "<span>Mél Hogan and Théo Lepage-Richter, “Extractive AI,” Centre for Media, Technology and Democracy, 2024, https://www.mediatechdemocracy.com/climatetechhoganlepagericher.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/CQ7I4XHN/library"
+    ],
+    "Holden and Harsh 2024": [
+        "<span>Kerry Holden and Matthew Harsh, “On Pipelines, Readiness and Annotative Labour: Political Geographies of AI and Data Infrastructures in Africa,” <i>Political Geography</i> 113 (August 1, 2024): 103150, https://doi.org/10.1016/j.polgeo.2024.103150.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/9Z4K5SCW/library"
+    ],
+    "Holt 2024": [
+        "<span>Jennifer Holt, <i>Cloud Policy: A History of Regulating Pipelines, Platforms, and Data</i> (The MIT Press, 2024), https://doi.org/10.7551/mitpress/14683.001.0001.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/K4CYV8VJ/library"
+    ],
+    "Huggins 2023": [
+        "<span>Chris Huggins, “Is Collaboration Possible between the Small-Scale and Large-Scale Mining Sectors? Evidence from ‘Conflict-Free Mining’ in the Democratic Republic of the Congo (DRC),” <i>The Extractive Industries and Society</i> 13 (March 1, 2023): 101163, https://doi.org/10.1016/j.exis.2022.101163.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/J5S9N2M2/library"
+    ],
+    "Hung et al. 2017": [
+        "<span>Hui-Chih Hung, Yu-Chih Chiu, and Muh-Cherng Wu, “Analysis of Competition Between IDM and Fabless–Foundry Business Models in the Semiconductor Industry,” <i>IEEE Transactions on Semiconductor Manufacturing</i> 30, no. 3 (2017): 254–60, https://doi.org/10.1109/TSM.2017.2699739.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/3JNQVMQN/library"
+    ],
+    "Janah 2017": [
+        "<span>Leila Janah, <i>Give Work: Reversing Poverty One Job at a Time</i> (Erscheinungsort nicht ermittelbar: Penguin Publishing Group, 2017).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/RIMHAEZZ/library"
+    ],
+    "Jie and Qin 2024": [
+        "<span>Yang Jie and Sherry Qin, “AI Boom Is Real—and Really Profitable—Says Chip Maker TSMC,” WSJ, October 17, 2024, https://www.wsj.com/business/earnings/tsmc-posts-record-quarterly-profit-amid-ai-boom-f1002934.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/6S6VIQZI/library"
+    ],
+    "Judge 2023": [
+        "<span>Peter Judge, “Microsoft Signs 24/7 Nuclear Power Deal with Constellation for Boydton Data Center,” June 30, 2023, https://www.datacenterdynamics.com/en/news/microsoft-signs-247-nuclear-power-deal-with-constellation-for-boydton-data-center/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/9UYVDJMB/library"
+    ],
+    "Kara 2023": [
+        "<span>Siddharth Kara, <i>Cobalt Red: How the Blood of the Congo Powers Our Lives</i>, First edition (New York, NY: St. Martin’s Press, 2023).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/A4ABHXW2/library"
+    ],
+    "Khan et al. 2021": [
+        "<span>Saif M. Khan, Alexander Mann, and Dahlia Peterson, “The Semiconductor Supply Chain: Assessing National Competitiveness” (Center for Security and Emerging Technology, 2021), https://doi.org/10.51593/20190016.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/FN9NFRFM/library"
+    ],
+    "Kleijn et al. 2021": [
+        "<span>Anne Kleijn et al., “STREAM Freight Transport 2020: Emissions of Freight Transport Modes” (CE Delft, February 2021), https://cedelft.eu/publications/stream-freight-transport-2020/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/W42GU39V/library"
+    ],
+    "Klinger 2015": [
+        "<span>Julie Michelle Klinger, “On the Rare Earth Frontier” (Ph.D., United States -- California, University of California, Berkeley, 2015), https://www.proquest.com/docview/1750075914/abstract/54C877AE5A7B4D9DPQ/1.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/7I6NK8TC/library"
+    ],
+    "Koerner 2017": [
+        "<span>Brendan I. Koerner, “The Inside Story of the Great Silicon Heist,” <i>Wired</i>, September 26, 2017, https://www.wired.com/story/inside-story-of-the-great-silicon-heist/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/SGTGFAD3/library"
+    ],
+    "Krizhevsky et al. 2012": [
+        "<span>Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton, “ImageNet Classification with Deep Convolutional Neural Networks,” in <i>Advances in Neural Information Processing Systems</i>, vol. 25 (Curran Associates, Inc., 2012), https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/GE28EPHK/library"
+    ],
+    "Labban 2014": [
+        "<span>Mazen Labban, “Deterritorializing Extraction: Bioaccumulation and the Planetary Mine,” <i>Annals of the Association of American Geographers</i> 104, no. 3 (2014): 560–76, https://www.jstor.org/stable/24537757.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/NVM7HK7F/library"
+    ],
+    "Latham 2018": [
+        "<span>Andrew Latham, “Lithium and Battery Metals Conference 2018,” March 21, 2018, https://www.riotinto.com/en/invest/presentations/2018/lithium-conference.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/S99UL48L/library"
+    ],
+    "Lee et al. 2024": [
+        "<span>Tsung-Yu Lee et al., “Impact Assessment of Climate Change on Water Supply to Hsinchu Science Park in Taiwan,” <i>Water</i> 16, no. 12 (June 20, 2024): 1746, https://doi.org/10.3390/w16121746.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/FZISAEAS/library"
+    ],
+    "Leggate 2024": [
+        "<span>James Leggate, “Intel’s $20B Arizona Chip Plant Project Poised to Make National Impact,” Engineering News-Record, March 19, 2024, https://www.enr.com/articles/58334-intels-20b-arizona-chip-plant-project-poised-to-make-national-impact.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/JE3GEBUP/library"
+    ],
+    "Li et al. 2023": [
+        "<span>Yuze Li et al., “The Climate Impact of High Seas Shipping,” <i>National Science Review</i> 10, no. 3 (February 28, 2023): nwac279, https://doi.org/10.1093/nsr/nwac279.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/NBR7TW4G/library"
+    ],
+    "Luccioni et al. 2023": [
+        "<span>Alexandra Sasha Luccioni, Sylvain Viguier, and Anne-Laure Ligozat, “Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model,” <i>Journal of Machine Learning Research</i> 24, no. 253 (2023): 1–15, http://jmlr.org/papers/v24/23-0069.html.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/Y97UKWTJ/library"
+    ],
+    "Luccioni et al. 2024": [
+        "<span>Alexandra Sasha Luccioni, Yacine Jernite, and Emma Strubell, “Power Hungry Processing: Watts Driving the Cost of AI Deployment?,” in <i>The 2024 ACM Conference on Fairness, Accountability, and Transparency</i>, 2024, 85–99, https://doi.org/10.1145/3630106.3658542.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/RPISICLL/library"
+    ],
+    "Ma et al. 2020": [
+        "<span>Yifang Ma et al., “Artificial Intelligence Applications in the Development of Autonomous Vehicles: A Survey,” <i>IEEE/CAA Journal of Automatica Sinica</i> 7, no. 2 (2020): 315–29, https://doi.org/10.1109/JAS.2020.1003021.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/JFKBFJUY/library"
+    ],
+    "Malkia and Banchereau 2024": [
+        "<span>Christina Malkia and Mark Banchereau, “M23 Rebels Seize Key Smartphone Mineral Mining Town in Eastern Congo,” <i>PBS News</i>, May 3, 2024, https://www.pbs.org/newshour/world/m23-rebels-seize-key-smartphone-mineral-mining-town-in-eastern-congo.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/DNVGC82E/library"
+    ],
+    "Margonelli 2009": [
+        "<span>Lisa Margonelli, “Clean Energy’s Dirty Little Secret,” <i>The Atlantic</i>, May 1, 2009, https://www.theatlantic.com/magazine/archive/2009/05/clean-energys-dirty-little-secret/307377/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/AGZSHMTD/library"
+    ],
+    "Maughan 2015": [
+        "<span>Tim Maughan, “The Dystopian Lake Filled by the World’s Tech Lust,” <i>BBC</i>, April 2, 2015, https://www.bbc.com/future/article/20150402-the-worst-place-on-earth.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/B64987S9/library"
+    ],
+    "Mayer and Velkova 2023": [
+        "<span>Vicki Mayer and Julia Velkova, “The Social Mapping of Hyperscale Data Center Regions,” in <i>Media Backends: Digital Infrastructures and Sociotechnical Relations</i>, ed. Lisa Parks, Julia Velkova, and Sander De Ridder, The Geopolitics of Information (Urbana: University of Illinois Press, 2023), 114–28.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/2FVSVXY7/library"
+    ],
+    "Meese et al. 2022": [
+        "<span>Aidan Francis Meese et al., “Opportunities and Challenges for Industrial Water Treatment and Reuse,” <i>ACS ES&#38;T Engineering</i> 2, no. 3 (March 11, 2022): 465–88, https://doi.org/10.1021/acsestengg.1c00282.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/SDSA9SXE/library"
+    ],
+    "Mills 2024": [
+        "<span>Alex Mills, “The Long Shadow of the Red Sea Shipping Disruption,” <i>Atlantic Council</i> (blog), January 8, 2024, https://www.atlanticcouncil.org/blogs/econographics/the-long-shadow-of-the-red-sea-shipping-disruption/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/J67VMNFG/library"
+    ],
+    "MIT Technology Review Insights 2023": [
+        "<span>MIT Technology Review Insights, “Sustainability Starts with the Data Center,” MIT Technology Review, November 30, 2023, https://www.technologyreview.com/2023/11/30/1083909/sustainability-starts-with-the-data-center/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/Y7MB9MWE/library"
+    ],
+    "Moore and Woodcock 2021": [
+        "<span>Phoebe V. Moore and Jamie Woodcock, eds., <i>Augmented Exploitation: Artificial Intelligence, Automation and Work</i> (Pluto Press, 2021), https://doi.org/10.2307/j.ctv1h0nv3d.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/GF5QN2A6/library"
+    ],
+    "Moshrefi-Torbati and Swingler 2011": [
+        "<span>M. Moshrefi-Torbati and J. Swingler, “Reliability of Printed Circuit Boards Containing Lead-Free Solder in Aggressive Environments,” <i>Journal of Materials Science: Materials in Electronics</i> 22, no. 4 (April 1, 2011): 400–411, https://doi.org/10.1007/s10854-010-0150-7.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/QYV6K7V5/library"
+    ],
+    "Muennighoff et al. 2023": [
+        "<span>Niklas Muennighoff et al., “Scaling Data-Constrained Language Models,” <i>Advances in Neural Information Processing Systems</i> 36 (December 15, 2023): 50358–76, https://proceedings.neurips.cc/paper_files/paper/2023/hash/9d89448b63ce1e2e8dc7af72c984c196-Abstract-Conference.html.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/NPQVQ8K9/library"
+    ],
+    "Murgia and Harlow 2019": [
+        "<span>Madhumita Murgia and Max Harlow, “Who’s Using Your Face? The Ugly Truth about Facial Recognition,” <i>Financial Times</i>, September 18, 2019, sec. FT Magazine, https://www.ft.com/content/cf19b956-60a2-11e9-b285-3acd5d43599e.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/NKUMLTWM/library"
+    ],
+    "Nieves 2018": [
+        "<span>Evelyn Nieves, “The Superfund Sites of Silicon Valley,” <i>The New York Times</i>, March 26, 2018, sec. Lens, https://www.nytimes.com/2018/03/26/lens/the-superfund-sites-of-silicon-valley.html.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/GRR7MBV9/library"
+    ],
+    "Nugraha and Purwanto 2020": [
+        "<span>Agung Nugraha and Semiarto A. Purwanto, “Neo-Esktraktivisme Tambang Timah di Pulau Bangka (Neo-Extractivism of Tin Mining in Bangka Island),” <i>Indonesian Journal of Religion and Society</i> 2, no. 1 (June 6, 2020): 12–22, https://doi.org/10.36256/ijrs.v2i1.95.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/UC6ST8YQ/library"
+    ],
+    "NVIDIA Corporation 2014": [
+        "<span>NVIDIA Corporation, “Conflict Minerals Report of NVIDIA Corporation for the Calendar Year Ended December 31, 2014,” SEC, 2014, https://www.sec.gov/Archives/edgar/data/1045810/000104581015000119/conflictmineralsreport.htm.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/72TSWE2F/library"
+    ],
+    "NVIDIA Corporation 2023": [
+        "<span>NVIDIA Corporation, “Conflict Minerals Report of NVIDIA Corporation for the Calendar Year Ended December 31, 2023,” SEC, 2023, https://www.sec.gov/Archives/edgar/data/1045810/000104581024000116/a2024conflictmineralsrepor.htm.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/CXK5T5C5/library"
+    ],
+    "Ojewale 2022": [
+        "<span>Oluwole Ojewale, “Mining and Illicit Trading of Coltan in the Democratic Republic of the Congo,” <i>ENACT: Enhancing Africa’s Response to Transnational Organised Crime</i>, no. 29 (March 2022), https://enactafrica.org/research/research-papers/mining-and-illicit-trading-of-coltan-in-the-democratic-republic-of-congo.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/RRP73IBP/library"
+    ],
+    "Pan and Li 2016": [
+        "<span>Yuxue Pan and Haitao Li, “Investigating Heavy Metal Pollution in Mining Brownfield and Its Policy Implications: A Case Study of the Bayan Obo Rare Earth Mine, Inner Mongolia, China,” <i>Environmental Management</i> 57, no. 4 (April 1, 2016): 879–93, https://doi.org/10.1007/s00267-016-0658-6.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/DA6JTB7I/library"
+    ],
+    "Perrigo 2023": [
+        "<span>Billy Perrigo, “Exclusive: The $2 Per Hour Workers Who Made ChatGPT Safer,” TIME, January 18, 2023, https://time.com/6247678/openai-chatgpt-kenya-workers/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/GKFIKFI6/library"
+    ],
+    "Purdy 2024": [
+        "<span>Mark Purdy, “What Is Agentic AI, and How Will It Change Work?,” Harvard Business Review, December 12, 2024, https://hbr.org/2024/12/what-is-agentic-ai-and-how-will-it-change-work.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/IB582ZZY/library"
+    ],
+    "Ren et al. 2023": [
+        "<span>Yawen Ren et al., “Dynamics of the Global Semiconductor Trade and Its Dependencies,” <i>Journal of Geographical Sciences</i> 33, no. 6 (2023): 1141–60, https://doi.org/10.1007/s11442-023-2123-9.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/B6A2Q299/library"
+    ],
+    "Revell 2017": [
+        "<span>Timothy Revell, “A Smart City in China Tracks Every Citizen and Yours Could Too,” New Scientist, October 24, 2017, https://www.newscientist.com/article/2151297-a-smart-city-in-china-tracks-every-citizen-and-yours-could-too/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/ZV4H8GQ5/library"
+    ],
+    "Ristani et al. 2016": [
+        "<span>Ergys Ristani et al., “Performance Measures and a Data Set for Multi-Target, Multi-Camera Tracking” (arXiv, September 19, 2016), https://doi.org/10.48550/arXiv.1609.01775.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/EXE6VMJC/library"
+    ],
+    "Roberts 2021": [
+        "<span>Sarah T. Roberts, “Your AI Is a Human,” in <i>Your Computer Is on Fire</i>, ed. Thomas S. Mullaney et al. (The MIT Press, 2021), 51–70, https://doi.org/10.7551/mitpress/10993.003.0006.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/5FF6E29M/library"
+    ],
+    "Robinson-Smith 2024": [
+        "<span>Will Robinson-Smith, “SpaceX Launches 22 Starlink Satellites on Falcon 9 Rocket from California – Spaceflight Now,” <i>Spaceflight Now</i> (blog), December 12, 2024, https://spaceflightnow.com/2024/12/12/live-coverage-spacex-to-launch-22-starlink-satellites-on-falcon-9-rocket-from-california/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/9EZVY3QH/library"
+    ],
+    "Rojanasakul 2024": [
+        "<span>Mira Rojanasakul, “Panama Canal Drought Slows Cargo Traffic,” <i>The New York Times</i>, January 26, 2024, sec. Climate, https://www.nytimes.com/interactive/2024/01/26/climate/panama-canal-drought-shipping.html.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/AZBV7MDN/library"
+    ],
+    "Rollet 2025": [
+        "<span>Charles Rollet, “Exclusive: Scale AI Hit by Its Second Wage Theft Lawsuit in Less than a Month,” <i>TechCrunch</i> (blog), January 9, 2025, https://techcrunch.com/2025/01/09/scale-ai-hit-by-its-second-employee-wage-lawsuit-in-less-than-a-month/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/4P5QN8FB/library"
+    ],
+    "Rowe 2023": [
+        "<span>Niamh Rowe, “‘It’s Destroyed Me Completely’: Kenyan Moderators Decry Toll of Training of AI Models,” <i>The Guardian</i>, August 2, 2023, sec. Technology, https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/DGLVBKCH/library"
+    ],
+    "Rudahigwa 2010": [
+        "<span>Primo Pascal Rudahigwa, “Seventy-Two Hours at the Mining Sites of Bisie,” in <i>Blood Minerals: The Criminalization of the Mining Industry in Eastern DRC</i> (Pole Institute, 2010), 12–16.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/9SQC4U5S/library"
+    ],
+    "Sadowski 2022": [
+        "<span>Jathan Sadowski, “Planetary Potemkin AI: The Humans Hidden inside Mechanical Minds,” in <i>Digital Work in the Planetary Market</i>, ed. Mark Graham and Fabian Ferrari (The MIT Press, 2022), 229–40, https://doi.org/10.7551/mitpress/13835.003.0018.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/S9FVHDUG/library"
+    ],
+    "Schmidt 2022": [
+        "<span>Florian A. Schmidt, “The Planetary Stacking Order of Multilayered Crowd-AI Systems,” in <i>Digital Work in the Planetary Market</i>, ed. Mark Graham and Fabian Ferrari (The MIT Press, 2022), 137–56, https://doi.org/10.7551/mitpress/13835.003.0012.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/7K3A6EJM/library"
+    ],
+    "Service & 2022": [
+        "<span>“Service &#38; Solutions,” NJFX, August 9, 2022, https://njfx.net/service-solutions/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/QUZNDDQD/library"
+    ],
+    "Simpson 2012": [
+        "<span>Cam Simpson, “The Deadly Tin Inside Your Smartphone,” <i>Bloomberg.Com</i>, August 24, 2012, https://www.bloomberg.com/news/articles/2012-08-23/the-deadly-tin-inside-your-smartphone.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/NBWBY352/library"
+    ],
+    "Sonnenfeld et al. 2006": [
+        "<span>David A. Sonnenfeld, David N. Pellow, and Ted Smith, eds., <i>Challenging the Chip: Labor Rights and Environmental Justice in the Global Electronics Industry</i> (Philadelphia: Temple University Press, 2006).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/PJEIQSY3/library"
+    ],
+    "Starosielski 2015": [
+        "<span>Nicole Starosielski, “Fixed Flow: Undersea Cables as Media Infrastructure,” in <i>Signal Traffic: Critical Studies of Media Infrastructures</i>, ed. Lisa Parks and Nicole Starosielski, The Geopolitics of Information Ser (Champaign: University of Illinois Press, 2015), 53–70.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/63ZTVKI8/library"
+    ],
+    "Starosielski and Bojczuk 2023": [
+        "<span>Nicole Starosielski and Iago Bojczuk, “Southern Imaginaries of Digital Infrastructures,” e-flux Architecture, December 2023, https://www.e-flux.com/architecture/accumulation/552647/southern-imaginaries-of-digital-infrastructures/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/4QDPUFWR/library"
+    ],
+    "Starosielski et al. 2023": [
+        "<span>Nicole Starosielski et al., “Report on Best Practices in Subsea Telecommunications Sustainability” (Sustainable Subsea Networks, 2023).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/B7K5XK6F/library"
+    ],
+    "Strubell et al. 2020": [
+        "<span>Emma Strubell, Ananya Ganesh, and Andrew McCallum, “Energy and Policy Considerations for Modern Deep Learning Research,” <i>Proceedings of the AAAI Conference on Artificial Intelligence</i> 34, no. 09 (April 3, 2020): 13693–96, https://doi.org/10.1609/aaai.v34i09.7123.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/VXXNLWJ8/library"
+    ],
+    "Taffel 2015": [
+        "<span>Sy Taffel, “Towards an Ethical Electronics? Ecologies of Congolese Conflict Minerals,” <i>Westminster Papers in Culture and Communication</i> 10, no. 1 (September 15, 2015): 18–33, https://doi.org/10.16997/wpcc.210.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/38LTL7S3/library"
+    ],
+    "Taylor 2019": [
+        "<span>A.R.E. Taylor, “The Data Center as Technological Wilderness,” <i>Culture Machine</i>, The Nature of Data Centers, 18 (2019).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/GS4N7VKN/library"
+    ],
+    "Taylor 2018": [
+        "<span>Astra Taylor, “The Automation Charade,” Logic(s) Magazine, August 1, 2018, https://logicmag.io/failure/the-automation-charade/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/N4ZC5YHN/library"
+    ],
+    "Umpula and Bisil 2023": [
+        "<span>Emmanuel Umpula and Eric Bisil, “Formalising Artisanal Cobalt Mining in the DRC: Much Work Remains,” International Institute for Environment and Development, July 25, 2023, https://www.iied.org/formalising-artisanal-cobalt-mining-drc-much-work-remains.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/JCKJ48RJ/library"
+    ],
+    "Umpula et al. 2021": [
+        "<span>Emmanuel Umpula, Abbi Buxton, and Brendan Schwartz, “Islands of Responsibility? Corporate Sourcing of Artisanal Cobalt in the Democratic Republic of the Congo” (London: International Institute for Environment and Development, September 2021), https://www.iied.org/20436iied.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/7EJWNRPD/library"
+    ],
+    "Velkova 2024": [
+        "<span>Julia Velkova, “Dismantling Public Values, One Data Center at the Time,” Linköping University, February 16, 2024, https://liu.se/en/research/megabytes-vs-megawatts/dismantling-public-values-one-data-center-at-the-time.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/CKAI82V9/library"
+    ],
+    "Venturous Group 2023": [
+        "<span>Venturous Group, “City Brain: A New Model of Urban Governance Catalyzed by Big Data,” Venturous: The CityTech Group, February 26, 2023, https://www.venturousgroup.com/resources/city-brain-a-new-model-of-urban-governance-catalyzed-by-big-data.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/PZ2DANQZ/library"
+    ],
+    "Vonderau 2018": [
+        "<span>Asta Vonderau, “Technologies of Imagination: Locating the Cloud in Sweden’s North,” <i>Imaginations: Journal of Cross-Cultural Image Studies</i> 8, no. 2 (September 6, 2018): 8–21, https://doi.org/10.17742/IMAGE.LD.8.2.2.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/6WD7QLDI/library"
+    ],
+    "Vonderau and Holt 2015": [
+        "<span>Patrick Vonderau and Jennifer Holt, “‘Where the Internet Lives’: Data Centers as Cloud Infrastructures,” in <i>Signal Traffic: Critical Studies of Media Infrastructures</i>, ed. Lisa Parks and Nicole Starosielski, The Geopolitics of Information Ser (Champaign: University of Illinois Press, 2015).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/3JSV5HXL/library"
+    ],
+    "Wang et al. 2016": [
+        "<span>Lingqing Wang et al., “Atmospheric Thorium Pollution and Inhalation Exposure in the Largest Rare Earth Mining and Smelting Area in China,” <i>Science of The Total Environment</i> 572 (2016): 1–8, https://doi.org/10.1016/j.scitotenv.2016.07.192.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/7RJM95KD/library"
+    ],
+    "Weinberg 2020": [
+        "<span>Lindsay Weinberg, “Feminist Research Ethics and Student Privacy in the Age of AI,” <i>Catalyst: Feminism, Theory, Technoscience</i> 6, no. 2 (2020): 1–10.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/XMAD96QN/library"
+    ],
+    "Wiles 2021": [
+        "<span>Russ Wiles, “Intel Breaks Ground on $20B Expansion in Chandler,” The Arizona Republic, September 24, 2021, https://www.azcentral.com/story/money/business/tech/2021/09/24/intels-20-billion-arizona-chip-factories-break-ground-chandler/5836524001/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/FFAPVDHF/library"
+    ],
+    "Williams et al. 2002": [
+        "<span>Eric D. Williams, Robert U. Ayres, and Miriam Heller, “The 1.7 Kilogram Microchip:  Energy and Material Use in the Production of Semiconductor Devices,” <i>Environmental Science &#38; Technology</i> 36, no. 24 (December 1, 2002): 5504–10, https://doi.org/10.1021/es025643o.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/F7KJ6K28/library"
+    ],
+    "Willy 2018": [
+        "<span>Adela Megan Willy, “Malaysia to Adopt Alibaba’s City Brain Smart City Solution,” The Edge Malaysia, January 29, 2018, https://theedgemalaysia.com/article/malaysia-adopt-alibabas-city-brain-smart-city-solution.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/4EWVTRJK/library"
+    ],
+    "Wimmer and Hilgert 2011": [
+        "<span>Sarah Zingg Wimmer and Filip Hilgert, “Bisie. A One-Year Snapshot of the DRC’s Principal Cassiterite Mine” (Iternational Peace Information Service, November 28, 2011).</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/WB8N2UVX/library"
+    ],
+    "Witley and Heins 2014": [
+        "<span>Jeremy C Witley and Russel A Heins, “Alphamin Resources Corporation, Bisie Tin Project, North Kivu Province, Democratic Republic of Congo,” Technical Report - Mineral Resource Estimate (The MSA Group, January 9, 2014), Wayback Machine, https://web.archive.org/web/20160304091330/http://alphaminresources.com/wp-content/uploads/2014/02/Alphamin-Bisie-Tin-Project-NI-43-101-Report-Jan-2014.pdf?4737e9.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/U8VP25TW/library"
+    ],
+    "Wolverton 2024": [
+        "<span>Troy Wolverton, “Lawsuit Charges SF’s Scale AI with Wage Theft,” <i>San Francisco Examiner</i>, December 12, 2024, https://www.sfexaminer.com/news/technology/scale-ai-lawsuit-charges-sf-tech-startup-with-wage-theft/article_b6b3781a-b827-11ef-8cc7-c320ca742702.html.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/WFN8V2UM/library"
+    ],
+    "Wong 2024": [
+        "<span>Erin X. Wong, “A Silicon Revival in the West,” High Country News, August 1, 2024, http://www.hcn.org/issues/56-8/a-silicon-revival-in-the-west/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/9QQMK7IC/library"
+    ],
+    "Yadav 2024": [
+        "<span>Nina Yadav, “What Is a Cable Landing Station?,” <i>NJFX</i> (blog), September 3, 2024, https://njfx.net/what-is-a-cable-landing-station/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/M6HU4AK2/library"
+    ],
+    "Yang and Ge 2020": [
+        "<span>Yi-Chih Yang and Ying-En Ge, “Adaptation Strategies for Port Infrastructure and Facilities under Climate Change at the Kaohsiung Port,” <i>Transport Policy</i> 97 (2020): 232–44, https://doi.org/10.1016/j.tranpol.2020.06.019.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/L2KH463Q/library"
+    ],
+    "Zehner and Ullrich 2024": [
+        "<span>Nicolas Zehner and André Ullrich, “Dreaming of AI: Environmental Sustainability and the Promise of Participation,” <i>AI &#38; SOCIETY</i>, July 16, 2024, https://doi.org/10.1007/s00146-024-02011-0.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/6GZJHMDK/library"
+    ],
+    "Zeitlin 2024": [
+        "<span>Matthew Zeitlin, “What Does Amazon Want With Nuclear?,” Heatmap News, March 13, 2024, https://heatmap.news/technology/amazon-nuclear-talen-energy.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/BPVQPG3S/library"
+    ],
+    "Zhong and Chien 2021": [
+        "<span>Raymond Zhong and Amy Chang Chien, “Drought in Taiwan Pits Chip Makers Against Farmers,” <i>The New York Times</i>, April 8, 2021, sec. Technology, https://www.nytimes.com/2021/04/08/technology/taiwan-drought-tsmc-semiconductors.html.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/Z9DKNIRS/library"
+    ],
+    "Zylinska 2023": [
+        "<span>Joanna Zylinska, <i>The Perception Machine: Our Photographic Future between the Eye and AI</i> (The MIT Press, 2023), https://doi.org/10.7551/mitpress/14471.001.0001.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/7CC2IQ9S/library"
+    ],
+    "The Congo 2011": [
+        "<span>“The Congo Report: Slavery in Conflict Minerals” (Free the Slaves and Open Square Foundation, June 2011), https://freetheslaves.net/wp-content/uploads/2015/03/The-Congo-Report-English.pdf.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/DLWN86MR/library"
+    ],
+    "Why it’s 2021": [
+        "<span>“Why It’s Hard for Congo’s Coltan Miners to Abide by the Law,” <i>The Economist</i>, January 21, 2021, https://www.economist.com/middle-east-and-africa/2021/01/21/why-its-hard-for-congos-coltan-miners-to-abide-by-the-law.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/9BK7LYMP/library"
+    ],
+    "Semiconductor Supply 2022": [
+        "<span>“Semiconductor Supply Chain Infographic,” Dimerco, December 21, 2022, https://dimerco.com/semiconductor-supply-chain-infographic/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/HVYCU6F6/library"
+    ],
+    "DoD Awards 2022": [
+        "<span>“DoD Awards $35 Million to MP Materials to Build U.S. Heavy Rare Earth Separation Capacity,” U.S. Department of Defense, February 22, 2022, https://www.defense.gov/News/Releases/Release/Article/2941793/dod-awards-35-million-to-mp-materials-to-build-us-heavy-rare-earth-separation-c/https%3A%2F%2Fwww.defense.gov%2FNews%2FReleases%2FRelease%2FArticle%2F2941793%2Fdod-awards-35-million-to-mp-materials-to-build-us-heavy-rare-earth-separation-c%2F.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/SQC7STKK/library"
+    ],
+    "Building a ": [
+        "<span>“Building a Sustainable, Equitable Semiconductor Industry,” CHIPS Communities United, accessed December 13, 2024, https://chipscommunitiesunited.org/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/SBPDKJTI/library"
+    ],
+    "FACT SHEET: 2022": [
+        "<span>“FACT SHEET: CHIPS and Science Act Will Lower Costs, Create Jobs, Strengthen Supply Chains, and Counter China,” The White House, August 9, 2022, https://www.whitehouse.gov/briefing-room/statements-releases/2022/08/09/fact-sheet-chips-and-science-act-will-lower-costs-create-jobs-strengthen-supply-chains-and-counter-china/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/GAE9VUR8/library"
+    ],
+    "Silicon, >99.99% ": [
+        "<span>“Silicon, &#62;99.99% Pure (HS: 280461) Product Trade, Exporters and Importers,” The Observatory of Economic Complexity, accessed December 13, 2024, https://oec.world/en/profile/hs/silicon-9999-pure.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/ARPIXTHA/library"
+    ],
+    "DHL Supply 2022": [
+        "<span>“DHL Supply Chain to Invest EUR 10 Million (NTD 320 Million) to Expand Warehousing in Northern Taiwan, Fulfill Logistics Demand of Semiconductor and Life Sciences and Healthcare (LSHC) Sectors,” DHL, December 19, 2022, https://www.dhl.com/kr-en/home/press/press-archive/2022/dhl-supply-chain-to-invest-eur-10-million-ntd-320-million-to-expand-warehousing-in-northern-taiwan.html.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/PXRPBBPJ/library"
+    ],
+    "Four Key 2024": [
+        "<span>“Four Key Threats to Semiconductor Supply Chains: The Race to Source Contingencies in a Polycrisis World,” Gallagher Spotlight Series: Powering Growth (Arthur J. Gallagher &#38; Co., April 2024), https://www.ajg.com/no/-/media/files/gallagher/global/insights/four-key-threats-to-semiconductor-supply-chains.pdf.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/MMLK6ECK/library"
+    ],
+    "Clean Clicks 2024": [
+        "<span>“Clean Clicks or Dirty Chips? Despite Commitments to 100% Renewable Energy, U.S. Semiconductor Expansion Driving Demand for Dirty Energy” (Stand.earth, February 2024), https://stand.earth/wp-content/uploads/2024/02/Clean-Clicks-or-Dirty-Chips-Feb-2024_230224.pdf.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/RYEEBT28/library"
+    ],
+    "Taiwan's Strategic 2024": [
+        "<span>“Taiwan’s Strategic Role in the Global Semiconductor Supply Chain,” Dimerco, October 28, 2024, https://dimerco.com/taiwans-strategic-role-global-semiconductor-supply-chain/.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/HDGVAUT3/library"
+    ],
+    "City Brain 2019": [
+        "<span>“City Brain Now in 23 Cities in Asia,” Alibaba Cloud Community, October 28, 2019, https://www.alibabacloud.com/blog/city-brain-now-in-23-cities-in-asia_595479.</span>",
+        "https://www.zotero.org/groups/5766383/g2c/items/WBVC8K9F/library"
+    ]
 }
