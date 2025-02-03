@@ -123,6 +123,26 @@
         }
     ],
     "train": [
-
+        {
+            "id"   : "sama-gulu",
+            "title": "Samasource Gulu Center",
+            "loc"  : "Gulu, Uganda",
+            "alt"  : "Satellite view of a cluster of buildings made from shipping containers in arid surroundings",
+            "desc" : "Samasource Gulu Center in Northern Uganda, screenshot from Google Earth"
+        },
+        {
+            "id"   : "amazon-seattle",
+            "title": "Amazon Headquarters",
+            "loc"  : "Seattle, United States",
+            "alt"  : "Satellite view of a skyscraper with a courtyard in the middle",
+            "desc" : "Amazon Seattle Headquarters in Seattle, WA, screenshot from Google Earth"
+        },
+        {
+            "id"   : "duke-campus",
+            "title": "Duke University Campus",
+            "loc"  : "Pennsylvania, United States",
+            "alt"  : "Satellite view of a college campus in a wooded area with buildings and sports stadiums visible",
+            "desc" : "Duke University Campus in Durham, NC, screenshot from Google Earth"
+        }
     ]
 }

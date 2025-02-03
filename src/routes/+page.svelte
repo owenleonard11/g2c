@@ -362,20 +362,78 @@
 				</div>
 			</div>
 			{:else if layer == Layer.Train}
-			<div class="h-[92dvh] my-[4dvh]">
-				<div class="max-h-[82.8dvh] mx-8">
-					<div class="text-black snap-center min-w-full max-h-[90%] overflow-y-auto">
-						{#await import(`$lib/images/exhibits/banners/earth.png`) then { default: src }}
-							<img {src} alt="hello" class="h-auto w-full rounded-t-md"/>
-						{/await} 
-						<div class="p-4 bg-[#dcd6cc] rounded-b-md">
-							<div class="xl:text-lg max-h-full">
-								Exhibits coming soon.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<ExhibitCarousel exhibits={exhibits['train']}>
+				<Exhibit exhibit={exhibits['train'][0]}>
+					In a cluster of refurbished shipping containers on the outskirts of Gulu, a mid-sized city in Northern Uganda, workers for data annotation provider Samasource (also "Sama") spend long days labelling images or classifying text passages to assist US companies like OpenAI and Meta with AI training. Sama is an ideological project for its founder Leila Janah, whose
+					<Citation citation={bib['Janah 2017']}>
+						2017 book
+					</Citation>
+					claimed that digital microwork could "reverse poverty" in underdeveloped regions of Africa. Exploitative labor conditions at Sama, including union-busting and near-constant exposure to graphic content, have since been reported extensively in the Western press
+					<Citation citation={bib['Rowe 2023']}>
+						(Rowe 2023,
+					</Citation>
+					<Citation citation={bib['Perrigo 2023']}>
+						Perrigo 2023).
+					</Citation>
+					Digital gig work in Africa exposes the double edge of global connectivity, as infrastructure that offers access also creates the conditions for labor precaritization.
+					<Citation citation={bib['Holden and Harsh 2024']}>
+						Holden and Harsh (2024)
+					</Citation>
+					note that Google's "Equiano" fiber-optic pipeline has opened up West Africa as a source of digital platform work. "Capital can now tap into a hitherto disconnected reserve army of labor in the least likely places on the continent," write
+					<Citation citation={bib['Anwar and Graham 2020']}>
+						Anwar and Graham (2020).
+					</Citation>
+					Despite high-minded promises of an inclusive digital economy, AI training work retains all the worst features of global labor arbitrage: low pay, hazardous conditions, and a seemingly endless race to the bottom.
+				</Exhibit>
+				<Exhibit exhibit={exhibits['train'][1]}>
+					Amazon's crowdwork platorm Mechanical Turk (AMT) is inseparable from the recent history of artificial intelligence. So-called "turkers" are distributed across the globe, but software and logistics operations are directed from Amazon's Seattle headquarters. AMT emerged as an AI infrastructure with the creation of the ImageNet dataset, which relied on thousands of hours of human labor to sort 3.2 million images into 5,247 categories
+					<Citation citation={bib['Deng et al. 2009']}>
+						(Deng et al. 2009).
+					</Citation>
+					The scale and quality of ImageNet, made possible by data workers through AMT, facilitated one of the first major breakthroughs of the contemporary deep learning revolution: the AlexNet image classifier
+					<Citation citation={bib['Krizhevsky et al. 2012']}>
+						(Krizhevsky et al. 2012).
+					</Citation>
+					Big data, propped up by a global underclass of "ghost workers," has defined AI development ever since
+					<Citation citation={bib['Gray and Suri 2019']}>
+						(Gray and Suri 2019).
+					</Citation>
+					Despite soaring profits for AI firms, data work remains poorly compensated and badly managed.
+					<Citation citation={bib['Grohmann et al. 2022']}>
+						Grohmann et al. (2022)
+					</Citation>
+					report that until 2020, Brazilian AMT workers could only receive their wages in gift cards—requiring many to pay exorbitant fees to grey-market middlemen who change the cards for cash. They also report a hostile and precarious work environment involving sudden revocations of user credentials and intermittent platform outages. Although AMT has fallen somewhat out of fashion, its successors appear poised to continue its exploitative practices. Scale AI, a popular data work platform valued at $14 billion, is currently the subject of at least two lawsuits alleging widespread wage theft and nonpayment
+					<Citation citation={bib['Wolverton 2024']}>
+						(Wolverton 2024,
+					</Citation>
+					<Citation citation={bib['Rollet 2025']}>
+						Rollet 2025).
+					</Citation>
+				</Exhibit>
+				<Exhibit exhibit={exhibits['train'][2]}>
+					Training contemporary AI models relies not only on the labelling of existing data by human workers, but also the collection of new data when the desired texts or images are not available. Beginning in 2014,
+					<Citation citation={bib['Ristani et al. 2016']}>
+						researchers at Duke University
+					</Citation>
+					collected over 2 million frames of surveillance video from outside on-campus lecture halls without the knowledge or consent of students. Duke terminated the project in 2019 after reporting exposed the massive ethics breach 
+					<Citation citation={bib['Murgia and Harlow 2019']}>
+						(Murgia 2019),
+					</Citation>
+					but the dataset had already been used to train AI systems linked to U.S. Immigrations and Customs Enforcement and Chinese surveillance of Uighur Muslims
+					<Citation citation={bib['Harvey and LaPlace 2021']}>
+						(Harvey and LaPlace 2021).
+					</Citation>
+					As noted by
+					<Citation citation={bib['Weinberg 2020']}>
+						Lindsay Weinberg (2020),
+					</Citation>
+					a similar study performed at the University of Colorado at Colorado Springs was approved by the Institutional Review Board—indicating the "limitations of dominant institutional ethics" in the age of big data and artificial intelligence.
+					<Citation citation={bib['Crawford 2021']}>
+						Kate Crawford (2021)
+					</Citation>
+					writes that "the new AI gold rush consists of enclosing different fields of human knowing, feeling, and action... It has become a pillaging of public space." This mad scramble for training data has turned cities and campuses into sites for information extraction, at the expense of personal privacy and informed consent. Anyone who walks by a camera risks being pulled into a planetary network of AI-augmented monitoring and surveillance.
+				</Exhibit>
+			</ExhibitCarousel>
 			{:else if layer == Layer.Compute}
 			<ExhibitCarousel exhibits={exhibits['compute']}>
 				<Exhibit exhibit={exhibits['compute'][0]}>
