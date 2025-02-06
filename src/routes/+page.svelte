@@ -64,7 +64,7 @@
 				G2C is designed to be viewed in landscape orientation.
 			</p>
 			<p class="text-center text-2xl md:text-3xl">
-				Please rotate your device.
+				Please rotate your device or resize your browser window.
 			</p>
 		</div>
 	</div>
